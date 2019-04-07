@@ -31,8 +31,8 @@ namespace CityInfo.Identiy
 
         public static IEnumerable<Client> GetClients()
         {
-           return new Client[]
-           {
+            return new Client[]
+            {
                new Client
                {
                    ClientId = "CityInfo.Identity",
@@ -41,7 +41,7 @@ namespace CityInfo.Identiy
                    RedirectUris = {"http://localhost:5467/signin-oidc" },
                    AllowedScopes = { "openid", "email", "office" }
                }
-           }
+            };
         }
     }
 }
