@@ -12,3 +12,386 @@
 2019-04-07 17:18:06.045 +01:00 [DBG] Consent Return Url Parameter: returnUrl
 2019-04-07 17:18:06.045 +01:00 [DBG] Error Url: /home/error
 2019-04-07 17:18:06.045 +01:00 [DBG] Error Id Parameter: errorId
+2019-04-07 17:41:27.496 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-07 17:41:27.519 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-04-07 17:41:27.521 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-04-07 17:41:27.521 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-04-07 17:41:27.521 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-04-07 17:41:27.522 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-04-07 17:41:27.522 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-04-07 17:41:27.974 +01:00 [DBG] Login Url: /Account/Login
+2019-04-07 17:41:27.976 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-04-07 17:41:27.976 +01:00 [DBG] Logout Url: /Account/Logout
+2019-04-07 17:41:27.976 +01:00 [DBG] ConsentUrl Url: /consent
+2019-04-07 17:41:27.976 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-04-07 17:41:27.976 +01:00 [DBG] Error Url: /home/error
+2019-04-07 17:41:27.976 +01:00 [DBG] Error Id Parameter: errorId
+2019-04-07 17:46:21.887 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-07 17:46:21.909 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-04-07 17:46:21.911 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-04-07 17:46:21.911 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-04-07 17:46:21.911 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-04-07 17:46:21.911 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-04-07 17:46:21.911 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-04-07 17:46:22.270 +01:00 [DBG] Login Url: /Account/Login
+2019-04-07 17:46:22.272 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-04-07 17:46:22.272 +01:00 [DBG] Logout Url: /Account/Logout
+2019-04-07 17:46:22.272 +01:00 [DBG] ConsentUrl Url: /consent
+2019-04-07 17:46:22.272 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-04-07 17:46:22.272 +01:00 [DBG] Error Url: /home/error
+2019-04-07 17:46:22.272 +01:00 [DBG] Error Id Parameter: errorId
+2019-04-07 17:46:29.447 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-07 17:46:29.468 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-04-07 17:46:29.470 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-04-07 17:46:29.470 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-04-07 17:46:29.470 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-04-07 17:46:29.470 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-04-07 17:46:29.470 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-04-07 17:46:29.624 +01:00 [DBG] Login Url: /Account/Login
+2019-04-07 17:46:29.625 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-04-07 17:46:29.625 +01:00 [DBG] Logout Url: /Account/Logout
+2019-04-07 17:46:29.625 +01:00 [DBG] ConsentUrl Url: /consent
+2019-04-07 17:46:29.625 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-04-07 17:46:29.625 +01:00 [DBG] Error Url: /home/error
+2019-04-07 17:46:29.625 +01:00 [DBG] Error Id Parameter: errorId
+2019-04-07 17:46:45.867 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-07 17:46:45.890 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-04-07 17:46:45.893 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-04-07 17:46:45.894 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-04-07 17:46:45.894 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-04-07 17:46:45.894 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-04-07 17:46:45.894 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-04-07 17:46:46.202 +01:00 [DBG] Login Url: /Account/Login
+2019-04-07 17:46:46.204 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-04-07 17:46:46.204 +01:00 [DBG] Logout Url: /Account/Logout
+2019-04-07 17:46:46.204 +01:00 [DBG] ConsentUrl Url: /consent
+2019-04-07 17:46:46.204 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-04-07 17:46:46.204 +01:00 [DBG] Error Url: /home/error
+2019-04-07 17:46:46.204 +01:00 [DBG] Error Id Parameter: errorId
+2019-04-07 18:31:09.911 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-07 18:31:09.936 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-04-07 18:31:09.938 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-04-07 18:31:09.939 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-04-07 18:31:09.939 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-04-07 18:31:09.939 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-04-07 18:31:09.939 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-04-07 18:31:10.259 +01:00 [DBG] Login Url: /Account/Login
+2019-04-07 18:31:10.261 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-04-07 18:31:10.261 +01:00 [DBG] Logout Url: /Account/Logout
+2019-04-07 18:31:10.261 +01:00 [DBG] ConsentUrl Url: /consent
+2019-04-07 18:31:10.261 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-04-07 18:31:10.261 +01:00 [DBG] Error Url: /home/error
+2019-04-07 18:31:10.261 +01:00 [DBG] Error Id Parameter: errorId
+2019-04-07 18:33:10.597 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-07 18:33:10.627 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-04-07 18:33:10.629 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-04-07 18:33:10.629 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-04-07 18:33:10.629 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-04-07 18:33:10.629 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-04-07 18:33:10.629 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-04-07 18:33:10.891 +01:00 [DBG] Login Url: /Account/Login
+2019-04-07 18:33:10.893 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-04-07 18:33:10.893 +01:00 [DBG] Logout Url: /Account/Logout
+2019-04-07 18:33:10.893 +01:00 [DBG] ConsentUrl Url: /consent
+2019-04-07 18:33:10.893 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-04-07 18:33:10.893 +01:00 [DBG] Error Url: /home/error
+2019-04-07 18:33:10.893 +01:00 [DBG] Error Id Parameter: errorId
+2019-04-07 18:34:42.200 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-07 18:34:42.229 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-04-07 18:34:42.234 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-04-07 18:34:42.234 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-04-07 18:34:42.234 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-04-07 18:34:42.234 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-04-07 18:34:42.234 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-04-07 18:34:42.546 +01:00 [DBG] Login Url: /Account/Login
+2019-04-07 18:34:42.547 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-04-07 18:34:42.547 +01:00 [DBG] Logout Url: /Account/Logout
+2019-04-07 18:34:42.547 +01:00 [DBG] ConsentUrl Url: /consent
+2019-04-07 18:34:42.547 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-04-07 18:34:42.547 +01:00 [DBG] Error Url: /home/error
+2019-04-07 18:34:42.547 +01:00 [DBG] Error Id Parameter: errorId
+2019-04-07 18:35:14.782 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-07 18:35:14.807 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-04-07 18:35:14.810 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-04-07 18:35:14.811 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-04-07 18:35:14.811 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-04-07 18:35:14.811 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-04-07 18:35:14.811 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-04-07 18:35:15.156 +01:00 [DBG] Login Url: /Account/Login
+2019-04-07 18:35:15.160 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-04-07 18:35:15.160 +01:00 [DBG] Logout Url: /Account/Logout
+2019-04-07 18:35:15.160 +01:00 [DBG] ConsentUrl Url: /consent
+2019-04-07 18:35:15.160 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-04-07 18:35:15.160 +01:00 [DBG] Error Url: /home/error
+2019-04-07 18:35:15.161 +01:00 [DBG] Error Id Parameter: errorId
+2019-04-07 18:37:06.927 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-07 18:37:06.955 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-04-07 18:37:06.958 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-04-07 18:37:06.958 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-04-07 18:37:06.958 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-04-07 18:37:06.958 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-04-07 18:37:06.958 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-04-07 18:37:07.229 +01:00 [DBG] Login Url: /Account/Login
+2019-04-07 18:37:07.231 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-04-07 18:37:07.231 +01:00 [DBG] Logout Url: /Account/Logout
+2019-04-07 18:37:07.231 +01:00 [DBG] ConsentUrl Url: /consent
+2019-04-07 18:37:07.231 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-04-07 18:37:07.231 +01:00 [DBG] Error Url: /home/error
+2019-04-07 18:37:07.231 +01:00 [DBG] Error Id Parameter: errorId
+2019-04-07 19:32:04.909 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-07 19:32:04.935 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-04-07 19:32:04.939 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-04-07 19:32:04.939 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-04-07 19:32:04.939 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-04-07 19:32:04.939 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-04-07 19:32:04.939 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-04-07 19:32:05.264 +01:00 [DBG] Login Url: /Account/Login
+2019-04-07 19:32:05.266 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-04-07 19:32:05.266 +01:00 [DBG] Logout Url: /Account/Logout
+2019-04-07 19:32:05.266 +01:00 [DBG] ConsentUrl Url: /consent
+2019-04-07 19:32:05.266 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-04-07 19:32:05.266 +01:00 [DBG] Error Url: /home/error
+2019-04-07 19:32:05.266 +01:00 [DBG] Error Id Parameter: errorId
+2019-04-07 19:35:57.038 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-07 19:35:57.064 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-04-07 19:35:57.066 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-04-07 19:35:57.066 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-04-07 19:35:57.066 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-04-07 19:35:57.066 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-04-07 19:35:57.066 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-04-07 19:35:57.389 +01:00 [DBG] Login Url: /Account/Login
+2019-04-07 19:35:57.390 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-04-07 19:35:57.390 +01:00 [DBG] Logout Url: /Account/Logout
+2019-04-07 19:35:57.390 +01:00 [DBG] ConsentUrl Url: /consent
+2019-04-07 19:35:57.390 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-04-07 19:35:57.390 +01:00 [DBG] Error Url: /home/error
+2019-04-07 19:35:57.390 +01:00 [DBG] Error Id Parameter: errorId
+2019-04-07 19:39:53.764 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-07 19:39:53.787 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-04-07 19:39:53.791 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-04-07 19:39:53.791 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-04-07 19:39:53.791 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-04-07 19:39:53.791 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-04-07 19:39:53.791 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-04-07 19:39:54.085 +01:00 [DBG] Login Url: /Account/Login
+2019-04-07 19:39:54.087 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-04-07 19:39:54.087 +01:00 [DBG] Logout Url: /Account/Logout
+2019-04-07 19:39:54.087 +01:00 [DBG] ConsentUrl Url: /consent
+2019-04-07 19:39:54.087 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-04-07 19:39:54.087 +01:00 [DBG] Error Url: /home/error
+2019-04-07 19:39:54.087 +01:00 [DBG] Error Id Parameter: errorId
+2019-04-07 19:40:09.290 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-07 19:40:09.317 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-04-07 19:40:09.319 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-04-07 19:40:09.320 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-04-07 19:40:09.320 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-04-07 19:40:09.320 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-04-07 19:40:09.320 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-04-07 19:40:09.638 +01:00 [DBG] Login Url: /Account/Login
+2019-04-07 19:40:09.639 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-04-07 19:40:09.639 +01:00 [DBG] Logout Url: /Account/Logout
+2019-04-07 19:40:09.639 +01:00 [DBG] ConsentUrl Url: /consent
+2019-04-07 19:40:09.639 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-04-07 19:40:09.639 +01:00 [DBG] Error Url: /home/error
+2019-04-07 19:40:09.640 +01:00 [DBG] Error Id Parameter: errorId
+2019-04-07 19:41:07.386 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-07 19:41:07.412 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-04-07 19:41:07.414 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-04-07 19:41:07.414 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-04-07 19:41:07.414 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-04-07 19:41:07.414 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-04-07 19:41:07.414 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-04-07 19:41:07.753 +01:00 [DBG] Login Url: /Account/Login
+2019-04-07 19:41:07.755 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-04-07 19:41:07.755 +01:00 [DBG] Logout Url: /Account/Logout
+2019-04-07 19:41:07.755 +01:00 [DBG] ConsentUrl Url: /consent
+2019-04-07 19:41:07.755 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-04-07 19:41:07.755 +01:00 [DBG] Error Url: /home/error
+2019-04-07 19:41:07.755 +01:00 [DBG] Error Id Parameter: errorId
+2019-04-07 19:48:19.094 +01:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-04-07 19:48:19.096 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-04-07 19:48:19.096 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-04-07 19:48:19.099 +01:00 [DBG] Start discovery request
+2019-04-07 19:48:19.192 +01:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-04-07 19:48:19.192 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-04-07 19:48:19.192 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-04-07 19:48:19.195 +01:00 [DBG] Start key discovery request
+2019-04-07 19:48:19.248 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2019-04-07 19:48:19.250 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2019-04-07 19:48:19.250 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2019-04-07 19:48:19.253 +01:00 [DBG] Start authorize request
+2019-04-07 19:48:19.258 +01:00 [DBG] No user present in authorize request
+2019-04-07 19:48:19.261 +01:00 [DBG] Start authorize request protocol validation
+2019-04-07 19:48:19.277 +01:00 [ERR] Unknown client or not enabled: CityInfo.Web
+{"ClientId":null,"ClientName":null,"RedirectUri":null,"AllowedRedirectUris":null,"SubjectId":"anonymous","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"CityInfo.Web","redirect_uri":"http://localhost:5000/signin-oidc","response_type":"id_token","scope":"openid profile","response_mode":"form_post","nonce":"636902596992311811.MTBkNzIzMjItNDQzZC00ODM2LWEwYjItYzU5NmU0MDY4NjJlYzBjZTZlM2MtNTRmNy00MjQ3LTgzOWYtNDgwNTBhMTUyOTU3","state":"CfDJ8C9wP0Bhfw1IrV2eneJpw7rz4kkVRPjxPZlZ-HxgQXvGEPYwlA5xvjgIKIyJXuGZVcaU-q02Ic9nCiU7xbtt87koFp4aq414lKYMQqY0b9FTdZKvyqAxW-GIUOodIvc-fOVuY-6-qM1b_bCe0KUYcyEljcU46bmGFKnFb0JQQiGxNGlujW5siaMnpqrwcMY9hwLPtMo-QamBO3zey6Q3ur2kVQmaawlR2OJomOmLC8-6mxMOSWRAw8AfOqqII8iC7rMnvwuylfj7rfWZ1cqndkqtyX1aKN1nfPemI8W0JNhQRppIpQWD4G8OJVtj5vJ57Q","x-client-SKU":"ID_NETSTANDARD1_4","x-client-ver":"5.2.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-07 19:48:19.286 +01:00 [ERR] Request validation failed
+2019-04-07 19:48:19.286 +01:00 [INF] {"ClientId":null,"ClientName":null,"RedirectUri":null,"AllowedRedirectUris":null,"SubjectId":"anonymous","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"CityInfo.Web","redirect_uri":"http://localhost:5000/signin-oidc","response_type":"id_token","scope":"openid profile","response_mode":"form_post","nonce":"636902596992311811.MTBkNzIzMjItNDQzZC00ODM2LWEwYjItYzU5NmU0MDY4NjJlYzBjZTZlM2MtNTRmNy00MjQ3LTgzOWYtNDgwNTBhMTUyOTU3","state":"CfDJ8C9wP0Bhfw1IrV2eneJpw7rz4kkVRPjxPZlZ-HxgQXvGEPYwlA5xvjgIKIyJXuGZVcaU-q02Ic9nCiU7xbtt87koFp4aq414lKYMQqY0b9FTdZKvyqAxW-GIUOodIvc-fOVuY-6-qM1b_bCe0KUYcyEljcU46bmGFKnFb0JQQiGxNGlujW5siaMnpqrwcMY9hwLPtMo-QamBO3zey6Q3ur2kVQmaawlR2OJomOmLC8-6mxMOSWRAw8AfOqqII8iC7rMnvwuylfj7rfWZ1cqndkqtyX1aKN1nfPemI8W0JNhQRppIpQWD4G8OJVtj5vJ57Q","x-client-SKU":"ID_NETSTANDARD1_4","x-client-ver":"5.2.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-07 19:49:03.960 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-07 19:49:03.983 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-04-07 19:49:03.985 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-04-07 19:49:03.985 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-04-07 19:49:03.985 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-04-07 19:49:03.985 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-04-07 19:49:03.985 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-04-07 19:49:04.162 +01:00 [DBG] Login Url: /Account/Login
+2019-04-07 19:49:04.163 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-04-07 19:49:04.163 +01:00 [DBG] Logout Url: /Account/Logout
+2019-04-07 19:49:04.163 +01:00 [DBG] ConsentUrl Url: /consent
+2019-04-07 19:49:04.164 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-04-07 19:49:04.164 +01:00 [DBG] Error Url: /home/error
+2019-04-07 19:49:04.164 +01:00 [DBG] Error Id Parameter: errorId
+2019-04-07 19:49:04.180 +01:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-04-07 19:49:04.181 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-04-07 19:49:04.182 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-04-07 19:49:04.184 +01:00 [DBG] Start discovery request
+2019-04-07 19:49:04.279 +01:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-04-07 19:49:04.279 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-04-07 19:49:04.279 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-04-07 19:49:04.282 +01:00 [DBG] Start key discovery request
+2019-04-07 19:49:04.335 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2019-04-07 19:49:04.337 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2019-04-07 19:49:04.337 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2019-04-07 19:49:04.339 +01:00 [DBG] Start authorize request
+2019-04-07 19:49:04.345 +01:00 [DBG] No user present in authorize request
+2019-04-07 19:49:04.348 +01:00 [DBG] Start authorize request protocol validation
+2019-04-07 19:49:04.363 +01:00 [ERR] Unknown client or not enabled: CityInfo.Web
+{"ClientId":null,"ClientName":null,"RedirectUri":null,"AllowedRedirectUris":null,"SubjectId":"anonymous","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"CityInfo.Web","redirect_uri":"http://localhost:5000/signin-oidc","response_type":"id_token","scope":"openid profile","response_mode":"form_post","nonce":"636902597443189689.NmNkNGJmNzYtMmMyYy00ZjBiLTkwOGEtNDcwN2MwZDQ5NjA5ZGQ1YTgyZjMtZjNkOS00OWUwLWIzMWYtNGVjZTBlMDNjNDBj","state":"CfDJ8C9wP0Bhfw1IrV2eneJpw7rHU2Lp5oDE23njQ0HGQ7HyR4d0KXgCSP7f1vTTGWR-uAo3wR-uCdGhHAiOPSRQvFnzu-MUZ6U_UCBdlb6mMShy1heQ7eszNbyQ9k8ad1iXv0eUP6uOKWL_xga0rdbeOKY9YiGnrqynnVg5b-NjnBFZYVKxD81a6Zaj6-_TOdm54Z7MAfhdsauxLhQz0dVQ7Gz-55UEIfqa_FClPWxkZYnGtNHG9ZB56i5JzpWj5zqQyNtYGI0kVIkn2HQ1q0F0qxWJnJw8j1ewJMgO8yoJuHAXX_v2j4A6WOKvt7ydzoArLg","x-client-SKU":"ID_NETSTANDARD1_4","x-client-ver":"5.2.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-07 19:49:04.373 +01:00 [ERR] Request validation failed
+2019-04-07 19:49:04.373 +01:00 [INF] {"ClientId":null,"ClientName":null,"RedirectUri":null,"AllowedRedirectUris":null,"SubjectId":"anonymous","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"CityInfo.Web","redirect_uri":"http://localhost:5000/signin-oidc","response_type":"id_token","scope":"openid profile","response_mode":"form_post","nonce":"636902597443189689.NmNkNGJmNzYtMmMyYy00ZjBiLTkwOGEtNDcwN2MwZDQ5NjA5ZGQ1YTgyZjMtZjNkOS00OWUwLWIzMWYtNGVjZTBlMDNjNDBj","state":"CfDJ8C9wP0Bhfw1IrV2eneJpw7rHU2Lp5oDE23njQ0HGQ7HyR4d0KXgCSP7f1vTTGWR-uAo3wR-uCdGhHAiOPSRQvFnzu-MUZ6U_UCBdlb6mMShy1heQ7eszNbyQ9k8ad1iXv0eUP6uOKWL_xga0rdbeOKY9YiGnrqynnVg5b-NjnBFZYVKxD81a6Zaj6-_TOdm54Z7MAfhdsauxLhQz0dVQ7Gz-55UEIfqa_FClPWxkZYnGtNHG9ZB56i5JzpWj5zqQyNtYGI0kVIkn2HQ1q0F0qxWJnJw8j1ewJMgO8yoJuHAXX_v2j4A6WOKvt7ydzoArLg","x-client-SKU":"ID_NETSTANDARD1_4","x-client-ver":"5.2.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-07 19:49:42.356 +01:00 [FTL] Application startup exception
+System.ArgumentNullException: Value cannot be null.
+Parameter name: implementationInstance
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton[TService](IServiceCollection services, TService implementationInstance)
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensionsInMemory.AddInMemoryApiResources(IIdentityServerBuilder builder, IEnumerable`1 apiResources) in C:\local\identity\server4\IdentityServer4\src\Configuration\DependencyInjection\BuilderExtensions\InMemory.cs:line 71
+   at CityInfo.Identiy.Startup.ConfigureServices(IServiceCollection services) in D:\Code\IdentityServerExample\CityInfo.Identity\Startup.cs:line 37
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.ConfigureServices(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.EnsureApplicationServices()
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.Initialize()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2019-04-07 19:50:21.147 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-07 19:50:21.176 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-04-07 19:50:21.178 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-04-07 19:50:21.178 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-04-07 19:50:21.178 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-04-07 19:50:21.178 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-04-07 19:50:21.178 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-04-07 19:50:21.476 +01:00 [DBG] Login Url: /Account/Login
+2019-04-07 19:50:21.478 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-04-07 19:50:21.478 +01:00 [DBG] Logout Url: /Account/Logout
+2019-04-07 19:50:21.478 +01:00 [DBG] ConsentUrl Url: /consent
+2019-04-07 19:50:21.478 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-04-07 19:50:21.478 +01:00 [DBG] Error Url: /home/error
+2019-04-07 19:50:21.478 +01:00 [DBG] Error Id Parameter: errorId
+2019-04-07 19:51:55.029 +01:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-04-07 19:51:55.030 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-04-07 19:51:55.031 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-04-07 19:51:55.033 +01:00 [DBG] Start discovery request
+2019-04-07 19:51:55.129 +01:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-04-07 19:51:55.129 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-04-07 19:51:55.129 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-04-07 19:51:55.131 +01:00 [DBG] Start key discovery request
+2019-04-07 19:51:55.185 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2019-04-07 19:51:55.186 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2019-04-07 19:51:55.186 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2019-04-07 19:51:55.189 +01:00 [DBG] Start authorize request
+2019-04-07 19:51:55.193 +01:00 [DBG] No user present in authorize request
+2019-04-07 19:51:55.196 +01:00 [DBG] Start authorize request protocol validation
+2019-04-07 19:51:55.211 +01:00 [ERR] Unknown client or not enabled: CityInfo.Web
+{"ClientId":null,"ClientName":null,"RedirectUri":null,"AllowedRedirectUris":null,"SubjectId":"anonymous","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"CityInfo.Web","redirect_uri":"http://localhost:5000/signin-oidc","response_type":"id_token","scope":"openid profile","response_mode":"form_post","nonce":"636902599151688655.YWJiNzI0YTAtYjNjNi00Yjc1LWFlZDAtYTg5N2RlZTM2M2Q4YWIxMjFmZDItYjRjYi00NTM0LWI5YTMtZGU2Y2U1ZGJiMWUx","state":"CfDJ8C9wP0Bhfw1IrV2eneJpw7rr1wTPH6AEKsMuxUuNnFU7l3N-HxmdoYbuYpsuFS4ud3O1kMuu6amVW8DR0vX4Gsez6YaJgqXJf-d3kCVfMNoG9O7ZohwFvIIfnNFShL3_RCZ4lQlymo8sAWODlgoPC36xlJgOotSJ1H75qo66-26A7WIGlqDIXShtShh_TczmL6WzMwoqoW2qzfzvYJYkJVbQsFqeTBcBLX4FQVQ5TwKJK_3UkvleDLM9EQzMNDnyA0QaINSR03sJI84-VFZNJ6KLGZklq250XWmdRlH6StChlYFy4rDrknxrWRMZ4pBVWg","x-client-SKU":"ID_NETSTANDARD1_4","x-client-ver":"5.2.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-07 19:51:55.220 +01:00 [ERR] Request validation failed
+2019-04-07 19:51:55.220 +01:00 [INF] {"ClientId":null,"ClientName":null,"RedirectUri":null,"AllowedRedirectUris":null,"SubjectId":"anonymous","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"CityInfo.Web","redirect_uri":"http://localhost:5000/signin-oidc","response_type":"id_token","scope":"openid profile","response_mode":"form_post","nonce":"636902599151688655.YWJiNzI0YTAtYjNjNi00Yjc1LWFlZDAtYTg5N2RlZTM2M2Q4YWIxMjFmZDItYjRjYi00NTM0LWI5YTMtZGU2Y2U1ZGJiMWUx","state":"CfDJ8C9wP0Bhfw1IrV2eneJpw7rr1wTPH6AEKsMuxUuNnFU7l3N-HxmdoYbuYpsuFS4ud3O1kMuu6amVW8DR0vX4Gsez6YaJgqXJf-d3kCVfMNoG9O7ZohwFvIIfnNFShL3_RCZ4lQlymo8sAWODlgoPC36xlJgOotSJ1H75qo66-26A7WIGlqDIXShtShh_TczmL6WzMwoqoW2qzfzvYJYkJVbQsFqeTBcBLX4FQVQ5TwKJK_3UkvleDLM9EQzMNDnyA0QaINSR03sJI84-VFZNJ6KLGZklq250XWmdRlH6StChlYFy4rDrknxrWRMZ4pBVWg","x-client-SKU":"ID_NETSTANDARD1_4","x-client-ver":"5.2.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-07 20:04:58.957 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-07 20:04:58.986 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-04-07 20:04:58.988 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-04-07 20:04:58.989 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-04-07 20:04:58.989 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-04-07 20:04:58.989 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-04-07 20:04:58.989 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-04-07 20:04:59.321 +01:00 [DBG] Login Url: /Account/Login
+2019-04-07 20:04:59.322 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-04-07 20:04:59.323 +01:00 [DBG] Logout Url: /Account/Logout
+2019-04-07 20:04:59.323 +01:00 [DBG] ConsentUrl Url: /consent
+2019-04-07 20:04:59.323 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-04-07 20:04:59.323 +01:00 [DBG] Error Url: /home/error
+2019-04-07 20:04:59.323 +01:00 [DBG] Error Id Parameter: errorId
+2019-04-07 20:05:01.081 +01:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-04-07 20:05:01.084 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-04-07 20:05:01.084 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-04-07 20:05:01.086 +01:00 [DBG] Start discovery request
+2019-04-07 20:05:01.179 +01:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-04-07 20:05:01.179 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-04-07 20:05:01.179 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-04-07 20:05:01.182 +01:00 [DBG] Start key discovery request
+2019-04-07 20:05:01.238 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2019-04-07 20:05:01.240 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2019-04-07 20:05:01.240 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2019-04-07 20:05:01.242 +01:00 [DBG] Start authorize request
+2019-04-07 20:05:01.247 +01:00 [DBG] No user present in authorize request
+2019-04-07 20:05:01.250 +01:00 [DBG] Start authorize request protocol validation
+2019-04-07 20:05:01.260 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-07 20:05:01.281 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-07 20:05:01.291 +01:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"CityInfo.Web","ClientName":"CityInfo Website","RedirectUri":"http://localhost:5000/signin-oidc","AllowedRedirectUris":["http://localhost:5000/signin-oidc"],"SubjectId":"anonymous","ResponseType":"id_token","ResponseMode":"form_post","GrantType":"implicit","RequestedScopes":"openid profile email office","State":"CfDJ8C9wP0Bhfw1IrV2eneJpw7ps0cx3U0Uv_yDMTKxuNmdDvqycO26B6ZD2Lqxvf3n4gkMSRV4WN5Xhk6eGtQGK9-iVAzMQ5yk6-aabLhKAm3JMGz0E51IZCNGG0AfDt8wGXr_LCfSERXMb-RCU61PZTRWkrqVwyFe2GnFpdp6PS0oAw9sdQ_NenMnWEeQOQil5hE4mVdFXl7A4PFNJdYxDNMNeyHC8TiEqZUx2TESUte6B5kLdeTLRu8jfh69_I-EGioz5GEt7-eoW448R-3GiB3UBKrJ-GV34UW7sE7R30V06es9Yet5keiqI6PVhcCqYvA","UiLocales":null,"Nonce":"636902607012214498.Y2Y5OGQ2NDUtZTEzNS00MmNiLTg1ZmYtZGE1YzliMzcwNmYzOWMzZDhiZjYtOGNiNS00MTg5LTkyZGUtMThlZmViN2U1YjA1","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"CityInfo.Web","redirect_uri":"http://localhost:5000/signin-oidc","response_type":"id_token","scope":"openid profile email office","response_mode":"form_post","nonce":"636902607012214498.Y2Y5OGQ2NDUtZTEzNS00MmNiLTg1ZmYtZGE1YzliMzcwNmYzOWMzZDhiZjYtOGNiNS00MTg5LTkyZGUtMThlZmViN2U1YjA1","state":"CfDJ8C9wP0Bhfw1IrV2eneJpw7ps0cx3U0Uv_yDMTKxuNmdDvqycO26B6ZD2Lqxvf3n4gkMSRV4WN5Xhk6eGtQGK9-iVAzMQ5yk6-aabLhKAm3JMGz0E51IZCNGG0AfDt8wGXr_LCfSERXMb-RCU61PZTRWkrqVwyFe2GnFpdp6PS0oAw9sdQ_NenMnWEeQOQil5hE4mVdFXl7A4PFNJdYxDNMNeyHC8TiEqZUx2TESUte6B5kLdeTLRu8jfh69_I-EGioz5GEt7-eoW448R-3GiB3UBKrJ-GV34UW7sE7R30V06es9Yet5keiqI6PVhcCqYvA","x-client-SKU":"ID_NETSTANDARD1_4","x-client-ver":"5.2.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-07 20:05:01.304 +01:00 [INF] Showing login: User is not authenticated
+2019-04-07 20:05:01.341 +01:00 [DBG] Start authorize request protocol validation
+2019-04-07 20:05:01.341 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-07 20:05:01.341 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-07 20:05:01.343 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-07 20:05:49.882 +01:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-04-07 20:05:49.918 +01:00 [DBG] Start authorize request protocol validation
+2019-04-07 20:05:49.918 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-07 20:05:49.918 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-07 20:05:49.930 +01:00 [DBG] Augmenting SignInContext
+2019-04-07 20:05:49.932 +01:00 [DBG] Adding idp claim with value: local
+2019-04-07 20:05:49.932 +01:00 [DBG] Adding amr claim with value: pwd
+2019-04-07 20:05:49.938 +01:00 [INF] AuthenticationScheme: idsrv signed in.
+2019-04-07 20:05:49.939 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-07 20:05:49.942 +01:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2019-04-07 20:05:49.943 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2019-04-07 20:05:49.943 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2019-04-07 20:05:49.946 +01:00 [DBG] Start authorize callback request
+2019-04-07 20:05:49.948 +01:00 [DBG] User in authorize request: 818727
+2019-04-07 20:05:49.948 +01:00 [DBG] Start authorize request protocol validation
+2019-04-07 20:05:49.948 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-07 20:05:49.948 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-07 20:05:49.949 +01:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"CityInfo.Web","ClientName":"CityInfo Website","RedirectUri":"http://localhost:5000/signin-oidc","AllowedRedirectUris":["http://localhost:5000/signin-oidc"],"SubjectId":"818727","ResponseType":"id_token","ResponseMode":"form_post","GrantType":"implicit","RequestedScopes":"openid profile email office","State":"CfDJ8C9wP0Bhfw1IrV2eneJpw7ps0cx3U0Uv_yDMTKxuNmdDvqycO26B6ZD2Lqxvf3n4gkMSRV4WN5Xhk6eGtQGK9-iVAzMQ5yk6-aabLhKAm3JMGz0E51IZCNGG0AfDt8wGXr_LCfSERXMb-RCU61PZTRWkrqVwyFe2GnFpdp6PS0oAw9sdQ_NenMnWEeQOQil5hE4mVdFXl7A4PFNJdYxDNMNeyHC8TiEqZUx2TESUte6B5kLdeTLRu8jfh69_I-EGioz5GEt7-eoW448R-3GiB3UBKrJ-GV34UW7sE7R30V06es9Yet5keiqI6PVhcCqYvA","UiLocales":null,"Nonce":"636902607012214498.Y2Y5OGQ2NDUtZTEzNS00MmNiLTg1ZmYtZGE1YzliMzcwNmYzOWMzZDhiZjYtOGNiNS00MTg5LTkyZGUtMThlZmViN2U1YjA1","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"c4ed9de94cb5bc4569370978821ab187","Raw":{"client_id":"CityInfo.Web","redirect_uri":"http://localhost:5000/signin-oidc","response_type":"id_token","scope":"openid profile email office","response_mode":"form_post","nonce":"636902607012214498.Y2Y5OGQ2NDUtZTEzNS00MmNiLTg1ZmYtZGE1YzliMzcwNmYzOWMzZDhiZjYtOGNiNS00MTg5LTkyZGUtMThlZmViN2U1YjA1","state":"CfDJ8C9wP0Bhfw1IrV2eneJpw7ps0cx3U0Uv_yDMTKxuNmdDvqycO26B6ZD2Lqxvf3n4gkMSRV4WN5Xhk6eGtQGK9-iVAzMQ5yk6-aabLhKAm3JMGz0E51IZCNGG0AfDt8wGXr_LCfSERXMb-RCU61PZTRWkrqVwyFe2GnFpdp6PS0oAw9sdQ_NenMnWEeQOQil5hE4mVdFXl7A4PFNJdYxDNMNeyHC8TiEqZUx2TESUte6B5kLdeTLRu8jfh69_I-EGioz5GEt7-eoW448R-3GiB3UBKrJ-GV34UW7sE7R30V06es9Yet5keiqI6PVhcCqYvA","x-client-SKU":"ID_NETSTANDARD1_4","x-client-ver":"5.2.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-07 20:05:49.949 +01:00 [DBG] IsActive called from: AuthorizeEndpoint
+2019-04-07 20:05:49.958 +01:00 [DBG] user_consent grant with value: CityInfo.Web|818727 not found in store.
+2019-04-07 20:05:49.958 +01:00 [DBG] Found no prior consent from consent store, consent is required
+2019-04-07 20:05:49.958 +01:00 [INF] Showing consent: User has not yet consented
+2019-04-07 20:05:49.970 +01:00 [DBG] Start authorize request protocol validation
+2019-04-07 20:05:49.970 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-07 20:05:49.970 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-07 20:05:49.970 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-07 20:05:51.543 +01:00 [DBG] CORS request made for path: /consent from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-04-07 20:05:51.556 +01:00 [DBG] Start authorize request protocol validation
+2019-04-07 20:05:51.556 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-07 20:05:51.556 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-07 20:05:51.565 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-07 20:05:51.568 +01:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2019-04-07 20:05:51.568 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2019-04-07 20:05:51.568 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2019-04-07 20:05:51.568 +01:00 [DBG] Start authorize callback request
+2019-04-07 20:05:51.571 +01:00 [DBG] User in authorize request: 818727
+2019-04-07 20:05:51.571 +01:00 [DBG] Start authorize request protocol validation
+2019-04-07 20:05:51.571 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-07 20:05:51.571 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-07 20:05:51.571 +01:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"CityInfo.Web","ClientName":"CityInfo Website","RedirectUri":"http://localhost:5000/signin-oidc","AllowedRedirectUris":["http://localhost:5000/signin-oidc"],"SubjectId":"818727","ResponseType":"id_token","ResponseMode":"form_post","GrantType":"implicit","RequestedScopes":"openid profile email office","State":"CfDJ8C9wP0Bhfw1IrV2eneJpw7ps0cx3U0Uv_yDMTKxuNmdDvqycO26B6ZD2Lqxvf3n4gkMSRV4WN5Xhk6eGtQGK9-iVAzMQ5yk6-aabLhKAm3JMGz0E51IZCNGG0AfDt8wGXr_LCfSERXMb-RCU61PZTRWkrqVwyFe2GnFpdp6PS0oAw9sdQ_NenMnWEeQOQil5hE4mVdFXl7A4PFNJdYxDNMNeyHC8TiEqZUx2TESUte6B5kLdeTLRu8jfh69_I-EGioz5GEt7-eoW448R-3GiB3UBKrJ-GV34UW7sE7R30V06es9Yet5keiqI6PVhcCqYvA","UiLocales":null,"Nonce":"636902607012214498.Y2Y5OGQ2NDUtZTEzNS00MmNiLTg1ZmYtZGE1YzliMzcwNmYzOWMzZDhiZjYtOGNiNS00MTg5LTkyZGUtMThlZmViN2U1YjA1","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"c4ed9de94cb5bc4569370978821ab187","Raw":{"client_id":"CityInfo.Web","redirect_uri":"http://localhost:5000/signin-oidc","response_type":"id_token","scope":"openid profile email office","response_mode":"form_post","nonce":"636902607012214498.Y2Y5OGQ2NDUtZTEzNS00MmNiLTg1ZmYtZGE1YzliMzcwNmYzOWMzZDhiZjYtOGNiNS00MTg5LTkyZGUtMThlZmViN2U1YjA1","state":"CfDJ8C9wP0Bhfw1IrV2eneJpw7ps0cx3U0Uv_yDMTKxuNmdDvqycO26B6ZD2Lqxvf3n4gkMSRV4WN5Xhk6eGtQGK9-iVAzMQ5yk6-aabLhKAm3JMGz0E51IZCNGG0AfDt8wGXr_LCfSERXMb-RCU61PZTRWkrqVwyFe2GnFpdp6PS0oAw9sdQ_NenMnWEeQOQil5hE4mVdFXl7A4PFNJdYxDNMNeyHC8TiEqZUx2TESUte6B5kLdeTLRu8jfh69_I-EGioz5GEt7-eoW448R-3GiB3UBKrJ-GV34UW7sE7R30V06es9Yet5keiqI6PVhcCqYvA","x-client-SKU":"ID_NETSTANDARD1_4","x-client-ver":"5.2.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-07 20:05:51.571 +01:00 [DBG] IsActive called from: AuthorizeEndpoint
+2019-04-07 20:05:51.571 +01:00 [DBG] user_consent grant with value: CityInfo.Web|818727 not found in store.
+2019-04-07 20:05:51.571 +01:00 [DBG] Found no prior consent from consent store, consent is required
+2019-04-07 20:05:51.574 +01:00 [INF] User consented to scopes: ["openid","email","profile","office"]
+2019-04-07 20:05:51.575 +01:00 [DBG] User indicated to remember consent for scopes: ["openid","profile","email","office"]
+2019-04-07 20:05:51.578 +01:00 [DBG] Client allows remembering consent, and consent given. Updating consent store for subject: 818727
+2019-04-07 20:05:51.587 +01:00 [DBG] Creating Implicit Flow response.
+2019-04-07 20:05:51.592 +01:00 [DBG] Getting claims for identity token for subject: 818727 and client: CityInfo.Web
+2019-04-07 20:05:51.595 +01:00 [DBG] Get profile called for subject 818727 from client CityInfo Website with claim types ["name","family_name","given_name","middle_name","nickname","preferred_username","profile","picture","website","gender","birthdate","zoneinfo","locale","updated_at","email","email_verified","office_number"] via ClaimsProviderIdentityToken
+2019-04-07 20:05:51.596 +01:00 [DBG] Issued claims: ["office_number","name","given_name","family_name","email","email_verified","website"]
+2019-04-07 20:05:51.636 +01:00 [INF] Authorize endpoint response
+{"SubjectId":"818727","ClientId":"CityInfo.Web","RedirectUri":"http://localhost:5000/signin-oidc","State":"CfDJ8C9wP0Bhfw1IrV2eneJpw7ps0cx3U0Uv_yDMTKxuNmdDvqycO26B6ZD2Lqxvf3n4gkMSRV4WN5Xhk6eGtQGK9-iVAzMQ5yk6-aabLhKAm3JMGz0E51IZCNGG0AfDt8wGXr_LCfSERXMb-RCU61PZTRWkrqVwyFe2GnFpdp6PS0oAw9sdQ_NenMnWEeQOQil5hE4mVdFXl7A4PFNJdYxDNMNeyHC8TiEqZUx2TESUte6B5kLdeTLRu8jfh69_I-EGioz5GEt7-eoW448R-3GiB3UBKrJ-GV34UW7sE7R30V06es9Yet5keiqI6PVhcCqYvA","Scope":"openid profile email office","Error":null,"ErrorDescription":null,"$type":"AuthorizeResponseLog"}
+2019-04-07 20:05:51.648 +01:00 [DBG] Augmenting SignInContext
+2019-04-07 20:05:51.648 +01:00 [INF] AuthenticationScheme: idsrv signed in.

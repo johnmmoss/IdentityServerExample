@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using CityInfo.Web.Models;
+using Microsoft.AspNetCore.Authentication;
 
 namespace CityInfo.Web.Controllers
 {
@@ -27,6 +28,21 @@ namespace CityInfo.Web.Controllers
             ViewData["Message"] = "Your contact page.";
 
             return View();
+        }
+
+        public IActionResult Login()
+        {
+            return Challenge(new AuthenticationProperties
+            {
+                RedirectUri = "/home/index" // on success here
+            }, "OpenIdConnect"); // The scheme to use
+
+            // On fail raises exception which we handle in open id middleware
+        }
+
+        public IActionResult Logout()
+        {
+            return null;
         }
 
         public IActionResult Privacy()

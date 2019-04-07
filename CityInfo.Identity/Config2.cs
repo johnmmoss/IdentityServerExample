@@ -35,11 +35,11 @@ namespace CityInfo.Identiy
             {
                new Client
                {
-                   ClientId = "CityInfo.Identity",
+                   ClientId = "CityInfo.Web",
                    ClientName = "CityInfo Website",
                    AllowedGrantTypes = GrantTypes.Implicit,
-                   RedirectUris = {"http://localhost:5467/signin-oidc" },
-                   AllowedScopes = { "openid", "email", "office" }
+                   RedirectUris = {"http://localhost:5000/signin-oidc" },
+                   AllowedScopes = { "openid", "email", "office", "profile" }
                }
             };
         }
