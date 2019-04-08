@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using CityInfo.Web.Models;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 
 namespace CityInfo.Web.Controllers
 {
@@ -42,7 +44,16 @@ namespace CityInfo.Web.Controllers
 
         public IActionResult Logout()
         {
-            return null;
+            //await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            //return Redirect("~/");
+
+            return SignOut(new AuthenticationProperties
+            {
+                RedirectUri = "/home/index" // on success here
+            }, 
+            //Signout of both local cookie and open id cookie 
+            CookieAuthenticationDefaults.AuthenticationScheme,
+            OpenIdConnectDefaults.AuthenticationScheme); 
         }
 
         public IActionResult Privacy()

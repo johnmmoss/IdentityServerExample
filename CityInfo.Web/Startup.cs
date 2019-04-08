@@ -33,17 +33,18 @@ namespace CityInfo.Web
                     options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
                     options.DefaultChallengeScheme = OpenIdConnectDefaults.AuthenticationScheme;
                 })
-                .AddCookie()
+                .AddCookie() 
                 .AddOpenIdConnect(x => 
                  {
                     x.Authority = "http://localhost:5001";
                     x.ClientId = "CityInfo.Web";
-                    x.SignInScheme = "Cookies"; // Wires up above Cookie auth to this open id
+                    x.SignInScheme = "Cookies";     // Wires up above Cookie auth to this open id
                     x.RequireHttpsMetadata = false;
-                    x.ResponseType = "id_token"; // Authentication only not authorisation at this point
+                    x.ResponseType = "id_token";    // Authentication only not authorisation at this point
                     x.Scope.Add("openid");
                     x.Scope.Add("email");
                     x.Scope.Add("office");
+                     x.SaveTokens = true;           // Save the Id token into the claim
                 });
         }
 
