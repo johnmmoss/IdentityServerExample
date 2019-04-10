@@ -19,6 +19,10 @@
     var at = await Context.GetTokenAsync("access_token");
     var rt = await Context.GetTokenAsync("refresh_token");
 
+    @if (idt != null)
+    {
+        <p><b>Id Token</b> &nbsp; @idt</p>
+    }
     foreach (var claim in User.Claims)
     {
         <p><b> @claim.Type </b> &nbsp; @claim.Value </p>

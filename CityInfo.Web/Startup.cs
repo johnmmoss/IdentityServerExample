@@ -44,7 +44,9 @@ namespace CityInfo.Web
                     x.Scope.Add("openid");
                     x.Scope.Add("email");
                     x.Scope.Add("office");
-                     x.SaveTokens = true;           // Save the Id token into the claim
+                    x.SaveTokens = true;   // Save the Id token into the claim, 
+                                            // middleware ow avoids the consent screen, also need client to have PostRedirectUri set
+                                            // Cos signout is authenticated
                 });
         }
 

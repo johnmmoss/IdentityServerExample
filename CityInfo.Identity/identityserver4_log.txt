@@ -1191,3 +1191,996 @@ Parameter name: implementationInstance
 2019-04-08 21:12:56.209 +01:00 [DBG] Consent Return Url Parameter: returnUrl
 2019-04-08 21:12:56.209 +01:00 [DBG] Error Url: /home/error
 2019-04-08 21:12:56.209 +01:00 [DBG] Error Id Parameter: errorId
+2019-04-10 19:22:57.223 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-10 19:22:57.248 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-04-10 19:22:57.251 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-04-10 19:22:57.251 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-04-10 19:22:57.251 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-04-10 19:22:57.251 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-04-10 19:22:57.251 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-04-10 19:22:57.442 +01:00 [DBG] Login Url: /Account/Login
+2019-04-10 19:22:57.444 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-04-10 19:22:57.444 +01:00 [DBG] Logout Url: /Account/Logout
+2019-04-10 19:22:57.444 +01:00 [DBG] ConsentUrl Url: /consent
+2019-04-10 19:22:57.444 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-04-10 19:22:57.444 +01:00 [DBG] Error Url: /home/error
+2019-04-10 19:22:57.444 +01:00 [DBG] Error Id Parameter: errorId
+2019-04-10 19:23:18.167 +01:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-04-10 19:23:18.169 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-04-10 19:23:18.169 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-04-10 19:23:18.171 +01:00 [DBG] Start discovery request
+2019-04-10 19:23:18.265 +01:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-04-10 19:23:18.266 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-04-10 19:23:18.266 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-04-10 19:23:18.268 +01:00 [DBG] Start key discovery request
+2019-04-10 19:23:18.325 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2019-04-10 19:23:18.327 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2019-04-10 19:23:18.327 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2019-04-10 19:23:18.330 +01:00 [DBG] Start authorize request
+2019-04-10 19:23:18.336 +01:00 [DBG] No user present in authorize request
+2019-04-10 19:23:18.339 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 19:23:18.350 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 19:23:18.371 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 19:23:18.385 +01:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"CityInfo.Web","ClientName":"CityInfo Website","RedirectUri":"http://localhost:5000/signin-oidc","AllowedRedirectUris":["http://localhost:5000/signin-oidc"],"SubjectId":"anonymous","ResponseType":"id_token","ResponseMode":"form_post","GrantType":"implicit","RequestedScopes":"openid profile email office","State":"CfDJ8C9wP0Bhfw1IrV2eneJpw7qvzDR7L6su6GYInijwhNT3caTkku6tjiPoQtrGFABaEvDH9m5D84l9QMLLfY19itzqKmcL4V0W6dbRGEmNk-enGCOg2J8FDjK3jZj1xS-RC9ZkakoQ9PaqgBJK7mZfbSKte9D9tI5J3QwRsv-ZoWwDjGOf_uO89BmqB2m8AYglOY0AcMJuypZIJf63BU0-n7NuBCvd2t-jB4eWOk5A-lP95yp26gf5c2g5oStkP5doKUleUegPayHm5znBpG_pDKbu8L3fdI6dMV-edw2YXEYVA-gmFpbcCHTKtG2QJmFndw","UiLocales":null,"Nonce":"636905173983073273.MGRiZTQ3NGEtYWYyZC00ZTFkLTk0YmMtMmU1NzViYTUwZmRmODMyYmM0MTItNmRiZi00MTM0LWE2ZjMtOWUyMjI5YzU0MzIz","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"CityInfo.Web","redirect_uri":"http://localhost:5000/signin-oidc","response_type":"id_token","scope":"openid profile email office","response_mode":"form_post","nonce":"636905173983073273.MGRiZTQ3NGEtYWYyZC00ZTFkLTk0YmMtMmU1NzViYTUwZmRmODMyYmM0MTItNmRiZi00MTM0LWE2ZjMtOWUyMjI5YzU0MzIz","state":"CfDJ8C9wP0Bhfw1IrV2eneJpw7qvzDR7L6su6GYInijwhNT3caTkku6tjiPoQtrGFABaEvDH9m5D84l9QMLLfY19itzqKmcL4V0W6dbRGEmNk-enGCOg2J8FDjK3jZj1xS-RC9ZkakoQ9PaqgBJK7mZfbSKte9D9tI5J3QwRsv-ZoWwDjGOf_uO89BmqB2m8AYglOY0AcMJuypZIJf63BU0-n7NuBCvd2t-jB4eWOk5A-lP95yp26gf5c2g5oStkP5doKUleUegPayHm5znBpG_pDKbu8L3fdI6dMV-edw2YXEYVA-gmFpbcCHTKtG2QJmFndw","x-client-SKU":"ID_NETSTANDARD1_4","x-client-ver":"5.2.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-10 19:23:18.404 +01:00 [INF] Showing login: User is not authenticated
+2019-04-10 19:23:18.455 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 19:23:18.455 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 19:23:18.455 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 19:23:18.458 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 19:23:22.580 +01:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-04-10 19:23:22.603 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 19:23:22.603 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 19:23:22.603 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 19:23:22.616 +01:00 [DBG] Augmenting SignInContext
+2019-04-10 19:23:22.617 +01:00 [DBG] Adding idp claim with value: local
+2019-04-10 19:23:22.617 +01:00 [DBG] Adding amr claim with value: pwd
+2019-04-10 19:23:22.624 +01:00 [INF] AuthenticationScheme: idsrv signed in.
+2019-04-10 19:23:22.624 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 19:23:22.628 +01:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2019-04-10 19:23:22.628 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2019-04-10 19:23:22.628 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2019-04-10 19:23:22.632 +01:00 [DBG] Start authorize callback request
+2019-04-10 19:23:22.634 +01:00 [DBG] User in authorize request: 818727
+2019-04-10 19:23:22.634 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 19:23:22.634 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 19:23:22.634 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 19:23:22.634 +01:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"CityInfo.Web","ClientName":"CityInfo Website","RedirectUri":"http://localhost:5000/signin-oidc","AllowedRedirectUris":["http://localhost:5000/signin-oidc"],"SubjectId":"818727","ResponseType":"id_token","ResponseMode":"form_post","GrantType":"implicit","RequestedScopes":"openid profile email office","State":"CfDJ8C9wP0Bhfw1IrV2eneJpw7qvzDR7L6su6GYInijwhNT3caTkku6tjiPoQtrGFABaEvDH9m5D84l9QMLLfY19itzqKmcL4V0W6dbRGEmNk-enGCOg2J8FDjK3jZj1xS-RC9ZkakoQ9PaqgBJK7mZfbSKte9D9tI5J3QwRsv-ZoWwDjGOf_uO89BmqB2m8AYglOY0AcMJuypZIJf63BU0-n7NuBCvd2t-jB4eWOk5A-lP95yp26gf5c2g5oStkP5doKUleUegPayHm5znBpG_pDKbu8L3fdI6dMV-edw2YXEYVA-gmFpbcCHTKtG2QJmFndw","UiLocales":null,"Nonce":"636905173983073273.MGRiZTQ3NGEtYWYyZC00ZTFkLTk0YmMtMmU1NzViYTUwZmRmODMyYmM0MTItNmRiZi00MTM0LWE2ZjMtOWUyMjI5YzU0MzIz","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"f3bd1847a604e86aafde88cefc70f17c","Raw":{"client_id":"CityInfo.Web","redirect_uri":"http://localhost:5000/signin-oidc","response_type":"id_token","scope":"openid profile email office","response_mode":"form_post","nonce":"636905173983073273.MGRiZTQ3NGEtYWYyZC00ZTFkLTk0YmMtMmU1NzViYTUwZmRmODMyYmM0MTItNmRiZi00MTM0LWE2ZjMtOWUyMjI5YzU0MzIz","state":"CfDJ8C9wP0Bhfw1IrV2eneJpw7qvzDR7L6su6GYInijwhNT3caTkku6tjiPoQtrGFABaEvDH9m5D84l9QMLLfY19itzqKmcL4V0W6dbRGEmNk-enGCOg2J8FDjK3jZj1xS-RC9ZkakoQ9PaqgBJK7mZfbSKte9D9tI5J3QwRsv-ZoWwDjGOf_uO89BmqB2m8AYglOY0AcMJuypZIJf63BU0-n7NuBCvd2t-jB4eWOk5A-lP95yp26gf5c2g5oStkP5doKUleUegPayHm5znBpG_pDKbu8L3fdI6dMV-edw2YXEYVA-gmFpbcCHTKtG2QJmFndw","x-client-SKU":"ID_NETSTANDARD1_4","x-client-ver":"5.2.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-10 19:23:22.635 +01:00 [DBG] IsActive called from: AuthorizeEndpoint
+2019-04-10 19:23:22.644 +01:00 [DBG] user_consent grant with value: CityInfo.Web|818727 not found in store.
+2019-04-10 19:23:22.644 +01:00 [DBG] Found no prior consent from consent store, consent is required
+2019-04-10 19:23:22.644 +01:00 [INF] Showing consent: User has not yet consented
+2019-04-10 19:23:22.656 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 19:23:22.656 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 19:23:22.656 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 19:23:22.656 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 19:23:24.681 +01:00 [DBG] CORS request made for path: /consent from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-04-10 19:23:24.696 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 19:23:24.696 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 19:23:24.696 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 19:23:24.705 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 19:23:24.708 +01:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2019-04-10 19:23:24.708 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2019-04-10 19:23:24.708 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2019-04-10 19:23:24.709 +01:00 [DBG] Start authorize callback request
+2019-04-10 19:23:24.711 +01:00 [DBG] User in authorize request: 818727
+2019-04-10 19:23:24.711 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 19:23:24.711 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 19:23:24.712 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 19:23:24.712 +01:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"CityInfo.Web","ClientName":"CityInfo Website","RedirectUri":"http://localhost:5000/signin-oidc","AllowedRedirectUris":["http://localhost:5000/signin-oidc"],"SubjectId":"818727","ResponseType":"id_token","ResponseMode":"form_post","GrantType":"implicit","RequestedScopes":"openid profile email office","State":"CfDJ8C9wP0Bhfw1IrV2eneJpw7qvzDR7L6su6GYInijwhNT3caTkku6tjiPoQtrGFABaEvDH9m5D84l9QMLLfY19itzqKmcL4V0W6dbRGEmNk-enGCOg2J8FDjK3jZj1xS-RC9ZkakoQ9PaqgBJK7mZfbSKte9D9tI5J3QwRsv-ZoWwDjGOf_uO89BmqB2m8AYglOY0AcMJuypZIJf63BU0-n7NuBCvd2t-jB4eWOk5A-lP95yp26gf5c2g5oStkP5doKUleUegPayHm5znBpG_pDKbu8L3fdI6dMV-edw2YXEYVA-gmFpbcCHTKtG2QJmFndw","UiLocales":null,"Nonce":"636905173983073273.MGRiZTQ3NGEtYWYyZC00ZTFkLTk0YmMtMmU1NzViYTUwZmRmODMyYmM0MTItNmRiZi00MTM0LWE2ZjMtOWUyMjI5YzU0MzIz","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"f3bd1847a604e86aafde88cefc70f17c","Raw":{"client_id":"CityInfo.Web","redirect_uri":"http://localhost:5000/signin-oidc","response_type":"id_token","scope":"openid profile email office","response_mode":"form_post","nonce":"636905173983073273.MGRiZTQ3NGEtYWYyZC00ZTFkLTk0YmMtMmU1NzViYTUwZmRmODMyYmM0MTItNmRiZi00MTM0LWE2ZjMtOWUyMjI5YzU0MzIz","state":"CfDJ8C9wP0Bhfw1IrV2eneJpw7qvzDR7L6su6GYInijwhNT3caTkku6tjiPoQtrGFABaEvDH9m5D84l9QMLLfY19itzqKmcL4V0W6dbRGEmNk-enGCOg2J8FDjK3jZj1xS-RC9ZkakoQ9PaqgBJK7mZfbSKte9D9tI5J3QwRsv-ZoWwDjGOf_uO89BmqB2m8AYglOY0AcMJuypZIJf63BU0-n7NuBCvd2t-jB4eWOk5A-lP95yp26gf5c2g5oStkP5doKUleUegPayHm5znBpG_pDKbu8L3fdI6dMV-edw2YXEYVA-gmFpbcCHTKtG2QJmFndw","x-client-SKU":"ID_NETSTANDARD1_4","x-client-ver":"5.2.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-10 19:23:24.712 +01:00 [DBG] IsActive called from: AuthorizeEndpoint
+2019-04-10 19:23:24.712 +01:00 [DBG] user_consent grant with value: CityInfo.Web|818727 not found in store.
+2019-04-10 19:23:24.712 +01:00 [DBG] Found no prior consent from consent store, consent is required
+2019-04-10 19:23:24.716 +01:00 [INF] User consented to scopes: ["openid","email","profile","office"]
+2019-04-10 19:23:24.717 +01:00 [DBG] User indicated to remember consent for scopes: ["openid","profile","email","office"]
+2019-04-10 19:23:24.719 +01:00 [DBG] Client allows remembering consent, and consent given. Updating consent store for subject: 818727
+2019-04-10 19:23:24.728 +01:00 [DBG] Creating Implicit Flow response.
+2019-04-10 19:23:24.734 +01:00 [DBG] Getting claims for identity token for subject: 818727 and client: CityInfo.Web
+2019-04-10 19:23:24.737 +01:00 [DBG] Get profile called for subject 818727 from client CityInfo Website with claim types ["name","family_name","given_name","middle_name","nickname","preferred_username","profile","picture","website","gender","birthdate","zoneinfo","locale","updated_at","email","email_verified","office_number"] via ClaimsProviderIdentityToken
+2019-04-10 19:23:24.739 +01:00 [DBG] Issued claims: ["office_number","name","given_name","family_name","email","email_verified","website"]
+2019-04-10 19:23:24.784 +01:00 [INF] Authorize endpoint response
+{"SubjectId":"818727","ClientId":"CityInfo.Web","RedirectUri":"http://localhost:5000/signin-oidc","State":"CfDJ8C9wP0Bhfw1IrV2eneJpw7qvzDR7L6su6GYInijwhNT3caTkku6tjiPoQtrGFABaEvDH9m5D84l9QMLLfY19itzqKmcL4V0W6dbRGEmNk-enGCOg2J8FDjK3jZj1xS-RC9ZkakoQ9PaqgBJK7mZfbSKte9D9tI5J3QwRsv-ZoWwDjGOf_uO89BmqB2m8AYglOY0AcMJuypZIJf63BU0-n7NuBCvd2t-jB4eWOk5A-lP95yp26gf5c2g5oStkP5doKUleUegPayHm5znBpG_pDKbu8L3fdI6dMV-edw2YXEYVA-gmFpbcCHTKtG2QJmFndw","Scope":"openid profile email office","Error":null,"ErrorDescription":null,"$type":"AuthorizeResponseLog"}
+2019-04-10 19:23:24.795 +01:00 [DBG] Augmenting SignInContext
+2019-04-10 19:23:24.796 +01:00 [INF] AuthenticationScheme: idsrv signed in.
+2019-04-10 20:42:34.159 +01:00 [DBG] Request path /connect/endsession matched to endpoint type Endsession
+2019-04-10 20:42:34.161 +01:00 [DBG] Endpoint enabled: Endsession, successfully created handler: IdentityServer4.Endpoints.EndSessionEndpoint
+2019-04-10 20:42:34.161 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionEndpoint for /connect/endsession
+2019-04-10 20:42:34.165 +01:00 [DBG] Processing signout request for 818727
+2019-04-10 20:42:34.168 +01:00 [DBG] Start end session request validation
+2019-04-10 20:42:34.172 +01:00 [DBG] Start identity token validation
+2019-04-10 20:42:34.181 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:42:34.182 +01:00 [DBG] Client found: CityInfo.Web / CityInfo Website
+2019-04-10 20:42:34.207 +01:00 [DBG] IsActive called from: IdentityTokenValidation
+2019-04-10 20:42:34.207 +01:00 [DBG] Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator
+2019-04-10 20:42:34.208 +01:00 [DBG] Token validation success
+{"ClientId":"CityInfo.Web","ClientName":"CityInfo Website","ValidateLifetime":false,"AccessTokenType":null,"ExpectedScope":null,"TokenHandle":null,"JwtId":null,"Claims":{"nbf":1554920604,"exp":1554920904,"iss":"http://localhost:5001","aud":"CityInfo.Web","nonce":"636905173983073273.MGRiZTQ3NGEtYWYyZC00ZTFkLTk0YmMtMmU1NzViYTUwZmRmODMyYmM0MTItNmRiZi00MTM0LWE2ZjMtOWUyMjI5YzU0MzIz","iat":1554920604,"sid":"f3bd1847a604e86aafde88cefc70f17c","sub":"818727","auth_time":1554920602,"idp":"local","office_number":"35","name":"Alice Smith","given_name":"Alice","family_name":"Smith","email":"AliceSmith@email.com","email_verified":true,"website":"http://alice.com","amr":"pwd"},"$type":"TokenValidationLog"}
+2019-04-10 20:42:34.210 +01:00 [INF] End session request validation failure: Invalid post logout URI
+{"ClientId":"CityInfo.Web","ClientName":"CityInfo Website","SubjectId":"818727","PostLogOutUri":null,"State":null,"Raw":{"post_logout_redirect_uri":"http://localhost:5000/signout-callback-oidc","id_token_hint":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjE2ZGM5ZGUzYWQzMDc0Nzk1ZjZhNzFmMzBkMzdhMGViIiwidHlwIjoiSldUIn0.eyJuYmYiOjE1NTQ5MjA2MDQsImV4cCI6MTU1NDkyMDkwNCwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAxIiwiYXVkIjoiQ2l0eUluZm8uV2ViIiwibm9uY2UiOiI2MzY5MDUxNzM5ODMwNzMyNzMuTUdSaVpUUTNOR0V0WVdZeVpDMDBaVEZrTFRrMFltTXRNbVUxTnpWaVlUVXdabVJtT0RNeVltTTBNVEl0Tm1SaVppMDBNVE0wTFdFMlpqTXRPV1V5TWpJNVl6VTBNekl6IiwiaWF0IjoxNTU0OTIwNjA0LCJzaWQiOiJmM2JkMTg0N2E2MDRlODZhYWZkZTg4Y2VmYzcwZjE3YyIsInN1YiI6IjgxODcyNyIsImF1dGhfdGltZSI6MTU1NDkyMDYwMiwiaWRwIjoibG9jYWwiLCJvZmZpY2VfbnVtYmVyIjoiMzUiLCJuYW1lIjoiQWxpY2UgU21pdGgiLCJnaXZlbl9uYW1lIjoiQWxpY2UiLCJmYW1pbHlfbmFtZSI6IlNtaXRoIiwiZW1haWwiOiJBbGljZVNtaXRoQGVtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJ3ZWJzaXRlIjoiaHR0cDovL2FsaWNlLmNvbSIsImFtciI6WyJwd2QiXX0.D6iZbonZ9zu21EqBZ4fKW4cMidB6KpARGH29a2q9-DQisshy76h9TaTAWyDKTNFrs0GE18sreJ1LlWBPBC7hrEGXqq9Qvele_TlQmhK2APtDh6mPG5HW2jq-oyzPYKVJi-FB4BqaIKmCaYYoi6mM4JhRuttmwfgMuw84lolp6LB00oHS-DYP9nHFSpVxrhyLKX1SWrFMnToPRHVTYTUELBn-b9uGTasJujzzhmAdTN-wenyD9lqk2MQW898e4okQqT6VKoSJAQ1EJRtBgizKPGDpu09GuHSiHD6OW9d8bpauyZ7e-Q2vrLM_Hh9noZooxdcaEfMw7lsHTK49ZD9SJw","state":"CfDJ8C9wP0Bhfw1IrV2eneJpw7rO94B2uArxGON2Bne62dI7_Zj2fOjt8ywfKxIkEiLj7Hf-jR0QNrIptMaPNobCFFtQKtp91JjRXgWLtVi4yjBWCVd6nRXo703bcAgEUQNQHf-vuICngLINDxTCyDW1SM0","x-client-SKU":"ID_NETSTANDARD1_4","x-client-ver":"5.2.0.0"},"$type":"EndSessionRequestValidationLog"}
+2019-04-10 20:42:34.210 +01:00 [ERR] Error processing end session request Invalid request
+2019-04-10 20:42:36.192 +01:00 [DBG] CORS request made for path: /Account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-04-10 20:42:36.203 +01:00 [INF] AuthenticationScheme: idsrv signed out.
+2019-04-10 20:42:36.238 +01:00 [DBG] Request path /connect/endsession/callback matched to endpoint type Endsession
+2019-04-10 20:42:36.239 +01:00 [DBG] Endpoint enabled: Endsession, successfully created handler: IdentityServer4.Endpoints.EndSessionCallbackEndpoint
+2019-04-10 20:42:36.239 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionCallbackEndpoint for /connect/endsession/callback
+2019-04-10 20:42:36.242 +01:00 [DBG] Processing signout callback request
+2019-04-10 20:42:36.250 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:42:36.250 +01:00 [DBG] No client front-channel logout URLs
+2019-04-10 20:42:36.250 +01:00 [DBG] No client back-channel logout URLs
+2019-04-10 20:42:36.250 +01:00 [INF] Successful signout callback.
+2019-04-10 20:42:36.250 +01:00 [DBG] No client front-channel iframe urls
+2019-04-10 20:42:36.250 +01:00 [DBG] No client back-channel iframe urls
+2019-04-10 20:44:48.533 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-10 20:44:48.589 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-04-10 20:44:48.592 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-04-10 20:44:48.592 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-04-10 20:44:48.592 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-04-10 20:44:48.592 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-04-10 20:44:48.592 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-04-10 20:44:48.836 +01:00 [DBG] Login Url: /Account/Login
+2019-04-10 20:44:48.838 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-04-10 20:44:48.838 +01:00 [DBG] Logout Url: /Account/Logout
+2019-04-10 20:44:48.838 +01:00 [DBG] ConsentUrl Url: /consent
+2019-04-10 20:44:48.839 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-04-10 20:44:48.839 +01:00 [DBG] Error Url: /home/error
+2019-04-10 20:44:48.839 +01:00 [DBG] Error Id Parameter: errorId
+2019-04-10 20:44:51.345 +01:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-04-10 20:44:51.347 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-04-10 20:44:51.347 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-04-10 20:44:51.349 +01:00 [DBG] Start discovery request
+2019-04-10 20:44:51.440 +01:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-04-10 20:44:51.440 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-04-10 20:44:51.440 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-04-10 20:44:51.443 +01:00 [DBG] Start key discovery request
+2019-04-10 20:44:51.499 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2019-04-10 20:44:51.500 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2019-04-10 20:44:51.500 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2019-04-10 20:44:51.502 +01:00 [DBG] Start authorize request
+2019-04-10 20:44:51.508 +01:00 [DBG] No user present in authorize request
+2019-04-10 20:44:51.511 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 20:44:51.522 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:44:51.543 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 20:44:51.553 +01:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"CityInfo.Web","ClientName":"CityInfo Website","RedirectUri":"http://localhost:5000/signin-oidc","AllowedRedirectUris":["http://localhost:5000/signin-oidc"],"SubjectId":"anonymous","ResponseType":"id_token","ResponseMode":"form_post","GrantType":"implicit","RequestedScopes":"openid profile email office","State":"CfDJ8C9wP0Bhfw1IrV2eneJpw7qD5zqJMDY1prsDc8DstujODntrHkV1Tuof0AYBGY6D6xqhjlnz-lAeuRmPUskIditrUd8ioV8ZYs8-xNHKhwms4v4v7PDTqmxdn4MeuOq5JN_JGesXBMUOTx7YSaKYC0dMdi1C_O3RcSv1akLOEM-UFfk-iEGoaTuL30lAjvJ5z3XwdLkdi5oSYa2w8596uTbuvPZ_8yTld0TA_NgoRQb1e0oB2yU_7L9NyFtfFQUhtetHyNcS5sGNYO5Jm4FUEZOZ4Agbcw5UIm1AAU7HPJ28qRltd33bwTD8r9YBrQz4hg","UiLocales":null,"Nonce":"636905222914822648.NzlkMTJlY2MtM2IzNS00MWUzLTk4MDAtMWNjMzE4YzliYmViZjNiOWZhMTUtYmIxNi00N2U4LWFiYjgtYzQ4NmYyZTFlYmU0","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"CityInfo.Web","redirect_uri":"http://localhost:5000/signin-oidc","response_type":"id_token","scope":"openid profile email office","response_mode":"form_post","nonce":"636905222914822648.NzlkMTJlY2MtM2IzNS00MWUzLTk4MDAtMWNjMzE4YzliYmViZjNiOWZhMTUtYmIxNi00N2U4LWFiYjgtYzQ4NmYyZTFlYmU0","state":"CfDJ8C9wP0Bhfw1IrV2eneJpw7qD5zqJMDY1prsDc8DstujODntrHkV1Tuof0AYBGY6D6xqhjlnz-lAeuRmPUskIditrUd8ioV8ZYs8-xNHKhwms4v4v7PDTqmxdn4MeuOq5JN_JGesXBMUOTx7YSaKYC0dMdi1C_O3RcSv1akLOEM-UFfk-iEGoaTuL30lAjvJ5z3XwdLkdi5oSYa2w8596uTbuvPZ_8yTld0TA_NgoRQb1e0oB2yU_7L9NyFtfFQUhtetHyNcS5sGNYO5Jm4FUEZOZ4Agbcw5UIm1AAU7HPJ28qRltd33bwTD8r9YBrQz4hg","x-client-SKU":"ID_NETSTANDARD1_4","x-client-ver":"5.2.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-10 20:44:51.567 +01:00 [INF] Showing login: User is not authenticated
+2019-04-10 20:44:51.602 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 20:44:51.602 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:44:51.603 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 20:44:51.604 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:44:56.226 +01:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-04-10 20:44:56.250 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 20:44:56.250 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:44:56.250 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 20:44:56.262 +01:00 [DBG] Augmenting SignInContext
+2019-04-10 20:44:56.264 +01:00 [DBG] Adding idp claim with value: local
+2019-04-10 20:44:56.264 +01:00 [DBG] Adding amr claim with value: pwd
+2019-04-10 20:44:56.271 +01:00 [INF] AuthenticationScheme: idsrv signed in.
+2019-04-10 20:44:56.272 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:44:56.275 +01:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2019-04-10 20:44:56.275 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2019-04-10 20:44:56.275 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2019-04-10 20:44:56.279 +01:00 [DBG] Start authorize callback request
+2019-04-10 20:44:56.282 +01:00 [DBG] User in authorize request: 818727
+2019-04-10 20:44:56.282 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 20:44:56.282 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:44:56.282 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 20:44:56.282 +01:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"CityInfo.Web","ClientName":"CityInfo Website","RedirectUri":"http://localhost:5000/signin-oidc","AllowedRedirectUris":["http://localhost:5000/signin-oidc"],"SubjectId":"818727","ResponseType":"id_token","ResponseMode":"form_post","GrantType":"implicit","RequestedScopes":"openid profile email office","State":"CfDJ8C9wP0Bhfw1IrV2eneJpw7qD5zqJMDY1prsDc8DstujODntrHkV1Tuof0AYBGY6D6xqhjlnz-lAeuRmPUskIditrUd8ioV8ZYs8-xNHKhwms4v4v7PDTqmxdn4MeuOq5JN_JGesXBMUOTx7YSaKYC0dMdi1C_O3RcSv1akLOEM-UFfk-iEGoaTuL30lAjvJ5z3XwdLkdi5oSYa2w8596uTbuvPZ_8yTld0TA_NgoRQb1e0oB2yU_7L9NyFtfFQUhtetHyNcS5sGNYO5Jm4FUEZOZ4Agbcw5UIm1AAU7HPJ28qRltd33bwTD8r9YBrQz4hg","UiLocales":null,"Nonce":"636905222914822648.NzlkMTJlY2MtM2IzNS00MWUzLTk4MDAtMWNjMzE4YzliYmViZjNiOWZhMTUtYmIxNi00N2U4LWFiYjgtYzQ4NmYyZTFlYmU0","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"e40dd2c267efff7b81d6947c594c2ce2","Raw":{"client_id":"CityInfo.Web","redirect_uri":"http://localhost:5000/signin-oidc","response_type":"id_token","scope":"openid profile email office","response_mode":"form_post","nonce":"636905222914822648.NzlkMTJlY2MtM2IzNS00MWUzLTk4MDAtMWNjMzE4YzliYmViZjNiOWZhMTUtYmIxNi00N2U4LWFiYjgtYzQ4NmYyZTFlYmU0","state":"CfDJ8C9wP0Bhfw1IrV2eneJpw7qD5zqJMDY1prsDc8DstujODntrHkV1Tuof0AYBGY6D6xqhjlnz-lAeuRmPUskIditrUd8ioV8ZYs8-xNHKhwms4v4v7PDTqmxdn4MeuOq5JN_JGesXBMUOTx7YSaKYC0dMdi1C_O3RcSv1akLOEM-UFfk-iEGoaTuL30lAjvJ5z3XwdLkdi5oSYa2w8596uTbuvPZ_8yTld0TA_NgoRQb1e0oB2yU_7L9NyFtfFQUhtetHyNcS5sGNYO5Jm4FUEZOZ4Agbcw5UIm1AAU7HPJ28qRltd33bwTD8r9YBrQz4hg","x-client-SKU":"ID_NETSTANDARD1_4","x-client-ver":"5.2.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-10 20:44:56.283 +01:00 [DBG] IsActive called from: AuthorizeEndpoint
+2019-04-10 20:44:56.292 +01:00 [DBG] user_consent grant with value: CityInfo.Web|818727 not found in store.
+2019-04-10 20:44:56.292 +01:00 [DBG] Found no prior consent from consent store, consent is required
+2019-04-10 20:44:56.292 +01:00 [INF] Showing consent: User has not yet consented
+2019-04-10 20:44:56.305 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 20:44:56.305 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:44:56.305 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 20:44:56.305 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:44:58.216 +01:00 [DBG] CORS request made for path: /consent from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-04-10 20:44:58.226 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 20:44:58.226 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:44:58.226 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 20:44:58.234 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:44:58.237 +01:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2019-04-10 20:44:58.237 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2019-04-10 20:44:58.238 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2019-04-10 20:44:58.238 +01:00 [DBG] Start authorize callback request
+2019-04-10 20:44:58.239 +01:00 [DBG] User in authorize request: 818727
+2019-04-10 20:44:58.240 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 20:44:58.240 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:44:58.240 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 20:44:58.240 +01:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"CityInfo.Web","ClientName":"CityInfo Website","RedirectUri":"http://localhost:5000/signin-oidc","AllowedRedirectUris":["http://localhost:5000/signin-oidc"],"SubjectId":"818727","ResponseType":"id_token","ResponseMode":"form_post","GrantType":"implicit","RequestedScopes":"openid profile email office","State":"CfDJ8C9wP0Bhfw1IrV2eneJpw7qD5zqJMDY1prsDc8DstujODntrHkV1Tuof0AYBGY6D6xqhjlnz-lAeuRmPUskIditrUd8ioV8ZYs8-xNHKhwms4v4v7PDTqmxdn4MeuOq5JN_JGesXBMUOTx7YSaKYC0dMdi1C_O3RcSv1akLOEM-UFfk-iEGoaTuL30lAjvJ5z3XwdLkdi5oSYa2w8596uTbuvPZ_8yTld0TA_NgoRQb1e0oB2yU_7L9NyFtfFQUhtetHyNcS5sGNYO5Jm4FUEZOZ4Agbcw5UIm1AAU7HPJ28qRltd33bwTD8r9YBrQz4hg","UiLocales":null,"Nonce":"636905222914822648.NzlkMTJlY2MtM2IzNS00MWUzLTk4MDAtMWNjMzE4YzliYmViZjNiOWZhMTUtYmIxNi00N2U4LWFiYjgtYzQ4NmYyZTFlYmU0","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"e40dd2c267efff7b81d6947c594c2ce2","Raw":{"client_id":"CityInfo.Web","redirect_uri":"http://localhost:5000/signin-oidc","response_type":"id_token","scope":"openid profile email office","response_mode":"form_post","nonce":"636905222914822648.NzlkMTJlY2MtM2IzNS00MWUzLTk4MDAtMWNjMzE4YzliYmViZjNiOWZhMTUtYmIxNi00N2U4LWFiYjgtYzQ4NmYyZTFlYmU0","state":"CfDJ8C9wP0Bhfw1IrV2eneJpw7qD5zqJMDY1prsDc8DstujODntrHkV1Tuof0AYBGY6D6xqhjlnz-lAeuRmPUskIditrUd8ioV8ZYs8-xNHKhwms4v4v7PDTqmxdn4MeuOq5JN_JGesXBMUOTx7YSaKYC0dMdi1C_O3RcSv1akLOEM-UFfk-iEGoaTuL30lAjvJ5z3XwdLkdi5oSYa2w8596uTbuvPZ_8yTld0TA_NgoRQb1e0oB2yU_7L9NyFtfFQUhtetHyNcS5sGNYO5Jm4FUEZOZ4Agbcw5UIm1AAU7HPJ28qRltd33bwTD8r9YBrQz4hg","x-client-SKU":"ID_NETSTANDARD1_4","x-client-ver":"5.2.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-10 20:44:58.240 +01:00 [DBG] IsActive called from: AuthorizeEndpoint
+2019-04-10 20:44:58.240 +01:00 [DBG] user_consent grant with value: CityInfo.Web|818727 not found in store.
+2019-04-10 20:44:58.240 +01:00 [DBG] Found no prior consent from consent store, consent is required
+2019-04-10 20:44:58.243 +01:00 [INF] User consented to scopes: ["openid","email","profile","office"]
+2019-04-10 20:44:58.243 +01:00 [DBG] User indicated to remember consent for scopes: ["openid","profile","email","office"]
+2019-04-10 20:44:58.246 +01:00 [DBG] Client allows remembering consent, and consent given. Updating consent store for subject: 818727
+2019-04-10 20:44:58.255 +01:00 [DBG] Creating Implicit Flow response.
+2019-04-10 20:44:58.260 +01:00 [DBG] Getting claims for identity token for subject: 818727 and client: CityInfo.Web
+2019-04-10 20:44:58.263 +01:00 [DBG] Get profile called for subject 818727 from client CityInfo Website with claim types ["name","family_name","given_name","middle_name","nickname","preferred_username","profile","picture","website","gender","birthdate","zoneinfo","locale","updated_at","email","email_verified","office_number"] via ClaimsProviderIdentityToken
+2019-04-10 20:44:58.264 +01:00 [DBG] Issued claims: ["office_number","name","given_name","family_name","email","email_verified","website"]
+2019-04-10 20:44:58.304 +01:00 [INF] Authorize endpoint response
+{"SubjectId":"818727","ClientId":"CityInfo.Web","RedirectUri":"http://localhost:5000/signin-oidc","State":"CfDJ8C9wP0Bhfw1IrV2eneJpw7qD5zqJMDY1prsDc8DstujODntrHkV1Tuof0AYBGY6D6xqhjlnz-lAeuRmPUskIditrUd8ioV8ZYs8-xNHKhwms4v4v7PDTqmxdn4MeuOq5JN_JGesXBMUOTx7YSaKYC0dMdi1C_O3RcSv1akLOEM-UFfk-iEGoaTuL30lAjvJ5z3XwdLkdi5oSYa2w8596uTbuvPZ_8yTld0TA_NgoRQb1e0oB2yU_7L9NyFtfFQUhtetHyNcS5sGNYO5Jm4FUEZOZ4Agbcw5UIm1AAU7HPJ28qRltd33bwTD8r9YBrQz4hg","Scope":"openid profile email office","Error":null,"ErrorDescription":null,"$type":"AuthorizeResponseLog"}
+2019-04-10 20:44:58.316 +01:00 [DBG] Augmenting SignInContext
+2019-04-10 20:44:58.316 +01:00 [INF] AuthenticationScheme: idsrv signed in.
+2019-04-10 20:45:01.978 +01:00 [DBG] Request path /connect/endsession matched to endpoint type Endsession
+2019-04-10 20:45:01.979 +01:00 [DBG] Endpoint enabled: Endsession, successfully created handler: IdentityServer4.Endpoints.EndSessionEndpoint
+2019-04-10 20:45:01.979 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionEndpoint for /connect/endsession
+2019-04-10 20:45:01.982 +01:00 [DBG] Processing signout request for 818727
+2019-04-10 20:45:01.986 +01:00 [DBG] Start end session request validation
+2019-04-10 20:45:01.990 +01:00 [DBG] Start identity token validation
+2019-04-10 20:45:01.998 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:45:01.998 +01:00 [DBG] Client found: CityInfo.Web / CityInfo Website
+2019-04-10 20:45:02.026 +01:00 [DBG] IsActive called from: IdentityTokenValidation
+2019-04-10 20:45:02.026 +01:00 [DBG] Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator
+2019-04-10 20:45:02.027 +01:00 [DBG] Token validation success
+{"ClientId":"CityInfo.Web","ClientName":"CityInfo Website","ValidateLifetime":false,"AccessTokenType":null,"ExpectedScope":null,"TokenHandle":null,"JwtId":null,"Claims":{"nbf":1554925498,"exp":1554925798,"iss":"http://localhost:5001","aud":"CityInfo.Web","nonce":"636905222914822648.NzlkMTJlY2MtM2IzNS00MWUzLTk4MDAtMWNjMzE4YzliYmViZjNiOWZhMTUtYmIxNi00N2U4LWFiYjgtYzQ4NmYyZTFlYmU0","iat":1554925498,"sid":"e40dd2c267efff7b81d6947c594c2ce2","sub":"818727","auth_time":1554925496,"idp":"local","office_number":"35","name":"Alice Smith","given_name":"Alice","family_name":"Smith","email":"AliceSmith@email.com","email_verified":true,"website":"http://alice.com","amr":"pwd"},"$type":"TokenValidationLog"}
+2019-04-10 20:45:02.029 +01:00 [INF] End session request validation failure: Invalid post logout URI
+{"ClientId":"CityInfo.Web","ClientName":"CityInfo Website","SubjectId":"818727","PostLogOutUri":null,"State":null,"Raw":{"post_logout_redirect_uri":"http://localhost:5000/signout-callback-oidc","id_token_hint":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjE2ZGM5ZGUzYWQzMDc0Nzk1ZjZhNzFmMzBkMzdhMGViIiwidHlwIjoiSldUIn0.eyJuYmYiOjE1NTQ5MjU0OTgsImV4cCI6MTU1NDkyNTc5OCwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAxIiwiYXVkIjoiQ2l0eUluZm8uV2ViIiwibm9uY2UiOiI2MzY5MDUyMjI5MTQ4MjI2NDguTnpsa01USmxZMk10TTJJek5TMDBNV1V6TFRrNE1EQXRNV05qTXpFNFl6bGlZbVZpWmpOaU9XWmhNVFV0WW1JeE5pMDBOMlU0TFdGaVlqZ3RZelE0Tm1ZeVpURmxZbVUwIiwiaWF0IjoxNTU0OTI1NDk4LCJzaWQiOiJlNDBkZDJjMjY3ZWZmZjdiODFkNjk0N2M1OTRjMmNlMiIsInN1YiI6IjgxODcyNyIsImF1dGhfdGltZSI6MTU1NDkyNTQ5NiwiaWRwIjoibG9jYWwiLCJvZmZpY2VfbnVtYmVyIjoiMzUiLCJuYW1lIjoiQWxpY2UgU21pdGgiLCJnaXZlbl9uYW1lIjoiQWxpY2UiLCJmYW1pbHlfbmFtZSI6IlNtaXRoIiwiZW1haWwiOiJBbGljZVNtaXRoQGVtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJ3ZWJzaXRlIjoiaHR0cDovL2FsaWNlLmNvbSIsImFtciI6WyJwd2QiXX0.t9VhXUlBwy8cbBeiCoYid6vSwusRIT68uIopv_iJieAkc8jdtLYS8YrwTYRfZbpn_suG7VMBnHzVze3uoucAs_Ws0AbgmplphOJTTTX-BhX6-VzxtHtKcRtPIHRkOZwhjCVX8q-UG5qOuDqb-Gu1D3EPphSFyt8YJ-4LbZEMR2g44uZ8PxOboAISfiwM4FCrvSKEDIffHwxZwi46Y-YTv0pWHt8U2Bo5G-Lh6DejAhCUY_0sT535mfjBu4Pdtq1tdxLmx3Kqfyllg2iUTLl4j1DszDx4nsTGB-9TTb990JuV2EjmZZJ3IibK04ixqN0aVXqD59fx8BHu9ydXOYOTlQ","state":"CfDJ8C9wP0Bhfw1IrV2eneJpw7qeaNfkmCfEzX-X6vlvudbxlaVeApSZ0xV8cUC1h18P1tcMbMEcV7klxt5DSr_U_RJfXE_i-PM2zMK9ZdWKWU8o4tstMsBgC9xGjFfey4SaLDWypw2_jE_SdlJdT-HJiSM","x-client-SKU":"ID_NETSTANDARD1_4","x-client-ver":"5.2.0.0"},"$type":"EndSessionRequestValidationLog"}
+2019-04-10 20:45:02.029 +01:00 [ERR] Error processing end session request Invalid request
+2019-04-10 20:45:06.328 +01:00 [DBG] CORS request made for path: /Account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-04-10 20:45:06.339 +01:00 [INF] AuthenticationScheme: idsrv signed out.
+2019-04-10 20:45:06.361 +01:00 [DBG] Request path /connect/endsession/callback matched to endpoint type Endsession
+2019-04-10 20:45:06.363 +01:00 [DBG] Endpoint enabled: Endsession, successfully created handler: IdentityServer4.Endpoints.EndSessionCallbackEndpoint
+2019-04-10 20:45:06.363 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionCallbackEndpoint for /connect/endsession/callback
+2019-04-10 20:45:06.366 +01:00 [DBG] Processing signout callback request
+2019-04-10 20:45:06.374 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:45:06.374 +01:00 [DBG] No client front-channel logout URLs
+2019-04-10 20:45:06.374 +01:00 [DBG] No client back-channel logout URLs
+2019-04-10 20:45:06.374 +01:00 [INF] Successful signout callback.
+2019-04-10 20:45:06.374 +01:00 [DBG] No client front-channel iframe urls
+2019-04-10 20:45:06.374 +01:00 [DBG] No client back-channel iframe urls
+2019-04-10 20:46:13.263 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-10 20:46:13.286 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-04-10 20:46:13.288 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-04-10 20:46:13.288 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-04-10 20:46:13.288 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-04-10 20:46:13.288 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-04-10 20:46:13.288 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-04-10 20:46:13.595 +01:00 [DBG] Login Url: /Account/Login
+2019-04-10 20:46:13.596 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-04-10 20:46:13.596 +01:00 [DBG] Logout Url: /Account/Logout
+2019-04-10 20:46:13.596 +01:00 [DBG] ConsentUrl Url: /consent
+2019-04-10 20:46:13.596 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-04-10 20:46:13.597 +01:00 [DBG] Error Url: /home/error
+2019-04-10 20:46:13.597 +01:00 [DBG] Error Id Parameter: errorId
+2019-04-10 20:46:16.118 +01:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-04-10 20:46:16.120 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-04-10 20:46:16.120 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-04-10 20:46:16.122 +01:00 [DBG] Start discovery request
+2019-04-10 20:46:16.211 +01:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-04-10 20:46:16.211 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-04-10 20:46:16.211 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-04-10 20:46:16.214 +01:00 [DBG] Start key discovery request
+2019-04-10 20:46:16.262 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2019-04-10 20:46:16.263 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2019-04-10 20:46:16.263 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2019-04-10 20:46:16.265 +01:00 [DBG] Start authorize request
+2019-04-10 20:46:16.270 +01:00 [DBG] No user present in authorize request
+2019-04-10 20:46:16.273 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 20:46:16.283 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:46:16.304 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 20:46:16.313 +01:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"CityInfo.Web","ClientName":"CityInfo Website","RedirectUri":"http://localhost:5000/signin-oidc","AllowedRedirectUris":["http://localhost:5000/signin-oidc"],"SubjectId":"anonymous","ResponseType":"id_token","ResponseMode":"form_post","GrantType":"implicit","RequestedScopes":"openid profile email office","State":"CfDJ8C9wP0Bhfw1IrV2eneJpw7p8s_xGScr1g1Li8rHc4cIT2i6OqFYZh6vj-dJUWpzTItbPkMtWZI6dVDxMEif2UI822ykZXt1ALA8z4TKJKMOkEXGEQT-t0RFdP-JtCjuWV0SqR8GBaljsQNXarkf_WWlFt3qto02VKZ43ds31Tz2Br8wILXEo65P75-LuON7y68Ol9-YUBjbeQQwChLuz8_MKKdKODGNNCn2DlKzn9JFBQtjN5GmCorHUMpmILTaQKXaXEPjj4YU55KEjKYgrvghcQoSfTqAxPGeEdjKzSoLP83vlA2tIOm323AgiLy0Feg","UiLocales":null,"Nonce":"636905223762462644.NWM5ZDU1ZTEtM2MyOS00ODAxLTgzYTItMzMyYzgyOWZkYjY3Zjg2MzdiYTktODc5MS00ZmRiLTljYjQtZWI4NTNjYWEyMTVm","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"CityInfo.Web","redirect_uri":"http://localhost:5000/signin-oidc","response_type":"id_token","scope":"openid profile email office","response_mode":"form_post","nonce":"636905223762462644.NWM5ZDU1ZTEtM2MyOS00ODAxLTgzYTItMzMyYzgyOWZkYjY3Zjg2MzdiYTktODc5MS00ZmRiLTljYjQtZWI4NTNjYWEyMTVm","state":"CfDJ8C9wP0Bhfw1IrV2eneJpw7p8s_xGScr1g1Li8rHc4cIT2i6OqFYZh6vj-dJUWpzTItbPkMtWZI6dVDxMEif2UI822ykZXt1ALA8z4TKJKMOkEXGEQT-t0RFdP-JtCjuWV0SqR8GBaljsQNXarkf_WWlFt3qto02VKZ43ds31Tz2Br8wILXEo65P75-LuON7y68Ol9-YUBjbeQQwChLuz8_MKKdKODGNNCn2DlKzn9JFBQtjN5GmCorHUMpmILTaQKXaXEPjj4YU55KEjKYgrvghcQoSfTqAxPGeEdjKzSoLP83vlA2tIOm323AgiLy0Feg","x-client-SKU":"ID_NETSTANDARD1_4","x-client-ver":"5.2.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-10 20:46:16.326 +01:00 [INF] Showing login: User is not authenticated
+2019-04-10 20:46:16.359 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 20:46:16.359 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:46:16.360 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 20:46:16.361 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:46:21.022 +01:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-04-10 20:46:21.048 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 20:46:21.048 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:46:21.049 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 20:46:21.060 +01:00 [DBG] Augmenting SignInContext
+2019-04-10 20:46:21.062 +01:00 [DBG] Adding idp claim with value: local
+2019-04-10 20:46:21.062 +01:00 [DBG] Adding amr claim with value: pwd
+2019-04-10 20:46:21.070 +01:00 [INF] AuthenticationScheme: idsrv signed in.
+2019-04-10 20:46:21.071 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:46:21.074 +01:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2019-04-10 20:46:21.074 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2019-04-10 20:46:21.074 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2019-04-10 20:46:21.077 +01:00 [DBG] Start authorize callback request
+2019-04-10 20:46:21.080 +01:00 [DBG] User in authorize request: 818727
+2019-04-10 20:46:21.080 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 20:46:21.080 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:46:21.080 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 20:46:21.080 +01:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"CityInfo.Web","ClientName":"CityInfo Website","RedirectUri":"http://localhost:5000/signin-oidc","AllowedRedirectUris":["http://localhost:5000/signin-oidc"],"SubjectId":"818727","ResponseType":"id_token","ResponseMode":"form_post","GrantType":"implicit","RequestedScopes":"openid profile email office","State":"CfDJ8C9wP0Bhfw1IrV2eneJpw7p8s_xGScr1g1Li8rHc4cIT2i6OqFYZh6vj-dJUWpzTItbPkMtWZI6dVDxMEif2UI822ykZXt1ALA8z4TKJKMOkEXGEQT-t0RFdP-JtCjuWV0SqR8GBaljsQNXarkf_WWlFt3qto02VKZ43ds31Tz2Br8wILXEo65P75-LuON7y68Ol9-YUBjbeQQwChLuz8_MKKdKODGNNCn2DlKzn9JFBQtjN5GmCorHUMpmILTaQKXaXEPjj4YU55KEjKYgrvghcQoSfTqAxPGeEdjKzSoLP83vlA2tIOm323AgiLy0Feg","UiLocales":null,"Nonce":"636905223762462644.NWM5ZDU1ZTEtM2MyOS00ODAxLTgzYTItMzMyYzgyOWZkYjY3Zjg2MzdiYTktODc5MS00ZmRiLTljYjQtZWI4NTNjYWEyMTVm","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"2ade27924fbcd0256d34c82485eae3a5","Raw":{"client_id":"CityInfo.Web","redirect_uri":"http://localhost:5000/signin-oidc","response_type":"id_token","scope":"openid profile email office","response_mode":"form_post","nonce":"636905223762462644.NWM5ZDU1ZTEtM2MyOS00ODAxLTgzYTItMzMyYzgyOWZkYjY3Zjg2MzdiYTktODc5MS00ZmRiLTljYjQtZWI4NTNjYWEyMTVm","state":"CfDJ8C9wP0Bhfw1IrV2eneJpw7p8s_xGScr1g1Li8rHc4cIT2i6OqFYZh6vj-dJUWpzTItbPkMtWZI6dVDxMEif2UI822ykZXt1ALA8z4TKJKMOkEXGEQT-t0RFdP-JtCjuWV0SqR8GBaljsQNXarkf_WWlFt3qto02VKZ43ds31Tz2Br8wILXEo65P75-LuON7y68Ol9-YUBjbeQQwChLuz8_MKKdKODGNNCn2DlKzn9JFBQtjN5GmCorHUMpmILTaQKXaXEPjj4YU55KEjKYgrvghcQoSfTqAxPGeEdjKzSoLP83vlA2tIOm323AgiLy0Feg","x-client-SKU":"ID_NETSTANDARD1_4","x-client-ver":"5.2.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-10 20:46:21.081 +01:00 [DBG] IsActive called from: AuthorizeEndpoint
+2019-04-10 20:46:21.090 +01:00 [DBG] user_consent grant with value: CityInfo.Web|818727 not found in store.
+2019-04-10 20:46:21.090 +01:00 [DBG] Found no prior consent from consent store, consent is required
+2019-04-10 20:46:21.090 +01:00 [INF] Showing consent: User has not yet consented
+2019-04-10 20:46:21.103 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 20:46:21.103 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:46:21.103 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 20:46:21.103 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:46:22.450 +01:00 [DBG] CORS request made for path: /consent from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-04-10 20:46:22.460 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 20:46:22.460 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:46:22.460 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 20:46:22.469 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:46:22.473 +01:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2019-04-10 20:46:22.473 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2019-04-10 20:46:22.473 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2019-04-10 20:46:22.473 +01:00 [DBG] Start authorize callback request
+2019-04-10 20:46:22.475 +01:00 [DBG] User in authorize request: 818727
+2019-04-10 20:46:22.475 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 20:46:22.475 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:46:22.475 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 20:46:22.475 +01:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"CityInfo.Web","ClientName":"CityInfo Website","RedirectUri":"http://localhost:5000/signin-oidc","AllowedRedirectUris":["http://localhost:5000/signin-oidc"],"SubjectId":"818727","ResponseType":"id_token","ResponseMode":"form_post","GrantType":"implicit","RequestedScopes":"openid profile email office","State":"CfDJ8C9wP0Bhfw1IrV2eneJpw7p8s_xGScr1g1Li8rHc4cIT2i6OqFYZh6vj-dJUWpzTItbPkMtWZI6dVDxMEif2UI822ykZXt1ALA8z4TKJKMOkEXGEQT-t0RFdP-JtCjuWV0SqR8GBaljsQNXarkf_WWlFt3qto02VKZ43ds31Tz2Br8wILXEo65P75-LuON7y68Ol9-YUBjbeQQwChLuz8_MKKdKODGNNCn2DlKzn9JFBQtjN5GmCorHUMpmILTaQKXaXEPjj4YU55KEjKYgrvghcQoSfTqAxPGeEdjKzSoLP83vlA2tIOm323AgiLy0Feg","UiLocales":null,"Nonce":"636905223762462644.NWM5ZDU1ZTEtM2MyOS00ODAxLTgzYTItMzMyYzgyOWZkYjY3Zjg2MzdiYTktODc5MS00ZmRiLTljYjQtZWI4NTNjYWEyMTVm","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"2ade27924fbcd0256d34c82485eae3a5","Raw":{"client_id":"CityInfo.Web","redirect_uri":"http://localhost:5000/signin-oidc","response_type":"id_token","scope":"openid profile email office","response_mode":"form_post","nonce":"636905223762462644.NWM5ZDU1ZTEtM2MyOS00ODAxLTgzYTItMzMyYzgyOWZkYjY3Zjg2MzdiYTktODc5MS00ZmRiLTljYjQtZWI4NTNjYWEyMTVm","state":"CfDJ8C9wP0Bhfw1IrV2eneJpw7p8s_xGScr1g1Li8rHc4cIT2i6OqFYZh6vj-dJUWpzTItbPkMtWZI6dVDxMEif2UI822ykZXt1ALA8z4TKJKMOkEXGEQT-t0RFdP-JtCjuWV0SqR8GBaljsQNXarkf_WWlFt3qto02VKZ43ds31Tz2Br8wILXEo65P75-LuON7y68Ol9-YUBjbeQQwChLuz8_MKKdKODGNNCn2DlKzn9JFBQtjN5GmCorHUMpmILTaQKXaXEPjj4YU55KEjKYgrvghcQoSfTqAxPGeEdjKzSoLP83vlA2tIOm323AgiLy0Feg","x-client-SKU":"ID_NETSTANDARD1_4","x-client-ver":"5.2.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-10 20:46:22.475 +01:00 [DBG] IsActive called from: AuthorizeEndpoint
+2019-04-10 20:46:22.475 +01:00 [DBG] user_consent grant with value: CityInfo.Web|818727 not found in store.
+2019-04-10 20:46:22.475 +01:00 [DBG] Found no prior consent from consent store, consent is required
+2019-04-10 20:46:22.478 +01:00 [INF] User consented to scopes: ["openid","email","profile","office"]
+2019-04-10 20:46:22.479 +01:00 [DBG] User indicated to remember consent for scopes: ["openid","profile","email","office"]
+2019-04-10 20:46:22.481 +01:00 [DBG] Client allows remembering consent, and consent given. Updating consent store for subject: 818727
+2019-04-10 20:46:22.490 +01:00 [DBG] Creating Implicit Flow response.
+2019-04-10 20:46:22.495 +01:00 [DBG] Getting claims for identity token for subject: 818727 and client: CityInfo.Web
+2019-04-10 20:46:22.498 +01:00 [DBG] Get profile called for subject 818727 from client CityInfo Website with claim types ["name","family_name","given_name","middle_name","nickname","preferred_username","profile","picture","website","gender","birthdate","zoneinfo","locale","updated_at","email","email_verified","office_number"] via ClaimsProviderIdentityToken
+2019-04-10 20:46:22.499 +01:00 [DBG] Issued claims: ["office_number","name","given_name","family_name","email","email_verified","website"]
+2019-04-10 20:46:22.540 +01:00 [INF] Authorize endpoint response
+{"SubjectId":"818727","ClientId":"CityInfo.Web","RedirectUri":"http://localhost:5000/signin-oidc","State":"CfDJ8C9wP0Bhfw1IrV2eneJpw7p8s_xGScr1g1Li8rHc4cIT2i6OqFYZh6vj-dJUWpzTItbPkMtWZI6dVDxMEif2UI822ykZXt1ALA8z4TKJKMOkEXGEQT-t0RFdP-JtCjuWV0SqR8GBaljsQNXarkf_WWlFt3qto02VKZ43ds31Tz2Br8wILXEo65P75-LuON7y68Ol9-YUBjbeQQwChLuz8_MKKdKODGNNCn2DlKzn9JFBQtjN5GmCorHUMpmILTaQKXaXEPjj4YU55KEjKYgrvghcQoSfTqAxPGeEdjKzSoLP83vlA2tIOm323AgiLy0Feg","Scope":"openid profile email office","Error":null,"ErrorDescription":null,"$type":"AuthorizeResponseLog"}
+2019-04-10 20:46:22.550 +01:00 [DBG] Augmenting SignInContext
+2019-04-10 20:46:22.551 +01:00 [INF] AuthenticationScheme: idsrv signed in.
+2019-04-10 20:46:26.494 +01:00 [DBG] Request path /connect/endsession matched to endpoint type Endsession
+2019-04-10 20:46:26.495 +01:00 [DBG] Endpoint enabled: Endsession, successfully created handler: IdentityServer4.Endpoints.EndSessionEndpoint
+2019-04-10 20:46:26.495 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionEndpoint for /connect/endsession
+2019-04-10 20:46:26.498 +01:00 [DBG] Processing signout request for 818727
+2019-04-10 20:46:26.501 +01:00 [DBG] Start end session request validation
+2019-04-10 20:46:26.506 +01:00 [DBG] Start identity token validation
+2019-04-10 20:46:26.514 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:46:26.514 +01:00 [DBG] Client found: CityInfo.Web / CityInfo Website
+2019-04-10 20:46:26.538 +01:00 [DBG] IsActive called from: IdentityTokenValidation
+2019-04-10 20:46:26.538 +01:00 [DBG] Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator
+2019-04-10 20:46:26.539 +01:00 [DBG] Token validation success
+{"ClientId":"CityInfo.Web","ClientName":"CityInfo Website","ValidateLifetime":false,"AccessTokenType":null,"ExpectedScope":null,"TokenHandle":null,"JwtId":null,"Claims":{"nbf":1554925582,"exp":1554925882,"iss":"http://localhost:5001","aud":"CityInfo.Web","nonce":"636905223762462644.NWM5ZDU1ZTEtM2MyOS00ODAxLTgzYTItMzMyYzgyOWZkYjY3Zjg2MzdiYTktODc5MS00ZmRiLTljYjQtZWI4NTNjYWEyMTVm","iat":1554925582,"sid":"2ade27924fbcd0256d34c82485eae3a5","sub":"818727","auth_time":1554925581,"idp":"local","office_number":"35","name":"Alice Smith","given_name":"Alice","family_name":"Smith","email":"AliceSmith@email.com","email_verified":true,"website":"http://alice.com","amr":"pwd"},"$type":"TokenValidationLog"}
+2019-04-10 20:46:26.541 +01:00 [INF] End session request validation failure: Invalid post logout URI
+{"ClientId":"CityInfo.Web","ClientName":"CityInfo Website","SubjectId":"818727","PostLogOutUri":null,"State":null,"Raw":{"post_logout_redirect_uri":"http://localhost:5000/signout-callback-oidc","id_token_hint":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjE2ZGM5ZGUzYWQzMDc0Nzk1ZjZhNzFmMzBkMzdhMGViIiwidHlwIjoiSldUIn0.eyJuYmYiOjE1NTQ5MjU1ODIsImV4cCI6MTU1NDkyNTg4MiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAxIiwiYXVkIjoiQ2l0eUluZm8uV2ViIiwibm9uY2UiOiI2MzY5MDUyMjM3NjI0NjI2NDQuTldNNVpEVTFaVEV0TTJNeU9TMDBPREF4TFRnellUSXRNek15WXpneU9XWmtZalkzWmpnMk16ZGlZVGt0T0RjNU1TMDBabVJpTFRsallqUXRaV0k0TlROallXRXlNVFZtIiwiaWF0IjoxNTU0OTI1NTgyLCJzaWQiOiIyYWRlMjc5MjRmYmNkMDI1NmQzNGM4MjQ4NWVhZTNhNSIsInN1YiI6IjgxODcyNyIsImF1dGhfdGltZSI6MTU1NDkyNTU4MSwiaWRwIjoibG9jYWwiLCJvZmZpY2VfbnVtYmVyIjoiMzUiLCJuYW1lIjoiQWxpY2UgU21pdGgiLCJnaXZlbl9uYW1lIjoiQWxpY2UiLCJmYW1pbHlfbmFtZSI6IlNtaXRoIiwiZW1haWwiOiJBbGljZVNtaXRoQGVtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJ3ZWJzaXRlIjoiaHR0cDovL2FsaWNlLmNvbSIsImFtciI6WyJwd2QiXX0.H9qhpMouxLy3uFEDRzAxs3kMX7pe2qPzkO6Qksyye6J0vjycE7qlQyYhgPu9KIKOprd4rPDBfPlpc4Rb6UiIX8Me2UkjVw6yAaYQ9l6P9G1uYzlL3SnwNPTS7mbDrqDOJvef_XHFS34xCIkCQECpPC0xN7iQEekPXeHSwQhoXzKnO5-AbeRm9PIHOSTN5TJ7P3IpaaYtge9GXJeJqGi-pnhPWk9mYsJbLWUkbnxCNg9StvllLOG6Wx1JW_weUpYLp8fiLUI_6AKOb0534P4GfQVIVJFbNdvj-aH60L-WFLcMIpKMFOc4pcuvcmNUkqDqzNsS_EJpXnAa_NUuKGRI_w","state":"CfDJ8C9wP0Bhfw1IrV2eneJpw7ocEzluxIMdK1HvAQesfy_Oe0PECjERiPUV0IaJkxh513sdR5DGaZsayVc8oyLkMDt_9qtTdWPWR6hG9BAOoAa_Lmrze4h3WAXAnVK9KyF-n6FLrn0KIG9fyJLDJVzPCrM","x-client-SKU":"ID_NETSTANDARD1_4","x-client-ver":"5.2.0.0"},"$type":"EndSessionRequestValidationLog"}
+2019-04-10 20:46:26.541 +01:00 [ERR] Error processing end session request Invalid request
+2019-04-10 20:46:28.333 +01:00 [DBG] CORS request made for path: /Account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-04-10 20:46:28.345 +01:00 [INF] AuthenticationScheme: idsrv signed out.
+2019-04-10 20:46:28.375 +01:00 [DBG] Request path /connect/endsession/callback matched to endpoint type Endsession
+2019-04-10 20:46:28.377 +01:00 [DBG] Endpoint enabled: Endsession, successfully created handler: IdentityServer4.Endpoints.EndSessionCallbackEndpoint
+2019-04-10 20:46:28.377 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionCallbackEndpoint for /connect/endsession/callback
+2019-04-10 20:46:28.381 +01:00 [DBG] Processing signout callback request
+2019-04-10 20:46:28.387 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:46:28.387 +01:00 [DBG] No client front-channel logout URLs
+2019-04-10 20:46:28.387 +01:00 [DBG] No client back-channel logout URLs
+2019-04-10 20:46:28.387 +01:00 [INF] Successful signout callback.
+2019-04-10 20:46:28.387 +01:00 [DBG] No client front-channel iframe urls
+2019-04-10 20:46:28.387 +01:00 [DBG] No client back-channel iframe urls
+2019-04-10 20:48:58.138 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-10 20:48:58.165 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-04-10 20:48:58.168 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-04-10 20:48:58.168 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-04-10 20:48:58.168 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-04-10 20:48:58.168 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-04-10 20:48:58.168 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-04-10 20:48:58.402 +01:00 [DBG] Login Url: /Account/Login
+2019-04-10 20:48:58.404 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-04-10 20:48:58.404 +01:00 [DBG] Logout Url: /Account/Logout
+2019-04-10 20:48:58.404 +01:00 [DBG] ConsentUrl Url: /consent
+2019-04-10 20:48:58.404 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-04-10 20:48:58.404 +01:00 [DBG] Error Url: /home/error
+2019-04-10 20:48:58.404 +01:00 [DBG] Error Id Parameter: errorId
+2019-04-10 20:49:03.997 +01:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-04-10 20:49:03.999 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-04-10 20:49:03.999 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-04-10 20:49:04.002 +01:00 [DBG] Start discovery request
+2019-04-10 20:49:04.094 +01:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-04-10 20:49:04.094 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-04-10 20:49:04.094 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-04-10 20:49:04.097 +01:00 [DBG] Start key discovery request
+2019-04-10 20:49:04.151 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2019-04-10 20:49:04.153 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2019-04-10 20:49:04.153 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2019-04-10 20:49:04.155 +01:00 [DBG] Start authorize request
+2019-04-10 20:49:04.160 +01:00 [DBG] No user present in authorize request
+2019-04-10 20:49:04.163 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 20:49:04.175 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:49:04.195 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 20:49:04.205 +01:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"CityInfo.Web","ClientName":"CityInfo Website","RedirectUri":"http://localhost:5000/signin-oidc","AllowedRedirectUris":["http://localhost:5000/signin-oidc"],"SubjectId":"anonymous","ResponseType":"id_token","ResponseMode":"form_post","GrantType":"implicit","RequestedScopes":"openid profile email office","State":"CfDJ8C9wP0Bhfw1IrV2eneJpw7qzkiWEOHYyDV4_D6SHBTpn3tIDzwAxvMlpEIzXL797AX7vthQ_Mr60jtSD0XCy-pgCH8o7-Iugo7A70zocRL2n6w1FqnNzwMBL5mFp_rQQo0iynBQ8scjMQGR_62mSpFGBa9_XCByxyCe-uafDxv8TMGuKNKj5ls-QZDX9qjK-DedEduUwnzr_7kwbQuz4rT5huM-SH4mzvPheQMFLqNJ9a-JT3I1eZPENhy2AqFsr0anm187j_DEncNXdyVWE0FRRGj2ZkuBXuWVWW0LpaS4-7PdQFcPrdb9AgR2Ps2VPxA","UiLocales":null,"Nonce":"636905225441337860.OGY5MzU3NjItNzg4Yy00MDczLWJiMTAtMzYzYTQwYjk5ZjhhNjRiN2QyN2ItZTllYy00NzlkLTkxYjgtMmYzZWFlZDYzZmQ3","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"CityInfo.Web","redirect_uri":"http://localhost:5000/signin-oidc","response_type":"id_token","scope":"openid profile email office","response_mode":"form_post","nonce":"636905225441337860.OGY5MzU3NjItNzg4Yy00MDczLWJiMTAtMzYzYTQwYjk5ZjhhNjRiN2QyN2ItZTllYy00NzlkLTkxYjgtMmYzZWFlZDYzZmQ3","state":"CfDJ8C9wP0Bhfw1IrV2eneJpw7qzkiWEOHYyDV4_D6SHBTpn3tIDzwAxvMlpEIzXL797AX7vthQ_Mr60jtSD0XCy-pgCH8o7-Iugo7A70zocRL2n6w1FqnNzwMBL5mFp_rQQo0iynBQ8scjMQGR_62mSpFGBa9_XCByxyCe-uafDxv8TMGuKNKj5ls-QZDX9qjK-DedEduUwnzr_7kwbQuz4rT5huM-SH4mzvPheQMFLqNJ9a-JT3I1eZPENhy2AqFsr0anm187j_DEncNXdyVWE0FRRGj2ZkuBXuWVWW0LpaS4-7PdQFcPrdb9AgR2Ps2VPxA","x-client-SKU":"ID_NETSTANDARD1_4","x-client-ver":"5.2.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-10 20:49:04.220 +01:00 [INF] Showing login: User is not authenticated
+2019-04-10 20:49:04.256 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 20:49:04.256 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:49:04.256 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 20:49:04.258 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:49:08.362 +01:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-04-10 20:49:08.394 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 20:49:08.394 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:49:08.394 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 20:49:08.406 +01:00 [DBG] Augmenting SignInContext
+2019-04-10 20:49:08.408 +01:00 [DBG] Adding idp claim with value: local
+2019-04-10 20:49:08.408 +01:00 [DBG] Adding amr claim with value: pwd
+2019-04-10 20:49:08.415 +01:00 [INF] AuthenticationScheme: idsrv signed in.
+2019-04-10 20:49:08.416 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:49:08.420 +01:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2019-04-10 20:49:08.420 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2019-04-10 20:49:08.420 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2019-04-10 20:49:08.424 +01:00 [DBG] Start authorize callback request
+2019-04-10 20:49:08.426 +01:00 [DBG] User in authorize request: 818727
+2019-04-10 20:49:08.426 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 20:49:08.426 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:49:08.427 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 20:49:08.427 +01:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"CityInfo.Web","ClientName":"CityInfo Website","RedirectUri":"http://localhost:5000/signin-oidc","AllowedRedirectUris":["http://localhost:5000/signin-oidc"],"SubjectId":"818727","ResponseType":"id_token","ResponseMode":"form_post","GrantType":"implicit","RequestedScopes":"openid profile email office","State":"CfDJ8C9wP0Bhfw1IrV2eneJpw7qzkiWEOHYyDV4_D6SHBTpn3tIDzwAxvMlpEIzXL797AX7vthQ_Mr60jtSD0XCy-pgCH8o7-Iugo7A70zocRL2n6w1FqnNzwMBL5mFp_rQQo0iynBQ8scjMQGR_62mSpFGBa9_XCByxyCe-uafDxv8TMGuKNKj5ls-QZDX9qjK-DedEduUwnzr_7kwbQuz4rT5huM-SH4mzvPheQMFLqNJ9a-JT3I1eZPENhy2AqFsr0anm187j_DEncNXdyVWE0FRRGj2ZkuBXuWVWW0LpaS4-7PdQFcPrdb9AgR2Ps2VPxA","UiLocales":null,"Nonce":"636905225441337860.OGY5MzU3NjItNzg4Yy00MDczLWJiMTAtMzYzYTQwYjk5ZjhhNjRiN2QyN2ItZTllYy00NzlkLTkxYjgtMmYzZWFlZDYzZmQ3","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"0647bcc57975b204e81a440b4960fd0f","Raw":{"client_id":"CityInfo.Web","redirect_uri":"http://localhost:5000/signin-oidc","response_type":"id_token","scope":"openid profile email office","response_mode":"form_post","nonce":"636905225441337860.OGY5MzU3NjItNzg4Yy00MDczLWJiMTAtMzYzYTQwYjk5ZjhhNjRiN2QyN2ItZTllYy00NzlkLTkxYjgtMmYzZWFlZDYzZmQ3","state":"CfDJ8C9wP0Bhfw1IrV2eneJpw7qzkiWEOHYyDV4_D6SHBTpn3tIDzwAxvMlpEIzXL797AX7vthQ_Mr60jtSD0XCy-pgCH8o7-Iugo7A70zocRL2n6w1FqnNzwMBL5mFp_rQQo0iynBQ8scjMQGR_62mSpFGBa9_XCByxyCe-uafDxv8TMGuKNKj5ls-QZDX9qjK-DedEduUwnzr_7kwbQuz4rT5huM-SH4mzvPheQMFLqNJ9a-JT3I1eZPENhy2AqFsr0anm187j_DEncNXdyVWE0FRRGj2ZkuBXuWVWW0LpaS4-7PdQFcPrdb9AgR2Ps2VPxA","x-client-SKU":"ID_NETSTANDARD1_4","x-client-ver":"5.2.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-10 20:49:08.427 +01:00 [DBG] IsActive called from: AuthorizeEndpoint
+2019-04-10 20:49:08.436 +01:00 [DBG] user_consent grant with value: CityInfo.Web|818727 not found in store.
+2019-04-10 20:49:08.436 +01:00 [DBG] Found no prior consent from consent store, consent is required
+2019-04-10 20:49:08.436 +01:00 [INF] Showing consent: User has not yet consented
+2019-04-10 20:49:08.449 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 20:49:08.449 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:49:08.449 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 20:49:08.449 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:49:10.020 +01:00 [DBG] CORS request made for path: /consent from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-04-10 20:49:10.031 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 20:49:10.031 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:49:10.031 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 20:49:10.040 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:49:10.043 +01:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2019-04-10 20:49:10.043 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2019-04-10 20:49:10.043 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2019-04-10 20:49:10.043 +01:00 [DBG] Start authorize callback request
+2019-04-10 20:49:10.045 +01:00 [DBG] User in authorize request: 818727
+2019-04-10 20:49:10.045 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 20:49:10.045 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:49:10.045 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 20:49:10.045 +01:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"CityInfo.Web","ClientName":"CityInfo Website","RedirectUri":"http://localhost:5000/signin-oidc","AllowedRedirectUris":["http://localhost:5000/signin-oidc"],"SubjectId":"818727","ResponseType":"id_token","ResponseMode":"form_post","GrantType":"implicit","RequestedScopes":"openid profile email office","State":"CfDJ8C9wP0Bhfw1IrV2eneJpw7qzkiWEOHYyDV4_D6SHBTpn3tIDzwAxvMlpEIzXL797AX7vthQ_Mr60jtSD0XCy-pgCH8o7-Iugo7A70zocRL2n6w1FqnNzwMBL5mFp_rQQo0iynBQ8scjMQGR_62mSpFGBa9_XCByxyCe-uafDxv8TMGuKNKj5ls-QZDX9qjK-DedEduUwnzr_7kwbQuz4rT5huM-SH4mzvPheQMFLqNJ9a-JT3I1eZPENhy2AqFsr0anm187j_DEncNXdyVWE0FRRGj2ZkuBXuWVWW0LpaS4-7PdQFcPrdb9AgR2Ps2VPxA","UiLocales":null,"Nonce":"636905225441337860.OGY5MzU3NjItNzg4Yy00MDczLWJiMTAtMzYzYTQwYjk5ZjhhNjRiN2QyN2ItZTllYy00NzlkLTkxYjgtMmYzZWFlZDYzZmQ3","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"0647bcc57975b204e81a440b4960fd0f","Raw":{"client_id":"CityInfo.Web","redirect_uri":"http://localhost:5000/signin-oidc","response_type":"id_token","scope":"openid profile email office","response_mode":"form_post","nonce":"636905225441337860.OGY5MzU3NjItNzg4Yy00MDczLWJiMTAtMzYzYTQwYjk5ZjhhNjRiN2QyN2ItZTllYy00NzlkLTkxYjgtMmYzZWFlZDYzZmQ3","state":"CfDJ8C9wP0Bhfw1IrV2eneJpw7qzkiWEOHYyDV4_D6SHBTpn3tIDzwAxvMlpEIzXL797AX7vthQ_Mr60jtSD0XCy-pgCH8o7-Iugo7A70zocRL2n6w1FqnNzwMBL5mFp_rQQo0iynBQ8scjMQGR_62mSpFGBa9_XCByxyCe-uafDxv8TMGuKNKj5ls-QZDX9qjK-DedEduUwnzr_7kwbQuz4rT5huM-SH4mzvPheQMFLqNJ9a-JT3I1eZPENhy2AqFsr0anm187j_DEncNXdyVWE0FRRGj2ZkuBXuWVWW0LpaS4-7PdQFcPrdb9AgR2Ps2VPxA","x-client-SKU":"ID_NETSTANDARD1_4","x-client-ver":"5.2.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-10 20:49:10.045 +01:00 [DBG] IsActive called from: AuthorizeEndpoint
+2019-04-10 20:49:10.045 +01:00 [DBG] user_consent grant with value: CityInfo.Web|818727 not found in store.
+2019-04-10 20:49:10.046 +01:00 [DBG] Found no prior consent from consent store, consent is required
+2019-04-10 20:49:10.048 +01:00 [INF] User consented to scopes: ["openid","email","profile","office"]
+2019-04-10 20:49:10.049 +01:00 [DBG] User indicated to remember consent for scopes: ["openid","profile","email","office"]
+2019-04-10 20:49:10.051 +01:00 [DBG] Client allows remembering consent, and consent given. Updating consent store for subject: 818727
+2019-04-10 20:49:10.060 +01:00 [DBG] Creating Implicit Flow response.
+2019-04-10 20:49:10.065 +01:00 [DBG] Getting claims for identity token for subject: 818727 and client: CityInfo.Web
+2019-04-10 20:49:10.068 +01:00 [DBG] Get profile called for subject 818727 from client CityInfo Website with claim types ["name","family_name","given_name","middle_name","nickname","preferred_username","profile","picture","website","gender","birthdate","zoneinfo","locale","updated_at","email","email_verified","office_number"] via ClaimsProviderIdentityToken
+2019-04-10 20:49:10.069 +01:00 [DBG] Issued claims: ["office_number","name","given_name","family_name","email","email_verified","website"]
+2019-04-10 20:49:10.110 +01:00 [INF] Authorize endpoint response
+{"SubjectId":"818727","ClientId":"CityInfo.Web","RedirectUri":"http://localhost:5000/signin-oidc","State":"CfDJ8C9wP0Bhfw1IrV2eneJpw7qzkiWEOHYyDV4_D6SHBTpn3tIDzwAxvMlpEIzXL797AX7vthQ_Mr60jtSD0XCy-pgCH8o7-Iugo7A70zocRL2n6w1FqnNzwMBL5mFp_rQQo0iynBQ8scjMQGR_62mSpFGBa9_XCByxyCe-uafDxv8TMGuKNKj5ls-QZDX9qjK-DedEduUwnzr_7kwbQuz4rT5huM-SH4mzvPheQMFLqNJ9a-JT3I1eZPENhy2AqFsr0anm187j_DEncNXdyVWE0FRRGj2ZkuBXuWVWW0LpaS4-7PdQFcPrdb9AgR2Ps2VPxA","Scope":"openid profile email office","Error":null,"ErrorDescription":null,"$type":"AuthorizeResponseLog"}
+2019-04-10 20:49:10.121 +01:00 [DBG] Augmenting SignInContext
+2019-04-10 20:49:10.122 +01:00 [INF] AuthenticationScheme: idsrv signed in.
+2019-04-10 20:49:15.201 +01:00 [DBG] Request path /connect/endsession matched to endpoint type Endsession
+2019-04-10 20:49:15.202 +01:00 [DBG] Endpoint enabled: Endsession, successfully created handler: IdentityServer4.Endpoints.EndSessionEndpoint
+2019-04-10 20:49:15.202 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionEndpoint for /connect/endsession
+2019-04-10 20:49:15.205 +01:00 [DBG] Processing signout request for 818727
+2019-04-10 20:49:15.209 +01:00 [DBG] Start end session request validation
+2019-04-10 20:49:15.213 +01:00 [DBG] Start identity token validation
+2019-04-10 20:49:15.221 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:49:15.221 +01:00 [DBG] Client found: CityInfo.Web / CityInfo Website
+2019-04-10 20:49:15.247 +01:00 [DBG] IsActive called from: IdentityTokenValidation
+2019-04-10 20:49:15.247 +01:00 [DBG] Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator
+2019-04-10 20:49:15.248 +01:00 [DBG] Token validation success
+{"ClientId":"CityInfo.Web","ClientName":"CityInfo Website","ValidateLifetime":false,"AccessTokenType":null,"ExpectedScope":null,"TokenHandle":null,"JwtId":null,"Claims":{"nbf":1554925750,"exp":1554926050,"iss":"http://localhost:5001","aud":"CityInfo.Web","nonce":"636905225441337860.OGY5MzU3NjItNzg4Yy00MDczLWJiMTAtMzYzYTQwYjk5ZjhhNjRiN2QyN2ItZTllYy00NzlkLTkxYjgtMmYzZWFlZDYzZmQ3","iat":1554925750,"sid":"0647bcc57975b204e81a440b4960fd0f","sub":"818727","auth_time":1554925748,"idp":"local","office_number":"35","name":"Alice Smith","given_name":"Alice","family_name":"Smith","email":"AliceSmith@email.com","email_verified":true,"website":"http://alice.com","amr":"pwd"},"$type":"TokenValidationLog"}
+2019-04-10 20:49:15.250 +01:00 [INF] End session request validation failure: Invalid post logout URI
+{"ClientId":"CityInfo.Web","ClientName":"CityInfo Website","SubjectId":"818727","PostLogOutUri":null,"State":null,"Raw":{"post_logout_redirect_uri":"http://localhost:5000/signout-callback-oidc","id_token_hint":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjE2ZGM5ZGUzYWQzMDc0Nzk1ZjZhNzFmMzBkMzdhMGViIiwidHlwIjoiSldUIn0.eyJuYmYiOjE1NTQ5MjU3NTAsImV4cCI6MTU1NDkyNjA1MCwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAxIiwiYXVkIjoiQ2l0eUluZm8uV2ViIiwibm9uY2UiOiI2MzY5MDUyMjU0NDEzMzc4NjAuT0dZNU16VTNOakl0TnpnNFl5MDBNRGN6TFdKaU1UQXRNell6WVRRd1lqazVaamhoTmpSaU4yUXlOMkl0WlRsbFl5MDBOemxrTFRreFlqZ3RNbVl6WldGbFpEWXpabVEzIiwiaWF0IjoxNTU0OTI1NzUwLCJzaWQiOiIwNjQ3YmNjNTc5NzViMjA0ZTgxYTQ0MGI0OTYwZmQwZiIsInN1YiI6IjgxODcyNyIsImF1dGhfdGltZSI6MTU1NDkyNTc0OCwiaWRwIjoibG9jYWwiLCJvZmZpY2VfbnVtYmVyIjoiMzUiLCJuYW1lIjoiQWxpY2UgU21pdGgiLCJnaXZlbl9uYW1lIjoiQWxpY2UiLCJmYW1pbHlfbmFtZSI6IlNtaXRoIiwiZW1haWwiOiJBbGljZVNtaXRoQGVtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJ3ZWJzaXRlIjoiaHR0cDovL2FsaWNlLmNvbSIsImFtciI6WyJwd2QiXX0.jVToB_HsyDGGyDMEl_s0H-vsdswsY5WB5dfDegzLQgiplXNbA5VQKS9DzaBp2jTpR2JAq3dVk0xQ3_iLRhsKLW-yoZ1iu2svgzHHDSPeLOMxMO5VHatCdJWx5l8WIpm2MY5-K8-VSK0VR_TVX-_bAlVcrsN6cHLQPbwSRK4H0-46XMaNJzGZHSZzZJ8fYU8vzG2-SkG8t7ZA16QLqYoAtDkd6mD9UBpz_9Jx9HkT0x8hVFQq5c-RRWZ8vvGaP7kthmdUxrwktYcc39gRgSuZlxIltJXZb-7sKS5XmWAXuc5tegeNZGoCRtXIDJ72XX2MToG9mGe71kLpW_94jYD75A","state":"CfDJ8C9wP0Bhfw1IrV2eneJpw7o3bMzV2ax9r8GjK_wghwpTWzgt8O4-MBIJoiCGEPi4HHC6r2QeCSf3SjZsuz7Hx7f_BZJms5bB_qd3jE8y1mwALVd2KAAgKCBBNnzLGqWjMWdXyO5NKjpPrGtRxF4zZ5E","x-client-SKU":"ID_NETSTANDARD1_4","x-client-ver":"5.2.0.0"},"$type":"EndSessionRequestValidationLog"}
+2019-04-10 20:49:15.250 +01:00 [ERR] Error processing end session request Invalid request
+2019-04-10 20:49:16.811 +01:00 [DBG] CORS request made for path: /Account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-04-10 20:49:16.822 +01:00 [INF] AuthenticationScheme: idsrv signed out.
+2019-04-10 20:49:16.843 +01:00 [DBG] Request path /connect/endsession/callback matched to endpoint type Endsession
+2019-04-10 20:49:16.846 +01:00 [DBG] Endpoint enabled: Endsession, successfully created handler: IdentityServer4.Endpoints.EndSessionCallbackEndpoint
+2019-04-10 20:49:16.846 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionCallbackEndpoint for /connect/endsession/callback
+2019-04-10 20:49:16.849 +01:00 [DBG] Processing signout callback request
+2019-04-10 20:49:16.855 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:49:16.855 +01:00 [DBG] No client front-channel logout URLs
+2019-04-10 20:49:16.855 +01:00 [DBG] No client back-channel logout URLs
+2019-04-10 20:49:16.855 +01:00 [INF] Successful signout callback.
+2019-04-10 20:49:16.855 +01:00 [DBG] No client front-channel iframe urls
+2019-04-10 20:49:16.856 +01:00 [DBG] No client back-channel iframe urls
+2019-04-10 20:49:53.938 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-10 20:49:53.964 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-04-10 20:49:53.966 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-04-10 20:49:53.966 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-04-10 20:49:53.966 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-04-10 20:49:53.966 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-04-10 20:49:53.966 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-04-10 20:49:54.207 +01:00 [DBG] Login Url: /Account/Login
+2019-04-10 20:49:54.210 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-04-10 20:49:54.210 +01:00 [DBG] Logout Url: /Account/Logout
+2019-04-10 20:49:54.210 +01:00 [DBG] ConsentUrl Url: /consent
+2019-04-10 20:49:54.210 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-04-10 20:49:54.210 +01:00 [DBG] Error Url: /home/error
+2019-04-10 20:49:54.211 +01:00 [DBG] Error Id Parameter: errorId
+2019-04-10 20:49:57.428 +01:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-04-10 20:49:57.431 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-04-10 20:49:57.431 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-04-10 20:49:57.433 +01:00 [DBG] Start discovery request
+2019-04-10 20:49:57.522 +01:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-04-10 20:49:57.522 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-04-10 20:49:57.522 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-04-10 20:49:57.525 +01:00 [DBG] Start key discovery request
+2019-04-10 20:49:57.581 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2019-04-10 20:49:57.583 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2019-04-10 20:49:57.583 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2019-04-10 20:49:57.585 +01:00 [DBG] Start authorize request
+2019-04-10 20:49:57.590 +01:00 [DBG] No user present in authorize request
+2019-04-10 20:49:57.593 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 20:49:57.604 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:49:57.626 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 20:49:57.638 +01:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"CityInfo.Web","ClientName":"CityInfo Website","RedirectUri":"http://localhost:5000/signin-oidc","AllowedRedirectUris":["http://localhost:5000/signin-oidc"],"SubjectId":"anonymous","ResponseType":"id_token","ResponseMode":"form_post","GrantType":"implicit","RequestedScopes":"openid profile email office","State":"CfDJ8C9wP0Bhfw1IrV2eneJpw7q0kJt7Ei1ARrG7zhaZhj6hXCmnpSshTqhKIAyWOVi5lZI452U6SlY8rbCLpzoBp-OdHIzeX8lGHkalQMekqzVbcdILdxHNOb-2g-PvPqlw4fTiu7xCXBncybHAk91hDSFK6EEFFPv437eukjmmbWFzZ0iK19reZ6xMgBn1MbLIfZBCZjsHDWnmq680xQGQgNounIdmpgLE93K0NYqszIPlP0iDO-5s_sBEx2fFqJX7ZstJutUJO-kBJeSY1h5p0qRHNe2NrwJgTB897fAR1S7PbQHPYB7uGjKdLVhwbONcXw","UiLocales":null,"Nonce":"636905225975640968.MTcyOTE2NTQtMzk4OC00OTJkLWI5YzYtYTdkMjVmMTY2NmE1YjNjZjdjZmUtZWZjOC00YTE0LWEzNjQtZjlkNjVjYzYwNDNi","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"CityInfo.Web","redirect_uri":"http://localhost:5000/signin-oidc","response_type":"id_token","scope":"openid profile email office","response_mode":"form_post","nonce":"636905225975640968.MTcyOTE2NTQtMzk4OC00OTJkLWI5YzYtYTdkMjVmMTY2NmE1YjNjZjdjZmUtZWZjOC00YTE0LWEzNjQtZjlkNjVjYzYwNDNi","state":"CfDJ8C9wP0Bhfw1IrV2eneJpw7q0kJt7Ei1ARrG7zhaZhj6hXCmnpSshTqhKIAyWOVi5lZI452U6SlY8rbCLpzoBp-OdHIzeX8lGHkalQMekqzVbcdILdxHNOb-2g-PvPqlw4fTiu7xCXBncybHAk91hDSFK6EEFFPv437eukjmmbWFzZ0iK19reZ6xMgBn1MbLIfZBCZjsHDWnmq680xQGQgNounIdmpgLE93K0NYqszIPlP0iDO-5s_sBEx2fFqJX7ZstJutUJO-kBJeSY1h5p0qRHNe2NrwJgTB897fAR1S7PbQHPYB7uGjKdLVhwbONcXw","x-client-SKU":"ID_NETSTANDARD1_4","x-client-ver":"5.2.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-10 20:49:57.652 +01:00 [INF] Showing login: User is not authenticated
+2019-04-10 20:49:57.686 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 20:49:57.686 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:49:57.686 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 20:49:57.688 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:50:03.793 +01:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-04-10 20:50:03.821 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 20:50:03.821 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:50:03.821 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 20:50:03.832 +01:00 [DBG] Augmenting SignInContext
+2019-04-10 20:50:03.834 +01:00 [DBG] Adding idp claim with value: local
+2019-04-10 20:50:03.834 +01:00 [DBG] Adding amr claim with value: pwd
+2019-04-10 20:50:03.841 +01:00 [INF] AuthenticationScheme: idsrv signed in.
+2019-04-10 20:50:03.842 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:50:03.846 +01:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2019-04-10 20:50:03.846 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2019-04-10 20:50:03.846 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2019-04-10 20:50:03.850 +01:00 [DBG] Start authorize callback request
+2019-04-10 20:50:03.852 +01:00 [DBG] User in authorize request: 818727
+2019-04-10 20:50:03.852 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 20:50:03.852 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:50:03.852 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 20:50:03.852 +01:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"CityInfo.Web","ClientName":"CityInfo Website","RedirectUri":"http://localhost:5000/signin-oidc","AllowedRedirectUris":["http://localhost:5000/signin-oidc"],"SubjectId":"818727","ResponseType":"id_token","ResponseMode":"form_post","GrantType":"implicit","RequestedScopes":"openid profile email office","State":"CfDJ8C9wP0Bhfw1IrV2eneJpw7q0kJt7Ei1ARrG7zhaZhj6hXCmnpSshTqhKIAyWOVi5lZI452U6SlY8rbCLpzoBp-OdHIzeX8lGHkalQMekqzVbcdILdxHNOb-2g-PvPqlw4fTiu7xCXBncybHAk91hDSFK6EEFFPv437eukjmmbWFzZ0iK19reZ6xMgBn1MbLIfZBCZjsHDWnmq680xQGQgNounIdmpgLE93K0NYqszIPlP0iDO-5s_sBEx2fFqJX7ZstJutUJO-kBJeSY1h5p0qRHNe2NrwJgTB897fAR1S7PbQHPYB7uGjKdLVhwbONcXw","UiLocales":null,"Nonce":"636905225975640968.MTcyOTE2NTQtMzk4OC00OTJkLWI5YzYtYTdkMjVmMTY2NmE1YjNjZjdjZmUtZWZjOC00YTE0LWEzNjQtZjlkNjVjYzYwNDNi","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"b7f508bb93cbb7088564297d502b41e9","Raw":{"client_id":"CityInfo.Web","redirect_uri":"http://localhost:5000/signin-oidc","response_type":"id_token","scope":"openid profile email office","response_mode":"form_post","nonce":"636905225975640968.MTcyOTE2NTQtMzk4OC00OTJkLWI5YzYtYTdkMjVmMTY2NmE1YjNjZjdjZmUtZWZjOC00YTE0LWEzNjQtZjlkNjVjYzYwNDNi","state":"CfDJ8C9wP0Bhfw1IrV2eneJpw7q0kJt7Ei1ARrG7zhaZhj6hXCmnpSshTqhKIAyWOVi5lZI452U6SlY8rbCLpzoBp-OdHIzeX8lGHkalQMekqzVbcdILdxHNOb-2g-PvPqlw4fTiu7xCXBncybHAk91hDSFK6EEFFPv437eukjmmbWFzZ0iK19reZ6xMgBn1MbLIfZBCZjsHDWnmq680xQGQgNounIdmpgLE93K0NYqszIPlP0iDO-5s_sBEx2fFqJX7ZstJutUJO-kBJeSY1h5p0qRHNe2NrwJgTB897fAR1S7PbQHPYB7uGjKdLVhwbONcXw","x-client-SKU":"ID_NETSTANDARD1_4","x-client-ver":"5.2.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-10 20:50:03.853 +01:00 [DBG] IsActive called from: AuthorizeEndpoint
+2019-04-10 20:50:03.861 +01:00 [DBG] user_consent grant with value: CityInfo.Web|818727 not found in store.
+2019-04-10 20:50:03.862 +01:00 [DBG] Found no prior consent from consent store, consent is required
+2019-04-10 20:50:03.862 +01:00 [INF] Showing consent: User has not yet consented
+2019-04-10 20:50:03.876 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 20:50:03.876 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:50:03.876 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 20:50:03.876 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:50:08.562 +01:00 [DBG] CORS request made for path: /consent from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-04-10 20:50:08.571 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 20:50:08.571 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:50:08.571 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 20:50:08.579 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:50:08.582 +01:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2019-04-10 20:50:08.583 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2019-04-10 20:50:08.583 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2019-04-10 20:50:08.583 +01:00 [DBG] Start authorize callback request
+2019-04-10 20:50:08.585 +01:00 [DBG] User in authorize request: 818727
+2019-04-10 20:50:08.585 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 20:50:08.585 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:50:08.585 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 20:50:08.585 +01:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"CityInfo.Web","ClientName":"CityInfo Website","RedirectUri":"http://localhost:5000/signin-oidc","AllowedRedirectUris":["http://localhost:5000/signin-oidc"],"SubjectId":"818727","ResponseType":"id_token","ResponseMode":"form_post","GrantType":"implicit","RequestedScopes":"openid profile email office","State":"CfDJ8C9wP0Bhfw1IrV2eneJpw7q0kJt7Ei1ARrG7zhaZhj6hXCmnpSshTqhKIAyWOVi5lZI452U6SlY8rbCLpzoBp-OdHIzeX8lGHkalQMekqzVbcdILdxHNOb-2g-PvPqlw4fTiu7xCXBncybHAk91hDSFK6EEFFPv437eukjmmbWFzZ0iK19reZ6xMgBn1MbLIfZBCZjsHDWnmq680xQGQgNounIdmpgLE93K0NYqszIPlP0iDO-5s_sBEx2fFqJX7ZstJutUJO-kBJeSY1h5p0qRHNe2NrwJgTB897fAR1S7PbQHPYB7uGjKdLVhwbONcXw","UiLocales":null,"Nonce":"636905225975640968.MTcyOTE2NTQtMzk4OC00OTJkLWI5YzYtYTdkMjVmMTY2NmE1YjNjZjdjZmUtZWZjOC00YTE0LWEzNjQtZjlkNjVjYzYwNDNi","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"b7f508bb93cbb7088564297d502b41e9","Raw":{"client_id":"CityInfo.Web","redirect_uri":"http://localhost:5000/signin-oidc","response_type":"id_token","scope":"openid profile email office","response_mode":"form_post","nonce":"636905225975640968.MTcyOTE2NTQtMzk4OC00OTJkLWI5YzYtYTdkMjVmMTY2NmE1YjNjZjdjZmUtZWZjOC00YTE0LWEzNjQtZjlkNjVjYzYwNDNi","state":"CfDJ8C9wP0Bhfw1IrV2eneJpw7q0kJt7Ei1ARrG7zhaZhj6hXCmnpSshTqhKIAyWOVi5lZI452U6SlY8rbCLpzoBp-OdHIzeX8lGHkalQMekqzVbcdILdxHNOb-2g-PvPqlw4fTiu7xCXBncybHAk91hDSFK6EEFFPv437eukjmmbWFzZ0iK19reZ6xMgBn1MbLIfZBCZjsHDWnmq680xQGQgNounIdmpgLE93K0NYqszIPlP0iDO-5s_sBEx2fFqJX7ZstJutUJO-kBJeSY1h5p0qRHNe2NrwJgTB897fAR1S7PbQHPYB7uGjKdLVhwbONcXw","x-client-SKU":"ID_NETSTANDARD1_4","x-client-ver":"5.2.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-10 20:50:08.585 +01:00 [DBG] IsActive called from: AuthorizeEndpoint
+2019-04-10 20:50:08.585 +01:00 [DBG] user_consent grant with value: CityInfo.Web|818727 not found in store.
+2019-04-10 20:50:08.585 +01:00 [DBG] Found no prior consent from consent store, consent is required
+2019-04-10 20:50:08.589 +01:00 [INF] User consented to scopes: ["openid","email","profile","office"]
+2019-04-10 20:50:08.590 +01:00 [DBG] User indicated to remember consent for scopes: ["openid","profile","email","office"]
+2019-04-10 20:50:08.592 +01:00 [DBG] Client allows remembering consent, and consent given. Updating consent store for subject: 818727
+2019-04-10 20:50:08.601 +01:00 [DBG] Creating Implicit Flow response.
+2019-04-10 20:50:08.606 +01:00 [DBG] Getting claims for identity token for subject: 818727 and client: CityInfo.Web
+2019-04-10 20:50:08.609 +01:00 [DBG] Get profile called for subject 818727 from client CityInfo Website with claim types ["name","family_name","given_name","middle_name","nickname","preferred_username","profile","picture","website","gender","birthdate","zoneinfo","locale","updated_at","email","email_verified","office_number"] via ClaimsProviderIdentityToken
+2019-04-10 20:50:08.610 +01:00 [DBG] Issued claims: ["office_number","name","given_name","family_name","email","email_verified","website"]
+2019-04-10 20:50:08.649 +01:00 [INF] Authorize endpoint response
+{"SubjectId":"818727","ClientId":"CityInfo.Web","RedirectUri":"http://localhost:5000/signin-oidc","State":"CfDJ8C9wP0Bhfw1IrV2eneJpw7q0kJt7Ei1ARrG7zhaZhj6hXCmnpSshTqhKIAyWOVi5lZI452U6SlY8rbCLpzoBp-OdHIzeX8lGHkalQMekqzVbcdILdxHNOb-2g-PvPqlw4fTiu7xCXBncybHAk91hDSFK6EEFFPv437eukjmmbWFzZ0iK19reZ6xMgBn1MbLIfZBCZjsHDWnmq680xQGQgNounIdmpgLE93K0NYqszIPlP0iDO-5s_sBEx2fFqJX7ZstJutUJO-kBJeSY1h5p0qRHNe2NrwJgTB897fAR1S7PbQHPYB7uGjKdLVhwbONcXw","Scope":"openid profile email office","Error":null,"ErrorDescription":null,"$type":"AuthorizeResponseLog"}
+2019-04-10 20:50:08.660 +01:00 [DBG] Augmenting SignInContext
+2019-04-10 20:50:08.660 +01:00 [INF] AuthenticationScheme: idsrv signed in.
+2019-04-10 20:50:10.597 +01:00 [DBG] Request path /connect/endsession matched to endpoint type Endsession
+2019-04-10 20:50:10.597 +01:00 [DBG] Endpoint enabled: Endsession, successfully created handler: IdentityServer4.Endpoints.EndSessionEndpoint
+2019-04-10 20:50:10.598 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionEndpoint for /connect/endsession
+2019-04-10 20:50:10.600 +01:00 [DBG] Processing signout request for 818727
+2019-04-10 20:50:10.604 +01:00 [DBG] Start end session request validation
+2019-04-10 20:50:10.608 +01:00 [DBG] Start identity token validation
+2019-04-10 20:50:10.616 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:50:10.616 +01:00 [DBG] Client found: CityInfo.Web / CityInfo Website
+2019-04-10 20:50:10.641 +01:00 [DBG] IsActive called from: IdentityTokenValidation
+2019-04-10 20:50:10.641 +01:00 [DBG] Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator
+2019-04-10 20:50:10.642 +01:00 [DBG] Token validation success
+{"ClientId":"CityInfo.Web","ClientName":"CityInfo Website","ValidateLifetime":false,"AccessTokenType":null,"ExpectedScope":null,"TokenHandle":null,"JwtId":null,"Claims":{"nbf":1554925808,"exp":1554926108,"iss":"http://localhost:5001","aud":"CityInfo.Web","nonce":"636905225975640968.MTcyOTE2NTQtMzk4OC00OTJkLWI5YzYtYTdkMjVmMTY2NmE1YjNjZjdjZmUtZWZjOC00YTE0LWEzNjQtZjlkNjVjYzYwNDNi","iat":1554925808,"sid":"b7f508bb93cbb7088564297d502b41e9","sub":"818727","auth_time":1554925803,"idp":"local","office_number":"35","name":"Alice Smith","given_name":"Alice","family_name":"Smith","email":"AliceSmith@email.com","email_verified":true,"website":"http://alice.com","amr":"pwd"},"$type":"TokenValidationLog"}
+2019-04-10 20:50:10.644 +01:00 [INF] End session request validation success
+{"ClientId":"CityInfo.Web","ClientName":"CityInfo Website","SubjectId":"818727","PostLogOutUri":"http://localhost:5000/signout-callback-oidc","State":"CfDJ8C9wP0Bhfw1IrV2eneJpw7omWf2rZi6Zyxwk1d-I-oAABq-Q3ly8Ajd7qVnmr5GodVhxmCHYSjrW7ACUP6U0tyIxBfwc6nhrmEDRQHQw6Mi0geZBgn9XhfebN0qRUqu4Negv1orQ9EI5n42flE-gDiE","Raw":{"post_logout_redirect_uri":"http://localhost:5000/signout-callback-oidc","id_token_hint":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjE2ZGM5ZGUzYWQzMDc0Nzk1ZjZhNzFmMzBkMzdhMGViIiwidHlwIjoiSldUIn0.eyJuYmYiOjE1NTQ5MjU4MDgsImV4cCI6MTU1NDkyNjEwOCwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAxIiwiYXVkIjoiQ2l0eUluZm8uV2ViIiwibm9uY2UiOiI2MzY5MDUyMjU5NzU2NDA5NjguTVRjeU9URTJOVFF0TXprNE9DMDBPVEprTFdJNVl6WXRZVGRrTWpWbU1UWTJObUUxWWpOalpqZGpabVV0Wldaak9DMDBZVEUwTFdFek5qUXRaamxrTmpWall6WXdORE5pIiwiaWF0IjoxNTU0OTI1ODA4LCJzaWQiOiJiN2Y1MDhiYjkzY2JiNzA4ODU2NDI5N2Q1MDJiNDFlOSIsInN1YiI6IjgxODcyNyIsImF1dGhfdGltZSI6MTU1NDkyNTgwMywiaWRwIjoibG9jYWwiLCJvZmZpY2VfbnVtYmVyIjoiMzUiLCJuYW1lIjoiQWxpY2UgU21pdGgiLCJnaXZlbl9uYW1lIjoiQWxpY2UiLCJmYW1pbHlfbmFtZSI6IlNtaXRoIiwiZW1haWwiOiJBbGljZVNtaXRoQGVtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJ3ZWJzaXRlIjoiaHR0cDovL2FsaWNlLmNvbSIsImFtciI6WyJwd2QiXX0.X00vDCrylkzK0km1_ByhGB_m87mL1m0rxG1cjMrMFaUaLmQ_gzpXmdPUl0qC1h7MleU-YlrYt1GUqyUOwctDQSojj_IoGrhpza5AWYOah11xSmdxoNV1mmzam5ANenk5OUwoLzdlpAyI8eXrHYg7rUIJ2zO85vU6IfHRU0GgMritWSnnr1W8Ly3QkRsB5zHKaMylJL56mdNNh7FU17jZbiIeK8JOK3TJhUcM_hzHVMmU-Je4OKHfyE44GyPH1x6mhFlQs1TjOV6PuUid1p5bBID7sAoeoGRWbWuH18_TvCPhp1UEjVbD5Gp0Q8UxqjUoTTx7VreRc0xcBAsSdDXR2w","state":"CfDJ8C9wP0Bhfw1IrV2eneJpw7omWf2rZi6Zyxwk1d-I-oAABq-Q3ly8Ajd7qVnmr5GodVhxmCHYSjrW7ACUP6U0tyIxBfwc6nhrmEDRQHQw6Mi0geZBgn9XhfebN0qRUqu4Negv1orQ9EI5n42flE-gDiE","x-client-SKU":"ID_NETSTANDARD1_4","x-client-ver":"5.2.0.0"},"$type":"EndSessionRequestValidationLog"}
+2019-04-10 20:50:10.644 +01:00 [DBG] Success validating end session request from CityInfo.Web
+2019-04-10 20:50:10.672 +01:00 [INF] AuthenticationScheme: idsrv signed out.
+2019-04-10 20:50:10.695 +01:00 [DBG] Request path /connect/endsession/callback matched to endpoint type Endsession
+2019-04-10 20:50:10.697 +01:00 [DBG] Endpoint enabled: Endsession, successfully created handler: IdentityServer4.Endpoints.EndSessionCallbackEndpoint
+2019-04-10 20:50:10.697 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionCallbackEndpoint for /connect/endsession/callback
+2019-04-10 20:50:10.700 +01:00 [DBG] Processing signout callback request
+2019-04-10 20:50:10.709 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 20:50:10.709 +01:00 [DBG] No client front-channel logout URLs
+2019-04-10 20:50:10.709 +01:00 [DBG] No client back-channel logout URLs
+2019-04-10 20:50:10.709 +01:00 [INF] Successful signout callback.
+2019-04-10 20:50:10.709 +01:00 [DBG] No client front-channel iframe urls
+2019-04-10 20:50:10.709 +01:00 [DBG] No client back-channel iframe urls
+2019-04-10 21:01:33.909 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-10 21:01:33.943 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-04-10 21:01:33.945 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-04-10 21:01:33.945 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-04-10 21:01:33.945 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-04-10 21:01:33.945 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-04-10 21:01:33.945 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-04-10 21:01:34.224 +01:00 [DBG] Login Url: /Account/Login
+2019-04-10 21:01:34.226 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-04-10 21:01:34.226 +01:00 [DBG] Logout Url: /Account/Logout
+2019-04-10 21:01:34.226 +01:00 [DBG] ConsentUrl Url: /consent
+2019-04-10 21:01:34.226 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-04-10 21:01:34.226 +01:00 [DBG] Error Url: /home/error
+2019-04-10 21:01:34.226 +01:00 [DBG] Error Id Parameter: errorId
+2019-04-10 21:01:38.451 +01:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-04-10 21:01:38.453 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-04-10 21:01:38.453 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-04-10 21:01:38.455 +01:00 [DBG] Start discovery request
+2019-04-10 21:01:38.544 +01:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-04-10 21:01:38.544 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-04-10 21:01:38.544 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-04-10 21:01:38.547 +01:00 [DBG] Start key discovery request
+2019-04-10 21:01:38.600 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2019-04-10 21:01:38.601 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2019-04-10 21:01:38.601 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2019-04-10 21:01:38.603 +01:00 [DBG] Start authorize request
+2019-04-10 21:01:38.608 +01:00 [DBG] No user present in authorize request
+2019-04-10 21:01:38.611 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 21:01:38.622 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 21:01:38.643 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 21:01:38.653 +01:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"CityInfo.Web","ClientName":"CityInfo Website","RedirectUri":"http://localhost:5000/signin-oidc","AllowedRedirectUris":["http://localhost:5000/signin-oidc"],"SubjectId":"anonymous","ResponseType":"id_token","ResponseMode":"form_post","GrantType":"implicit","RequestedScopes":"openid profile email office","State":"CfDJ8C9wP0Bhfw1IrV2eneJpw7o_B0-7tCzfC-c5c0SvqMMU9millQ8DTyuXug-m_IEKtc4QnmBIXLRuv6jdWdCOdHG1da10nzt4fven1abtO4Z4WZT8uVa7b-fzz-RO1ql-3pvwfjukQrtcHQwVwekVK1vXcOvo1fDDBt3N7MuGQdRH3KIeRdCcDUa27QnZs5K_yYwL1a9SmBfrcldMfiiyk9JGpA0gd-ZbOE9dZYPzkNhW2MdsykTajhSJEY0aZO2XUd4CGaxkviuHykXjUV6gVICGBkLlW2Qpz9l7OsMvT1b2GZUVs57oAWsDSowzedRAMg","UiLocales":null,"Nonce":"636905232985837918.NTkwMjRlM2ItNTJiZi00MTY1LTgyNjktOGVhNzhiY2FiZTAwNTZhOTUxNWUtNmQxOS00MWE1LWI5NGUtODZkY2M2NDhjM2Y1","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"CityInfo.Web","redirect_uri":"http://localhost:5000/signin-oidc","response_type":"id_token","scope":"openid profile email office","response_mode":"form_post","nonce":"636905232985837918.NTkwMjRlM2ItNTJiZi00MTY1LTgyNjktOGVhNzhiY2FiZTAwNTZhOTUxNWUtNmQxOS00MWE1LWI5NGUtODZkY2M2NDhjM2Y1","state":"CfDJ8C9wP0Bhfw1IrV2eneJpw7o_B0-7tCzfC-c5c0SvqMMU9millQ8DTyuXug-m_IEKtc4QnmBIXLRuv6jdWdCOdHG1da10nzt4fven1abtO4Z4WZT8uVa7b-fzz-RO1ql-3pvwfjukQrtcHQwVwekVK1vXcOvo1fDDBt3N7MuGQdRH3KIeRdCcDUa27QnZs5K_yYwL1a9SmBfrcldMfiiyk9JGpA0gd-ZbOE9dZYPzkNhW2MdsykTajhSJEY0aZO2XUd4CGaxkviuHykXjUV6gVICGBkLlW2Qpz9l7OsMvT1b2GZUVs57oAWsDSowzedRAMg","x-client-SKU":"ID_NETSTANDARD1_4","x-client-ver":"5.2.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-10 21:01:38.666 +01:00 [INF] Showing login: User is not authenticated
+2019-04-10 21:01:38.700 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 21:01:38.700 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 21:01:38.700 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 21:01:38.702 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 21:01:44.043 +01:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-04-10 21:01:44.065 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 21:01:44.065 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 21:01:44.066 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 21:01:44.077 +01:00 [DBG] Augmenting SignInContext
+2019-04-10 21:01:44.079 +01:00 [DBG] Adding idp claim with value: local
+2019-04-10 21:01:44.079 +01:00 [DBG] Adding amr claim with value: pwd
+2019-04-10 21:01:44.087 +01:00 [INF] AuthenticationScheme: idsrv signed in.
+2019-04-10 21:01:44.088 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 21:01:44.091 +01:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2019-04-10 21:01:44.092 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2019-04-10 21:01:44.092 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2019-04-10 21:01:44.096 +01:00 [DBG] Start authorize callback request
+2019-04-10 21:01:44.099 +01:00 [DBG] User in authorize request: 818727
+2019-04-10 21:01:44.099 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 21:01:44.099 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 21:01:44.099 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 21:01:44.099 +01:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"CityInfo.Web","ClientName":"CityInfo Website","RedirectUri":"http://localhost:5000/signin-oidc","AllowedRedirectUris":["http://localhost:5000/signin-oidc"],"SubjectId":"818727","ResponseType":"id_token","ResponseMode":"form_post","GrantType":"implicit","RequestedScopes":"openid profile email office","State":"CfDJ8C9wP0Bhfw1IrV2eneJpw7o_B0-7tCzfC-c5c0SvqMMU9millQ8DTyuXug-m_IEKtc4QnmBIXLRuv6jdWdCOdHG1da10nzt4fven1abtO4Z4WZT8uVa7b-fzz-RO1ql-3pvwfjukQrtcHQwVwekVK1vXcOvo1fDDBt3N7MuGQdRH3KIeRdCcDUa27QnZs5K_yYwL1a9SmBfrcldMfiiyk9JGpA0gd-ZbOE9dZYPzkNhW2MdsykTajhSJEY0aZO2XUd4CGaxkviuHykXjUV6gVICGBkLlW2Qpz9l7OsMvT1b2GZUVs57oAWsDSowzedRAMg","UiLocales":null,"Nonce":"636905232985837918.NTkwMjRlM2ItNTJiZi00MTY1LTgyNjktOGVhNzhiY2FiZTAwNTZhOTUxNWUtNmQxOS00MWE1LWI5NGUtODZkY2M2NDhjM2Y1","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"f1f8ec89b546e3be3989a8780ae4ec89","Raw":{"client_id":"CityInfo.Web","redirect_uri":"http://localhost:5000/signin-oidc","response_type":"id_token","scope":"openid profile email office","response_mode":"form_post","nonce":"636905232985837918.NTkwMjRlM2ItNTJiZi00MTY1LTgyNjktOGVhNzhiY2FiZTAwNTZhOTUxNWUtNmQxOS00MWE1LWI5NGUtODZkY2M2NDhjM2Y1","state":"CfDJ8C9wP0Bhfw1IrV2eneJpw7o_B0-7tCzfC-c5c0SvqMMU9millQ8DTyuXug-m_IEKtc4QnmBIXLRuv6jdWdCOdHG1da10nzt4fven1abtO4Z4WZT8uVa7b-fzz-RO1ql-3pvwfjukQrtcHQwVwekVK1vXcOvo1fDDBt3N7MuGQdRH3KIeRdCcDUa27QnZs5K_yYwL1a9SmBfrcldMfiiyk9JGpA0gd-ZbOE9dZYPzkNhW2MdsykTajhSJEY0aZO2XUd4CGaxkviuHykXjUV6gVICGBkLlW2Qpz9l7OsMvT1b2GZUVs57oAWsDSowzedRAMg","x-client-SKU":"ID_NETSTANDARD1_4","x-client-ver":"5.2.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-10 21:01:44.100 +01:00 [DBG] IsActive called from: AuthorizeEndpoint
+2019-04-10 21:01:44.108 +01:00 [DBG] user_consent grant with value: CityInfo.Web|818727 not found in store.
+2019-04-10 21:01:44.108 +01:00 [DBG] Found no prior consent from consent store, consent is required
+2019-04-10 21:01:44.108 +01:00 [INF] Showing consent: User has not yet consented
+2019-04-10 21:01:44.121 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 21:01:44.121 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 21:01:44.121 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 21:01:44.121 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 21:01:47.667 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 21:01:47.667 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 21:01:47.667 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 21:01:47.667 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 21:01:51.488 +01:00 [DBG] CORS request made for path: /consent from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-04-10 21:01:51.496 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 21:01:51.496 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 21:01:51.497 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 21:01:51.505 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 21:01:51.508 +01:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2019-04-10 21:01:51.508 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2019-04-10 21:01:51.508 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2019-04-10 21:01:51.508 +01:00 [DBG] Start authorize callback request
+2019-04-10 21:01:51.510 +01:00 [DBG] User in authorize request: 818727
+2019-04-10 21:01:51.510 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 21:01:51.510 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 21:01:51.511 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 21:01:51.511 +01:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"CityInfo.Web","ClientName":"CityInfo Website","RedirectUri":"http://localhost:5000/signin-oidc","AllowedRedirectUris":["http://localhost:5000/signin-oidc"],"SubjectId":"818727","ResponseType":"id_token","ResponseMode":"form_post","GrantType":"implicit","RequestedScopes":"openid profile email office","State":"CfDJ8C9wP0Bhfw1IrV2eneJpw7o_B0-7tCzfC-c5c0SvqMMU9millQ8DTyuXug-m_IEKtc4QnmBIXLRuv6jdWdCOdHG1da10nzt4fven1abtO4Z4WZT8uVa7b-fzz-RO1ql-3pvwfjukQrtcHQwVwekVK1vXcOvo1fDDBt3N7MuGQdRH3KIeRdCcDUa27QnZs5K_yYwL1a9SmBfrcldMfiiyk9JGpA0gd-ZbOE9dZYPzkNhW2MdsykTajhSJEY0aZO2XUd4CGaxkviuHykXjUV6gVICGBkLlW2Qpz9l7OsMvT1b2GZUVs57oAWsDSowzedRAMg","UiLocales":null,"Nonce":"636905232985837918.NTkwMjRlM2ItNTJiZi00MTY1LTgyNjktOGVhNzhiY2FiZTAwNTZhOTUxNWUtNmQxOS00MWE1LWI5NGUtODZkY2M2NDhjM2Y1","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"f1f8ec89b546e3be3989a8780ae4ec89","Raw":{"client_id":"CityInfo.Web","redirect_uri":"http://localhost:5000/signin-oidc","response_type":"id_token","scope":"openid profile email office","response_mode":"form_post","nonce":"636905232985837918.NTkwMjRlM2ItNTJiZi00MTY1LTgyNjktOGVhNzhiY2FiZTAwNTZhOTUxNWUtNmQxOS00MWE1LWI5NGUtODZkY2M2NDhjM2Y1","state":"CfDJ8C9wP0Bhfw1IrV2eneJpw7o_B0-7tCzfC-c5c0SvqMMU9millQ8DTyuXug-m_IEKtc4QnmBIXLRuv6jdWdCOdHG1da10nzt4fven1abtO4Z4WZT8uVa7b-fzz-RO1ql-3pvwfjukQrtcHQwVwekVK1vXcOvo1fDDBt3N7MuGQdRH3KIeRdCcDUa27QnZs5K_yYwL1a9SmBfrcldMfiiyk9JGpA0gd-ZbOE9dZYPzkNhW2MdsykTajhSJEY0aZO2XUd4CGaxkviuHykXjUV6gVICGBkLlW2Qpz9l7OsMvT1b2GZUVs57oAWsDSowzedRAMg","x-client-SKU":"ID_NETSTANDARD1_4","x-client-ver":"5.2.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-10 21:01:51.511 +01:00 [DBG] IsActive called from: AuthorizeEndpoint
+2019-04-10 21:01:51.511 +01:00 [DBG] user_consent grant with value: CityInfo.Web|818727 not found in store.
+2019-04-10 21:01:51.511 +01:00 [DBG] Found no prior consent from consent store, consent is required
+2019-04-10 21:01:51.514 +01:00 [INF] User consented to scopes: ["openid","email","profile","office"]
+2019-04-10 21:01:51.514 +01:00 [DBG] User indicated to remember consent for scopes: ["openid","profile","email","office"]
+2019-04-10 21:01:51.517 +01:00 [DBG] Client allows remembering consent, and consent given. Updating consent store for subject: 818727
+2019-04-10 21:01:51.526 +01:00 [DBG] Creating Implicit Flow response.
+2019-04-10 21:01:51.531 +01:00 [DBG] Getting claims for identity token for subject: 818727 and client: CityInfo.Web
+2019-04-10 21:01:51.535 +01:00 [DBG] Get profile called for subject 818727 from client CityInfo Website with claim types ["name","family_name","given_name","middle_name","nickname","preferred_username","profile","picture","website","gender","birthdate","zoneinfo","locale","updated_at","email","email_verified","office_number"] via ClaimsProviderIdentityToken
+2019-04-10 21:01:51.536 +01:00 [DBG] Issued claims: ["office_number","name","given_name","family_name","email","email_verified","website"]
+2019-04-10 21:01:51.576 +01:00 [INF] Authorize endpoint response
+{"SubjectId":"818727","ClientId":"CityInfo.Web","RedirectUri":"http://localhost:5000/signin-oidc","State":"CfDJ8C9wP0Bhfw1IrV2eneJpw7o_B0-7tCzfC-c5c0SvqMMU9millQ8DTyuXug-m_IEKtc4QnmBIXLRuv6jdWdCOdHG1da10nzt4fven1abtO4Z4WZT8uVa7b-fzz-RO1ql-3pvwfjukQrtcHQwVwekVK1vXcOvo1fDDBt3N7MuGQdRH3KIeRdCcDUa27QnZs5K_yYwL1a9SmBfrcldMfiiyk9JGpA0gd-ZbOE9dZYPzkNhW2MdsykTajhSJEY0aZO2XUd4CGaxkviuHykXjUV6gVICGBkLlW2Qpz9l7OsMvT1b2GZUVs57oAWsDSowzedRAMg","Scope":"openid profile email office","Error":null,"ErrorDescription":null,"$type":"AuthorizeResponseLog"}
+2019-04-10 21:01:51.588 +01:00 [DBG] Augmenting SignInContext
+2019-04-10 21:01:51.588 +01:00 [INF] AuthenticationScheme: idsrv signed in.
+2019-04-10 21:01:52.502 +01:00 [DBG] CORS request made for path: /consent from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-04-10 21:01:52.503 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 21:01:52.503 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 21:01:52.504 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 21:01:52.504 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 21:01:52.507 +01:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2019-04-10 21:01:52.507 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2019-04-10 21:01:52.507 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2019-04-10 21:01:52.507 +01:00 [DBG] Start authorize callback request
+2019-04-10 21:01:52.507 +01:00 [DBG] User in authorize request: 818727
+2019-04-10 21:01:52.507 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 21:01:52.507 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 21:01:52.507 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 21:01:52.507 +01:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"CityInfo.Web","ClientName":"CityInfo Website","RedirectUri":"http://localhost:5000/signin-oidc","AllowedRedirectUris":["http://localhost:5000/signin-oidc"],"SubjectId":"818727","ResponseType":"id_token","ResponseMode":"form_post","GrantType":"implicit","RequestedScopes":"openid profile email office","State":"CfDJ8C9wP0Bhfw1IrV2eneJpw7o_B0-7tCzfC-c5c0SvqMMU9millQ8DTyuXug-m_IEKtc4QnmBIXLRuv6jdWdCOdHG1da10nzt4fven1abtO4Z4WZT8uVa7b-fzz-RO1ql-3pvwfjukQrtcHQwVwekVK1vXcOvo1fDDBt3N7MuGQdRH3KIeRdCcDUa27QnZs5K_yYwL1a9SmBfrcldMfiiyk9JGpA0gd-ZbOE9dZYPzkNhW2MdsykTajhSJEY0aZO2XUd4CGaxkviuHykXjUV6gVICGBkLlW2Qpz9l7OsMvT1b2GZUVs57oAWsDSowzedRAMg","UiLocales":null,"Nonce":"636905232985837918.NTkwMjRlM2ItNTJiZi00MTY1LTgyNjktOGVhNzhiY2FiZTAwNTZhOTUxNWUtNmQxOS00MWE1LWI5NGUtODZkY2M2NDhjM2Y1","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"f1f8ec89b546e3be3989a8780ae4ec89","Raw":{"client_id":"CityInfo.Web","redirect_uri":"http://localhost:5000/signin-oidc","response_type":"id_token","scope":"openid profile email office","response_mode":"form_post","nonce":"636905232985837918.NTkwMjRlM2ItNTJiZi00MTY1LTgyNjktOGVhNzhiY2FiZTAwNTZhOTUxNWUtNmQxOS00MWE1LWI5NGUtODZkY2M2NDhjM2Y1","state":"CfDJ8C9wP0Bhfw1IrV2eneJpw7o_B0-7tCzfC-c5c0SvqMMU9millQ8DTyuXug-m_IEKtc4QnmBIXLRuv6jdWdCOdHG1da10nzt4fven1abtO4Z4WZT8uVa7b-fzz-RO1ql-3pvwfjukQrtcHQwVwekVK1vXcOvo1fDDBt3N7MuGQdRH3KIeRdCcDUa27QnZs5K_yYwL1a9SmBfrcldMfiiyk9JGpA0gd-ZbOE9dZYPzkNhW2MdsykTajhSJEY0aZO2XUd4CGaxkviuHykXjUV6gVICGBkLlW2Qpz9l7OsMvT1b2GZUVs57oAWsDSowzedRAMg","x-client-SKU":"ID_NETSTANDARD1_4","x-client-ver":"5.2.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-10 21:01:52.507 +01:00 [DBG] IsActive called from: AuthorizeEndpoint
+2019-04-10 21:01:52.511 +01:00 [DBG] Consent found in consent store is same as current request, consent is not required
+2019-04-10 21:01:52.511 +01:00 [DBG] Creating Implicit Flow response.
+2019-04-10 21:01:52.511 +01:00 [DBG] Getting claims for identity token for subject: 818727 and client: CityInfo.Web
+2019-04-10 21:01:52.511 +01:00 [DBG] Get profile called for subject 818727 from client CityInfo Website with claim types ["name","family_name","given_name","middle_name","nickname","preferred_username","profile","picture","website","gender","birthdate","zoneinfo","locale","updated_at","email","email_verified","office_number"] via ClaimsProviderIdentityToken
+2019-04-10 21:01:52.511 +01:00 [DBG] Issued claims: ["office_number","name","given_name","family_name","email","email_verified","website"]
+2019-04-10 21:01:52.513 +01:00 [INF] Authorize endpoint response
+{"SubjectId":"818727","ClientId":"CityInfo.Web","RedirectUri":"http://localhost:5000/signin-oidc","State":"CfDJ8C9wP0Bhfw1IrV2eneJpw7o_B0-7tCzfC-c5c0SvqMMU9millQ8DTyuXug-m_IEKtc4QnmBIXLRuv6jdWdCOdHG1da10nzt4fven1abtO4Z4WZT8uVa7b-fzz-RO1ql-3pvwfjukQrtcHQwVwekVK1vXcOvo1fDDBt3N7MuGQdRH3KIeRdCcDUa27QnZs5K_yYwL1a9SmBfrcldMfiiyk9JGpA0gd-ZbOE9dZYPzkNhW2MdsykTajhSJEY0aZO2XUd4CGaxkviuHykXjUV6gVICGBkLlW2Qpz9l7OsMvT1b2GZUVs57oAWsDSowzedRAMg","Scope":"openid profile email office","Error":null,"ErrorDescription":null,"$type":"AuthorizeResponseLog"}
+2019-04-10 21:02:11.066 +01:00 [DBG] Request path /connect/endsession matched to endpoint type Endsession
+2019-04-10 21:02:11.067 +01:00 [DBG] Endpoint enabled: Endsession, successfully created handler: IdentityServer4.Endpoints.EndSessionEndpoint
+2019-04-10 21:02:11.067 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionEndpoint for /connect/endsession
+2019-04-10 21:02:11.070 +01:00 [DBG] Processing signout request for 818727
+2019-04-10 21:02:11.074 +01:00 [DBG] Start end session request validation
+2019-04-10 21:02:11.078 +01:00 [DBG] Start identity token validation
+2019-04-10 21:02:11.086 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 21:02:11.086 +01:00 [DBG] Client found: CityInfo.Web / CityInfo Website
+2019-04-10 21:02:11.112 +01:00 [DBG] IsActive called from: IdentityTokenValidation
+2019-04-10 21:02:11.112 +01:00 [DBG] Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator
+2019-04-10 21:02:11.113 +01:00 [DBG] Token validation success
+{"ClientId":"CityInfo.Web","ClientName":"CityInfo Website","ValidateLifetime":false,"AccessTokenType":null,"ExpectedScope":null,"TokenHandle":null,"JwtId":null,"Claims":{"nbf":1554926511,"exp":1554926811,"iss":"http://localhost:5001","aud":"CityInfo.Web","nonce":"636905232985837918.NTkwMjRlM2ItNTJiZi00MTY1LTgyNjktOGVhNzhiY2FiZTAwNTZhOTUxNWUtNmQxOS00MWE1LWI5NGUtODZkY2M2NDhjM2Y1","iat":1554926511,"sid":"f1f8ec89b546e3be3989a8780ae4ec89","sub":"818727","auth_time":1554926504,"idp":"local","office_number":"35","name":"Alice Smith","given_name":"Alice","family_name":"Smith","email":"AliceSmith@email.com","email_verified":true,"website":"http://alice.com","amr":"pwd"},"$type":"TokenValidationLog"}
+2019-04-10 21:02:11.114 +01:00 [INF] End session request validation success
+{"ClientId":"CityInfo.Web","ClientName":"CityInfo Website","SubjectId":"818727","PostLogOutUri":"http://localhost:5000/signout-callback-oidc","State":"CfDJ8C9wP0Bhfw1IrV2eneJpw7pqNPM4fY7rs5RJsogoyiDjbpnGmSVqhVDXkpe3KZgBgKJSlZ9C_Lt9m2SE_XUnwaWQRG-OLVxkrZMEVxRUkV-S0r50P7CJ0JaGXXYuzsXzv_XDPqfnV_cBGIwtO8ye7S8","Raw":{"post_logout_redirect_uri":"http://localhost:5000/signout-callback-oidc","id_token_hint":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjE2ZGM5ZGUzYWQzMDc0Nzk1ZjZhNzFmMzBkMzdhMGViIiwidHlwIjoiSldUIn0.eyJuYmYiOjE1NTQ5MjY1MTEsImV4cCI6MTU1NDkyNjgxMSwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAxIiwiYXVkIjoiQ2l0eUluZm8uV2ViIiwibm9uY2UiOiI2MzY5MDUyMzI5ODU4Mzc5MTguTlRrd01qUmxNMkl0TlRKaVppMDBNVFkxTFRneU5qa3RPR1ZoTnpoaVkyRmlaVEF3TlRaaE9UVXhOV1V0Tm1ReE9TMDBNV0UxTFdJNU5HVXRPRFprWTJNMk5EaGpNMlkxIiwiaWF0IjoxNTU0OTI2NTExLCJzaWQiOiJmMWY4ZWM4OWI1NDZlM2JlMzk4OWE4NzgwYWU0ZWM4OSIsInN1YiI6IjgxODcyNyIsImF1dGhfdGltZSI6MTU1NDkyNjUwNCwiaWRwIjoibG9jYWwiLCJvZmZpY2VfbnVtYmVyIjoiMzUiLCJuYW1lIjoiQWxpY2UgU21pdGgiLCJnaXZlbl9uYW1lIjoiQWxpY2UiLCJmYW1pbHlfbmFtZSI6IlNtaXRoIiwiZW1haWwiOiJBbGljZVNtaXRoQGVtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJ3ZWJzaXRlIjoiaHR0cDovL2FsaWNlLmNvbSIsImFtciI6WyJwd2QiXX0.MVINMyX1ctGTm4dlyGgQs1Uv-Qq8LcZ19yGleZdtrHPisxif2dnIEfdaBo1VT5J1-w5_z39Gnj59YbDRxqytXOL_muk3EBPcilUev1cbK106bje-3-YBXYUlkblp337222TK3amoqdYYoRYrqbjuHKY27llgIwWBxHU8qocWox13qH4tiMrauzov1C3hFhwE04GLAd0PPMGZeXTodVpLv1cneDEiQrlImkWKVJ0k6xPipKxjksDQBEiBtbo-qHoSXByauOus0BPjMLD9sO0N0IOv9AaSLgAZR9MI2T7W6dBa90_WNeS_iqBHoiFtQQUNA2pXVl9PdW333zd-QQaWnw","state":"CfDJ8C9wP0Bhfw1IrV2eneJpw7pqNPM4fY7rs5RJsogoyiDjbpnGmSVqhVDXkpe3KZgBgKJSlZ9C_Lt9m2SE_XUnwaWQRG-OLVxkrZMEVxRUkV-S0r50P7CJ0JaGXXYuzsXzv_XDPqfnV_cBGIwtO8ye7S8","x-client-SKU":"ID_NETSTANDARD1_4","x-client-ver":"5.2.0.0"},"$type":"EndSessionRequestValidationLog"}
+2019-04-10 21:02:11.114 +01:00 [DBG] Success validating end session request from CityInfo.Web
+2019-04-10 21:02:11.142 +01:00 [INF] AuthenticationScheme: idsrv signed out.
+2019-04-10 21:02:11.163 +01:00 [DBG] Request path /connect/endsession/callback matched to endpoint type Endsession
+2019-04-10 21:02:11.164 +01:00 [DBG] Endpoint enabled: Endsession, successfully created handler: IdentityServer4.Endpoints.EndSessionCallbackEndpoint
+2019-04-10 21:02:11.164 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionCallbackEndpoint for /connect/endsession/callback
+2019-04-10 21:02:11.167 +01:00 [DBG] Processing signout callback request
+2019-04-10 21:02:11.174 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 21:02:11.174 +01:00 [DBG] No client front-channel logout URLs
+2019-04-10 21:02:11.174 +01:00 [DBG] No client back-channel logout URLs
+2019-04-10 21:02:11.175 +01:00 [INF] Successful signout callback.
+2019-04-10 21:02:11.175 +01:00 [DBG] No client front-channel iframe urls
+2019-04-10 21:02:11.175 +01:00 [DBG] No client back-channel iframe urls
+2019-04-10 21:03:13.576 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2019-04-10 21:03:13.577 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2019-04-10 21:03:13.577 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2019-04-10 21:03:13.577 +01:00 [DBG] Start authorize request
+2019-04-10 21:03:13.577 +01:00 [DBG] No user present in authorize request
+2019-04-10 21:03:13.577 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 21:03:13.577 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 21:03:13.577 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 21:03:13.577 +01:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"CityInfo.Web","ClientName":"CityInfo Website","RedirectUri":"http://localhost:5000/signin-oidc","AllowedRedirectUris":["http://localhost:5000/signin-oidc"],"SubjectId":"anonymous","ResponseType":"id_token","ResponseMode":"form_post","GrantType":"implicit","RequestedScopes":"openid profile email office","State":"CfDJ8C9wP0Bhfw1IrV2eneJpw7q_GK4KiOegMGWW7hzRy5Ch1MI91AsR4pIrxJn2E_dRTYyITnRz2BJQGki_oOVNmQ5cFi6XFU_fsTrXfAesLinqZndS65iA5gavRG_mzFHZ2ShH-s71hS0tsjsY1qHcUFReIaSbI9F4LZGLta0we20I4hrmR7BhA0rJrOuZia_Xon14GTjMxH_DMY-oXl2aO7UGG0_gAsbRVCIVvIkfsDs9gmoBXGJ2lWx5J3MpcAURrQbgXBC5EoaaaMJ-lDbQjv6HHn5M8w6K4qByS_9hlr4Esety2TAV1BRFsC_NgDRL1w","UiLocales":null,"Nonce":"636905233935717872.YmU3NWM5YmMtOGZhOC00NTc4LWI1YjYtZDA4OTM5MTg3YTAzOTI3ZDU3YmMtNTllNC00NzJiLWE4M2YtMWFjZjJmMTQ0NTdj","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"CityInfo.Web","redirect_uri":"http://localhost:5000/signin-oidc","response_type":"id_token","scope":"openid profile email office","response_mode":"form_post","nonce":"636905233935717872.YmU3NWM5YmMtOGZhOC00NTc4LWI1YjYtZDA4OTM5MTg3YTAzOTI3ZDU3YmMtNTllNC00NzJiLWE4M2YtMWFjZjJmMTQ0NTdj","state":"CfDJ8C9wP0Bhfw1IrV2eneJpw7q_GK4KiOegMGWW7hzRy5Ch1MI91AsR4pIrxJn2E_dRTYyITnRz2BJQGki_oOVNmQ5cFi6XFU_fsTrXfAesLinqZndS65iA5gavRG_mzFHZ2ShH-s71hS0tsjsY1qHcUFReIaSbI9F4LZGLta0we20I4hrmR7BhA0rJrOuZia_Xon14GTjMxH_DMY-oXl2aO7UGG0_gAsbRVCIVvIkfsDs9gmoBXGJ2lWx5J3MpcAURrQbgXBC5EoaaaMJ-lDbQjv6HHn5M8w6K4qByS_9hlr4Esety2TAV1BRFsC_NgDRL1w","x-client-SKU":"ID_NETSTANDARD1_4","x-client-ver":"5.2.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-10 21:03:13.577 +01:00 [INF] Showing login: User is not authenticated
+2019-04-10 21:03:13.583 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 21:03:13.583 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 21:03:13.583 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 21:03:13.583 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 21:03:45.599 +01:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-04-10 21:03:45.600 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 21:03:45.600 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 21:03:45.600 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 21:03:45.600 +01:00 [DBG] Augmenting SignInContext
+2019-04-10 21:03:45.600 +01:00 [DBG] Adding idp claim with value: local
+2019-04-10 21:03:45.600 +01:00 [DBG] Adding amr claim with value: pwd
+2019-04-10 21:03:45.601 +01:00 [INF] AuthenticationScheme: idsrv signed in.
+2019-04-10 21:03:45.601 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 21:03:45.603 +01:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2019-04-10 21:03:45.603 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2019-04-10 21:03:45.603 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2019-04-10 21:03:45.603 +01:00 [DBG] Start authorize callback request
+2019-04-10 21:03:45.603 +01:00 [DBG] User in authorize request: 818727
+2019-04-10 21:03:45.603 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 21:03:45.604 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 21:03:45.604 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 21:03:45.604 +01:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"CityInfo.Web","ClientName":"CityInfo Website","RedirectUri":"http://localhost:5000/signin-oidc","AllowedRedirectUris":["http://localhost:5000/signin-oidc"],"SubjectId":"818727","ResponseType":"id_token","ResponseMode":"form_post","GrantType":"implicit","RequestedScopes":"openid profile email office","State":"CfDJ8C9wP0Bhfw1IrV2eneJpw7q_GK4KiOegMGWW7hzRy5Ch1MI91AsR4pIrxJn2E_dRTYyITnRz2BJQGki_oOVNmQ5cFi6XFU_fsTrXfAesLinqZndS65iA5gavRG_mzFHZ2ShH-s71hS0tsjsY1qHcUFReIaSbI9F4LZGLta0we20I4hrmR7BhA0rJrOuZia_Xon14GTjMxH_DMY-oXl2aO7UGG0_gAsbRVCIVvIkfsDs9gmoBXGJ2lWx5J3MpcAURrQbgXBC5EoaaaMJ-lDbQjv6HHn5M8w6K4qByS_9hlr4Esety2TAV1BRFsC_NgDRL1w","UiLocales":null,"Nonce":"636905233935717872.YmU3NWM5YmMtOGZhOC00NTc4LWI1YjYtZDA4OTM5MTg3YTAzOTI3ZDU3YmMtNTllNC00NzJiLWE4M2YtMWFjZjJmMTQ0NTdj","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"2f163ad67a28c949ef5fd1531e181493","Raw":{"client_id":"CityInfo.Web","redirect_uri":"http://localhost:5000/signin-oidc","response_type":"id_token","scope":"openid profile email office","response_mode":"form_post","nonce":"636905233935717872.YmU3NWM5YmMtOGZhOC00NTc4LWI1YjYtZDA4OTM5MTg3YTAzOTI3ZDU3YmMtNTllNC00NzJiLWE4M2YtMWFjZjJmMTQ0NTdj","state":"CfDJ8C9wP0Bhfw1IrV2eneJpw7q_GK4KiOegMGWW7hzRy5Ch1MI91AsR4pIrxJn2E_dRTYyITnRz2BJQGki_oOVNmQ5cFi6XFU_fsTrXfAesLinqZndS65iA5gavRG_mzFHZ2ShH-s71hS0tsjsY1qHcUFReIaSbI9F4LZGLta0we20I4hrmR7BhA0rJrOuZia_Xon14GTjMxH_DMY-oXl2aO7UGG0_gAsbRVCIVvIkfsDs9gmoBXGJ2lWx5J3MpcAURrQbgXBC5EoaaaMJ-lDbQjv6HHn5M8w6K4qByS_9hlr4Esety2TAV1BRFsC_NgDRL1w","x-client-SKU":"ID_NETSTANDARD1_4","x-client-ver":"5.2.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-10 21:03:45.604 +01:00 [DBG] IsActive called from: AuthorizeEndpoint
+2019-04-10 21:03:45.606 +01:00 [DBG] Consent found in consent store is same as current request, consent is not required
+2019-04-10 21:03:45.606 +01:00 [DBG] Creating Implicit Flow response.
+2019-04-10 21:03:45.606 +01:00 [DBG] Getting claims for identity token for subject: 818727 and client: CityInfo.Web
+2019-04-10 21:03:45.606 +01:00 [DBG] Get profile called for subject 818727 from client CityInfo Website with claim types ["name","family_name","given_name","middle_name","nickname","preferred_username","profile","picture","website","gender","birthdate","zoneinfo","locale","updated_at","email","email_verified","office_number"] via ClaimsProviderIdentityToken
+2019-04-10 21:03:45.606 +01:00 [DBG] Issued claims: ["office_number","name","given_name","family_name","email","email_verified","website"]
+2019-04-10 21:03:45.608 +01:00 [INF] Authorize endpoint response
+{"SubjectId":"818727","ClientId":"CityInfo.Web","RedirectUri":"http://localhost:5000/signin-oidc","State":"CfDJ8C9wP0Bhfw1IrV2eneJpw7q_GK4KiOegMGWW7hzRy5Ch1MI91AsR4pIrxJn2E_dRTYyITnRz2BJQGki_oOVNmQ5cFi6XFU_fsTrXfAesLinqZndS65iA5gavRG_mzFHZ2ShH-s71hS0tsjsY1qHcUFReIaSbI9F4LZGLta0we20I4hrmR7BhA0rJrOuZia_Xon14GTjMxH_DMY-oXl2aO7UGG0_gAsbRVCIVvIkfsDs9gmoBXGJ2lWx5J3MpcAURrQbgXBC5EoaaaMJ-lDbQjv6HHn5M8w6K4qByS_9hlr4Esety2TAV1BRFsC_NgDRL1w","Scope":"openid profile email office","Error":null,"ErrorDescription":null,"$type":"AuthorizeResponseLog"}
+2019-04-10 21:03:45.608 +01:00 [DBG] Augmenting SignInContext
+2019-04-10 21:03:45.608 +01:00 [INF] AuthenticationScheme: idsrv signed in.
+2019-04-10 21:04:53.852 +01:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-04-10 21:04:53.852 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-04-10 21:04:53.852 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-04-10 21:04:53.852 +01:00 [DBG] Start discovery request
+2019-04-10 21:04:58.795 +01:00 [DBG] Request path /connect/endsession matched to endpoint type Endsession
+2019-04-10 21:04:58.795 +01:00 [DBG] Endpoint enabled: Endsession, successfully created handler: IdentityServer4.Endpoints.EndSessionEndpoint
+2019-04-10 21:04:58.795 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionEndpoint for /connect/endsession
+2019-04-10 21:04:58.796 +01:00 [DBG] Processing signout request for 818727
+2019-04-10 21:04:58.796 +01:00 [DBG] Start end session request validation
+2019-04-10 21:04:58.796 +01:00 [INF] End session request validation success
+{"ClientId":null,"ClientName":null,"SubjectId":"818727","PostLogOutUri":null,"State":null,"Raw":{},"$type":"EndSessionRequestValidationLog"}
+2019-04-10 21:04:58.796 +01:00 [DBG] Success validating end session request from null
+2019-04-10 21:05:00.892 +01:00 [DBG] CORS request made for path: /Account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-04-10 21:05:00.896 +01:00 [INF] AuthenticationScheme: idsrv signed out.
+2019-04-10 21:05:00.913 +01:00 [DBG] Request path /connect/endsession/callback matched to endpoint type Endsession
+2019-04-10 21:05:00.913 +01:00 [DBG] Endpoint enabled: Endsession, successfully created handler: IdentityServer4.Endpoints.EndSessionCallbackEndpoint
+2019-04-10 21:05:00.913 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionCallbackEndpoint for /connect/endsession/callback
+2019-04-10 21:05:00.913 +01:00 [DBG] Processing signout callback request
+2019-04-10 21:05:00.913 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 21:05:00.913 +01:00 [DBG] No client front-channel logout URLs
+2019-04-10 21:05:00.913 +01:00 [DBG] No client back-channel logout URLs
+2019-04-10 21:05:00.913 +01:00 [INF] Successful signout callback.
+2019-04-10 21:05:00.913 +01:00 [DBG] No client front-channel iframe urls
+2019-04-10 21:05:00.913 +01:00 [DBG] No client back-channel iframe urls
+2019-04-10 21:10:43.841 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-10 21:10:43.867 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-04-10 21:10:43.869 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-04-10 21:10:43.869 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-04-10 21:10:43.869 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-04-10 21:10:43.869 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-04-10 21:10:43.869 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-04-10 21:10:44.113 +01:00 [DBG] Login Url: /Account/Login
+2019-04-10 21:10:44.114 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-04-10 21:10:44.114 +01:00 [DBG] Logout Url: /Account/Logout
+2019-04-10 21:10:44.114 +01:00 [DBG] ConsentUrl Url: /consent
+2019-04-10 21:10:44.114 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-04-10 21:10:44.114 +01:00 [DBG] Error Url: /home/error
+2019-04-10 21:10:44.114 +01:00 [DBG] Error Id Parameter: errorId
+2019-04-10 21:11:26.382 +01:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-04-10 21:11:26.385 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-04-10 21:11:26.385 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-04-10 21:11:26.387 +01:00 [DBG] Start discovery request
+2019-04-10 21:11:27.843 +01:00 [DBG] Request path /connect/endsession matched to endpoint type Endsession
+2019-04-10 21:11:27.844 +01:00 [DBG] Endpoint enabled: Endsession, successfully created handler: IdentityServer4.Endpoints.EndSessionEndpoint
+2019-04-10 21:11:27.844 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionEndpoint for /connect/endsession
+2019-04-10 21:11:27.850 +01:00 [DBG] Processing signout request for anonymous
+2019-04-10 21:11:27.853 +01:00 [DBG] Start end session request validation
+2019-04-10 21:11:27.864 +01:00 [INF] End session request validation success
+{"ClientId":null,"ClientName":null,"SubjectId":"unknown","PostLogOutUri":null,"State":null,"Raw":{},"$type":"EndSessionRequestValidationLog"}
+2019-04-10 21:11:27.871 +01:00 [DBG] Success validating end session request from null
+2019-04-10 21:15:41.121 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-10 21:15:41.148 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-04-10 21:15:41.150 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-04-10 21:15:41.150 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-04-10 21:15:41.150 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-04-10 21:15:41.150 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-04-10 21:15:41.150 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-04-10 21:15:41.435 +01:00 [DBG] Login Url: /Account/Login
+2019-04-10 21:15:41.437 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-04-10 21:15:41.437 +01:00 [DBG] Logout Url: /Account/Logout
+2019-04-10 21:15:41.437 +01:00 [DBG] ConsentUrl Url: /consent
+2019-04-10 21:15:41.437 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-04-10 21:15:41.437 +01:00 [DBG] Error Url: /home/error
+2019-04-10 21:15:41.437 +01:00 [DBG] Error Id Parameter: errorId
+2019-04-10 21:15:44.538 +01:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-04-10 21:15:44.541 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-04-10 21:15:44.541 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-04-10 21:15:44.543 +01:00 [DBG] Start discovery request
+2019-04-10 21:15:44.631 +01:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-04-10 21:15:44.631 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-04-10 21:15:44.631 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-04-10 21:15:44.633 +01:00 [DBG] Start key discovery request
+2019-04-10 21:15:44.681 +01:00 [DBG] Request path /connect/endsession matched to endpoint type Endsession
+2019-04-10 21:15:44.682 +01:00 [DBG] Endpoint enabled: Endsession, successfully created handler: IdentityServer4.Endpoints.EndSessionEndpoint
+2019-04-10 21:15:44.682 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionEndpoint for /connect/endsession
+2019-04-10 21:15:44.687 +01:00 [DBG] Processing signout request for anonymous
+2019-04-10 21:15:44.691 +01:00 [DBG] Start end session request validation
+2019-04-10 21:15:44.695 +01:00 [DBG] Start identity token validation
+2019-04-10 21:15:44.713 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 21:15:44.714 +01:00 [DBG] Client found: CityInfo.Web / CityInfo Website
+2019-04-10 21:15:44.755 +01:00 [DBG] IsActive called from: IdentityTokenValidation
+2019-04-10 21:15:44.756 +01:00 [DBG] Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator
+2019-04-10 21:15:44.762 +01:00 [DBG] Token validation success
+{"ClientId":"CityInfo.Web","ClientName":"CityInfo Website","ValidateLifetime":false,"AccessTokenType":null,"ExpectedScope":null,"TokenHandle":null,"JwtId":null,"Claims":{"nbf":1554926625,"exp":1554926925,"iss":"http://localhost:5001","aud":"CityInfo.Web","nonce":"636905233935717872.YmU3NWM5YmMtOGZhOC00NTc4LWI1YjYtZDA4OTM5MTg3YTAzOTI3ZDU3YmMtNTllNC00NzJiLWE4M2YtMWFjZjJmMTQ0NTdj","iat":1554926625,"sid":"2f163ad67a28c949ef5fd1531e181493","sub":"818727","auth_time":1554926625,"idp":"local","office_number":"35","name":"Alice Smith","given_name":"Alice","family_name":"Smith","email":"AliceSmith@email.com","email_verified":true,"website":"http://alice.com","amr":"pwd"},"$type":"TokenValidationLog"}
+2019-04-10 21:15:44.772 +01:00 [INF] End session request validation success
+{"ClientId":"CityInfo.Web","ClientName":"CityInfo Website","SubjectId":"unknown","PostLogOutUri":"http://localhost:5000/signout-callback-oidc","State":"CfDJ8C9wP0Bhfw1IrV2eneJpw7qhrW26YWsE87quIvUkqOajINe57qK8UN6rIVv6mzrPTR-n7ErzCQVHo91cyPDkqYs3tFrvWxh1QPTSO6sYkvxhrvBEiTq1x2jUBVen-L_K4L5DPPqw2ppsYic9HiNBNwA","Raw":{"post_logout_redirect_uri":"http://localhost:5000/signout-callback-oidc","id_token_hint":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjE2ZGM5ZGUzYWQzMDc0Nzk1ZjZhNzFmMzBkMzdhMGViIiwidHlwIjoiSldUIn0.eyJuYmYiOjE1NTQ5MjY2MjUsImV4cCI6MTU1NDkyNjkyNSwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAxIiwiYXVkIjoiQ2l0eUluZm8uV2ViIiwibm9uY2UiOiI2MzY5MDUyMzM5MzU3MTc4NzIuWW1VM05XTTVZbU10T0daaE9DMDBOVGM0TFdJMVlqWXRaREE0T1RNNU1UZzNZVEF6T1RJM1pEVTNZbU10TlRsbE5DMDBOekppTFdFNE0yWXRNV0ZqWmpKbU1UUTBOVGRqIiwiaWF0IjoxNTU0OTI2NjI1LCJzaWQiOiIyZjE2M2FkNjdhMjhjOTQ5ZWY1ZmQxNTMxZTE4MTQ5MyIsInN1YiI6IjgxODcyNyIsImF1dGhfdGltZSI6MTU1NDkyNjYyNSwiaWRwIjoibG9jYWwiLCJvZmZpY2VfbnVtYmVyIjoiMzUiLCJuYW1lIjoiQWxpY2UgU21pdGgiLCJnaXZlbl9uYW1lIjoiQWxpY2UiLCJmYW1pbHlfbmFtZSI6IlNtaXRoIiwiZW1haWwiOiJBbGljZVNtaXRoQGVtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJ3ZWJzaXRlIjoiaHR0cDovL2FsaWNlLmNvbSIsImFtciI6WyJwd2QiXX0.rbi0zkn8oDxkGEnhAffc_mNgLZp6PEM5vnGRev-LrmorBmI2QkBv48Qmu5Hu67J2dG3--38PX0z2talDMQ7SsMQy3S-PqIzWBpNqsvKuSoNItKaA8OFBSMlEnCbZL_N1wD9G7Qxy0Wo8g9uLTBf---6yZDC6WPXG8FNwVMRbPX87BqwltouneXj_D_DlXwjrAZtOjFJUYYs57aqv77cc5fGcA15Vk7dDWU05TW9PEgrTPtXH-5KSjY-7uEfK3RbNKbcQH2s3_hfNYSw54uS4SZwASkhB7-oyyrNaspCqph_PYm6VxH9rSwecYLeQSFt8kTneNeNSCWNKmUy5g0oPDw","state":"CfDJ8C9wP0Bhfw1IrV2eneJpw7qhrW26YWsE87quIvUkqOajINe57qK8UN6rIVv6mzrPTR-n7ErzCQVHo91cyPDkqYs3tFrvWxh1QPTSO6sYkvxhrvBEiTq1x2jUBVen-L_K4L5DPPqw2ppsYic9HiNBNwA","x-client-SKU":"ID_NETSTANDARD1_4","x-client-ver":"5.2.0.0"},"$type":"EndSessionRequestValidationLog"}
+2019-04-10 21:15:44.772 +01:00 [DBG] Success validating end session request from CityInfo.Web
+2019-04-10 21:16:48.137 +01:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-04-10 21:16:48.161 +01:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-04-10 21:16:48.163 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-04-10 21:16:48.163 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-04-10 21:16:48.163 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-04-10 21:16:48.163 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-04-10 21:16:48.163 +01:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-04-10 21:16:48.439 +01:00 [DBG] Login Url: /Account/Login
+2019-04-10 21:16:48.440 +01:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-04-10 21:16:48.441 +01:00 [DBG] Logout Url: /Account/Logout
+2019-04-10 21:16:48.441 +01:00 [DBG] ConsentUrl Url: /consent
+2019-04-10 21:16:48.441 +01:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-04-10 21:16:48.441 +01:00 [DBG] Error Url: /home/error
+2019-04-10 21:16:48.441 +01:00 [DBG] Error Id Parameter: errorId
+2019-04-10 21:16:53.098 +01:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-04-10 21:16:53.100 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-04-10 21:16:53.100 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-04-10 21:16:53.102 +01:00 [DBG] Start discovery request
+2019-04-10 21:16:53.192 +01:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-04-10 21:16:53.192 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-04-10 21:16:53.193 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-04-10 21:16:53.195 +01:00 [DBG] Start key discovery request
+2019-04-10 21:16:53.252 +01:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2019-04-10 21:16:53.253 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2019-04-10 21:16:53.253 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2019-04-10 21:16:53.256 +01:00 [DBG] Start authorize request
+2019-04-10 21:16:53.261 +01:00 [DBG] No user present in authorize request
+2019-04-10 21:16:53.263 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 21:16:53.274 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 21:16:53.295 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 21:16:53.305 +01:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"CityInfo.Web","ClientName":"CityInfo Website","RedirectUri":"http://localhost:5000/signin-oidc","AllowedRedirectUris":["http://localhost:5000/signin-oidc"],"SubjectId":"anonymous","ResponseType":"id_token","ResponseMode":"form_post","GrantType":"implicit","RequestedScopes":"openid profile email office","State":"CfDJ8C9wP0Bhfw1IrV2eneJpw7pvJKA6PTGiiFp7PDQGwiM688zU6zo4NXGgKH2aXS0zJt4blZwZxMvRr8nBnzNUw0-mKAY4qPezu6u0olCr6xq6bINtPT7Vbf3-LEbcFj5Pc6omCwUqkME-eZXjOQJyuG2hwyW8pXyd-6sTmQ8TBOqYVSmEjPMAAR5pqsHegO5NZ8m-UoUHuJqcaeq2hDy2iS19VjE0Sc6kvs_xWm72rsJzxoHoiV98wRSJJ0QtO-CL848kLouqinp9_SQjKxfOKFb08qn9QGm9ZeWKyIQQpbuwrsY1fnqb_upAk4h1TupcUg","UiLocales":null,"Nonce":"636905242132356273.NTg5MTA3MDgtY2U0NS00MDU3LWIyMjUtNDQwZTkwNjYxODIwNzE4MWMzYTUtMzBiZi00NTM0LTkxYWEtMTQ2N2NiMTA0MjNl","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"CityInfo.Web","redirect_uri":"http://localhost:5000/signin-oidc","response_type":"id_token","scope":"openid profile email office","response_mode":"form_post","nonce":"636905242132356273.NTg5MTA3MDgtY2U0NS00MDU3LWIyMjUtNDQwZTkwNjYxODIwNzE4MWMzYTUtMzBiZi00NTM0LTkxYWEtMTQ2N2NiMTA0MjNl","state":"CfDJ8C9wP0Bhfw1IrV2eneJpw7pvJKA6PTGiiFp7PDQGwiM688zU6zo4NXGgKH2aXS0zJt4blZwZxMvRr8nBnzNUw0-mKAY4qPezu6u0olCr6xq6bINtPT7Vbf3-LEbcFj5Pc6omCwUqkME-eZXjOQJyuG2hwyW8pXyd-6sTmQ8TBOqYVSmEjPMAAR5pqsHegO5NZ8m-UoUHuJqcaeq2hDy2iS19VjE0Sc6kvs_xWm72rsJzxoHoiV98wRSJJ0QtO-CL848kLouqinp9_SQjKxfOKFb08qn9QGm9ZeWKyIQQpbuwrsY1fnqb_upAk4h1TupcUg","x-client-SKU":"ID_NETSTANDARD1_4","x-client-ver":"5.2.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-10 21:16:53.319 +01:00 [INF] Showing login: User is not authenticated
+2019-04-10 21:16:53.355 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 21:16:53.355 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 21:16:53.355 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 21:16:53.357 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 21:16:57.742 +01:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-04-10 21:16:57.776 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 21:16:57.776 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 21:16:57.776 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 21:16:57.789 +01:00 [DBG] Augmenting SignInContext
+2019-04-10 21:16:57.791 +01:00 [DBG] Adding idp claim with value: local
+2019-04-10 21:16:57.791 +01:00 [DBG] Adding amr claim with value: pwd
+2019-04-10 21:16:57.799 +01:00 [INF] AuthenticationScheme: idsrv signed in.
+2019-04-10 21:16:57.800 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 21:16:57.803 +01:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2019-04-10 21:16:57.804 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2019-04-10 21:16:57.804 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2019-04-10 21:16:57.807 +01:00 [DBG] Start authorize callback request
+2019-04-10 21:16:57.809 +01:00 [DBG] User in authorize request: 818727
+2019-04-10 21:16:57.809 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 21:16:57.809 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 21:16:57.809 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 21:16:57.810 +01:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"CityInfo.Web","ClientName":"CityInfo Website","RedirectUri":"http://localhost:5000/signin-oidc","AllowedRedirectUris":["http://localhost:5000/signin-oidc"],"SubjectId":"818727","ResponseType":"id_token","ResponseMode":"form_post","GrantType":"implicit","RequestedScopes":"openid profile email office","State":"CfDJ8C9wP0Bhfw1IrV2eneJpw7pvJKA6PTGiiFp7PDQGwiM688zU6zo4NXGgKH2aXS0zJt4blZwZxMvRr8nBnzNUw0-mKAY4qPezu6u0olCr6xq6bINtPT7Vbf3-LEbcFj5Pc6omCwUqkME-eZXjOQJyuG2hwyW8pXyd-6sTmQ8TBOqYVSmEjPMAAR5pqsHegO5NZ8m-UoUHuJqcaeq2hDy2iS19VjE0Sc6kvs_xWm72rsJzxoHoiV98wRSJJ0QtO-CL848kLouqinp9_SQjKxfOKFb08qn9QGm9ZeWKyIQQpbuwrsY1fnqb_upAk4h1TupcUg","UiLocales":null,"Nonce":"636905242132356273.NTg5MTA3MDgtY2U0NS00MDU3LWIyMjUtNDQwZTkwNjYxODIwNzE4MWMzYTUtMzBiZi00NTM0LTkxYWEtMTQ2N2NiMTA0MjNl","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"25d9536fd6d7a32bbba66486e35f6d2d","Raw":{"client_id":"CityInfo.Web","redirect_uri":"http://localhost:5000/signin-oidc","response_type":"id_token","scope":"openid profile email office","response_mode":"form_post","nonce":"636905242132356273.NTg5MTA3MDgtY2U0NS00MDU3LWIyMjUtNDQwZTkwNjYxODIwNzE4MWMzYTUtMzBiZi00NTM0LTkxYWEtMTQ2N2NiMTA0MjNl","state":"CfDJ8C9wP0Bhfw1IrV2eneJpw7pvJKA6PTGiiFp7PDQGwiM688zU6zo4NXGgKH2aXS0zJt4blZwZxMvRr8nBnzNUw0-mKAY4qPezu6u0olCr6xq6bINtPT7Vbf3-LEbcFj5Pc6omCwUqkME-eZXjOQJyuG2hwyW8pXyd-6sTmQ8TBOqYVSmEjPMAAR5pqsHegO5NZ8m-UoUHuJqcaeq2hDy2iS19VjE0Sc6kvs_xWm72rsJzxoHoiV98wRSJJ0QtO-CL848kLouqinp9_SQjKxfOKFb08qn9QGm9ZeWKyIQQpbuwrsY1fnqb_upAk4h1TupcUg","x-client-SKU":"ID_NETSTANDARD1_4","x-client-ver":"5.2.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-10 21:16:57.810 +01:00 [DBG] IsActive called from: AuthorizeEndpoint
+2019-04-10 21:16:57.819 +01:00 [DBG] user_consent grant with value: CityInfo.Web|818727 not found in store.
+2019-04-10 21:16:57.819 +01:00 [DBG] Found no prior consent from consent store, consent is required
+2019-04-10 21:16:57.819 +01:00 [INF] Showing consent: User has not yet consented
+2019-04-10 21:16:57.831 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 21:16:57.831 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 21:16:57.831 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 21:16:57.831 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 21:16:59.715 +01:00 [DBG] CORS request made for path: /consent from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-04-10 21:16:59.724 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 21:16:59.724 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 21:16:59.724 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 21:16:59.733 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 21:16:59.737 +01:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2019-04-10 21:16:59.737 +01:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2019-04-10 21:16:59.737 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2019-04-10 21:16:59.737 +01:00 [DBG] Start authorize callback request
+2019-04-10 21:16:59.739 +01:00 [DBG] User in authorize request: 818727
+2019-04-10 21:16:59.739 +01:00 [DBG] Start authorize request protocol validation
+2019-04-10 21:16:59.739 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 21:16:59.739 +01:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-04-10 21:16:59.740 +01:00 [INF] ValidatedAuthorizeRequest
+{"ClientId":"CityInfo.Web","ClientName":"CityInfo Website","RedirectUri":"http://localhost:5000/signin-oidc","AllowedRedirectUris":["http://localhost:5000/signin-oidc"],"SubjectId":"818727","ResponseType":"id_token","ResponseMode":"form_post","GrantType":"implicit","RequestedScopes":"openid profile email office","State":"CfDJ8C9wP0Bhfw1IrV2eneJpw7pvJKA6PTGiiFp7PDQGwiM688zU6zo4NXGgKH2aXS0zJt4blZwZxMvRr8nBnzNUw0-mKAY4qPezu6u0olCr6xq6bINtPT7Vbf3-LEbcFj5Pc6omCwUqkME-eZXjOQJyuG2hwyW8pXyd-6sTmQ8TBOqYVSmEjPMAAR5pqsHegO5NZ8m-UoUHuJqcaeq2hDy2iS19VjE0Sc6kvs_xWm72rsJzxoHoiV98wRSJJ0QtO-CL848kLouqinp9_SQjKxfOKFb08qn9QGm9ZeWKyIQQpbuwrsY1fnqb_upAk4h1TupcUg","UiLocales":null,"Nonce":"636905242132356273.NTg5MTA3MDgtY2U0NS00MDU3LWIyMjUtNDQwZTkwNjYxODIwNzE4MWMzYTUtMzBiZi00NTM0LTkxYWEtMTQ2N2NiMTA0MjNl","AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":"25d9536fd6d7a32bbba66486e35f6d2d","Raw":{"client_id":"CityInfo.Web","redirect_uri":"http://localhost:5000/signin-oidc","response_type":"id_token","scope":"openid profile email office","response_mode":"form_post","nonce":"636905242132356273.NTg5MTA3MDgtY2U0NS00MDU3LWIyMjUtNDQwZTkwNjYxODIwNzE4MWMzYTUtMzBiZi00NTM0LTkxYWEtMTQ2N2NiMTA0MjNl","state":"CfDJ8C9wP0Bhfw1IrV2eneJpw7pvJKA6PTGiiFp7PDQGwiM688zU6zo4NXGgKH2aXS0zJt4blZwZxMvRr8nBnzNUw0-mKAY4qPezu6u0olCr6xq6bINtPT7Vbf3-LEbcFj5Pc6omCwUqkME-eZXjOQJyuG2hwyW8pXyd-6sTmQ8TBOqYVSmEjPMAAR5pqsHegO5NZ8m-UoUHuJqcaeq2hDy2iS19VjE0Sc6kvs_xWm72rsJzxoHoiV98wRSJJ0QtO-CL848kLouqinp9_SQjKxfOKFb08qn9QGm9ZeWKyIQQpbuwrsY1fnqb_upAk4h1TupcUg","x-client-SKU":"ID_NETSTANDARD1_4","x-client-ver":"5.2.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-10 21:16:59.740 +01:00 [DBG] IsActive called from: AuthorizeEndpoint
+2019-04-10 21:16:59.740 +01:00 [DBG] user_consent grant with value: CityInfo.Web|818727 not found in store.
+2019-04-10 21:16:59.740 +01:00 [DBG] Found no prior consent from consent store, consent is required
+2019-04-10 21:16:59.743 +01:00 [INF] User consented to scopes: ["openid","email","profile","office"]
+2019-04-10 21:16:59.744 +01:00 [DBG] User indicated to remember consent for scopes: ["openid","profile","email","office"]
+2019-04-10 21:16:59.747 +01:00 [DBG] Client allows remembering consent, and consent given. Updating consent store for subject: 818727
+2019-04-10 21:16:59.756 +01:00 [DBG] Creating Implicit Flow response.
+2019-04-10 21:16:59.761 +01:00 [DBG] Getting claims for identity token for subject: 818727 and client: CityInfo.Web
+2019-04-10 21:16:59.764 +01:00 [DBG] Get profile called for subject 818727 from client CityInfo Website with claim types ["name","family_name","given_name","middle_name","nickname","preferred_username","profile","picture","website","gender","birthdate","zoneinfo","locale","updated_at","email","email_verified","office_number"] via ClaimsProviderIdentityToken
+2019-04-10 21:16:59.765 +01:00 [DBG] Issued claims: ["office_number","name","given_name","family_name","email","email_verified","website"]
+2019-04-10 21:16:59.805 +01:00 [INF] Authorize endpoint response
+{"SubjectId":"818727","ClientId":"CityInfo.Web","RedirectUri":"http://localhost:5000/signin-oidc","State":"CfDJ8C9wP0Bhfw1IrV2eneJpw7pvJKA6PTGiiFp7PDQGwiM688zU6zo4NXGgKH2aXS0zJt4blZwZxMvRr8nBnzNUw0-mKAY4qPezu6u0olCr6xq6bINtPT7Vbf3-LEbcFj5Pc6omCwUqkME-eZXjOQJyuG2hwyW8pXyd-6sTmQ8TBOqYVSmEjPMAAR5pqsHegO5NZ8m-UoUHuJqcaeq2hDy2iS19VjE0Sc6kvs_xWm72rsJzxoHoiV98wRSJJ0QtO-CL848kLouqinp9_SQjKxfOKFb08qn9QGm9ZeWKyIQQpbuwrsY1fnqb_upAk4h1TupcUg","Scope":"openid profile email office","Error":null,"ErrorDescription":null,"$type":"AuthorizeResponseLog"}
+2019-04-10 21:16:59.816 +01:00 [DBG] Augmenting SignInContext
+2019-04-10 21:16:59.816 +01:00 [INF] AuthenticationScheme: idsrv signed in.
+2019-04-10 21:17:11.093 +01:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-04-10 21:17:11.093 +01:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-04-10 21:17:11.093 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-04-10 21:17:11.093 +01:00 [DBG] Start discovery request
+2019-04-10 21:17:13.371 +01:00 [DBG] Request path /connect/endsession matched to endpoint type Endsession
+2019-04-10 21:17:13.372 +01:00 [DBG] Endpoint enabled: Endsession, successfully created handler: IdentityServer4.Endpoints.EndSessionEndpoint
+2019-04-10 21:17:13.372 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionEndpoint for /connect/endsession
+2019-04-10 21:17:13.375 +01:00 [DBG] Processing signout request for 818727
+2019-04-10 21:17:13.380 +01:00 [DBG] Start end session request validation
+2019-04-10 21:17:13.381 +01:00 [INF] End session request validation success
+{"ClientId":null,"ClientName":null,"SubjectId":"818727","PostLogOutUri":null,"State":null,"Raw":{},"$type":"EndSessionRequestValidationLog"}
+2019-04-10 21:17:13.381 +01:00 [DBG] Success validating end session request from null
+2019-04-10 21:17:15.253 +01:00 [DBG] CORS request made for path: /Account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2019-04-10 21:17:15.263 +01:00 [INF] AuthenticationScheme: idsrv signed out.
+2019-04-10 21:17:15.286 +01:00 [DBG] Request path /connect/endsession/callback matched to endpoint type Endsession
+2019-04-10 21:17:15.288 +01:00 [DBG] Endpoint enabled: Endsession, successfully created handler: IdentityServer4.Endpoints.EndSessionCallbackEndpoint
+2019-04-10 21:17:15.288 +01:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionCallbackEndpoint for /connect/endsession/callback
+2019-04-10 21:17:15.291 +01:00 [DBG] Processing signout callback request
+2019-04-10 21:17:15.299 +01:00 [DBG] client configuration validation for client CityInfo.Web succeeded.
+2019-04-10 21:17:15.299 +01:00 [DBG] Client front-channel logout URLs: http://localhost:5000/signout-oidc?sid=25d9536fd6d7a32bbba66486e35f6d2d&iss=http%3A%2F%2Flocalhost%3A5001
+2019-04-10 21:17:15.299 +01:00 [DBG] No client back-channel logout URLs
+2019-04-10 21:17:15.299 +01:00 [INF] Successful signout callback.
+2019-04-10 21:17:15.299 +01:00 [DBG] Client front-channel iframe urls: ["http://localhost:5000/signout-oidc?sid=25d9536fd6d7a32bbba66486e35f6d2d&iss=http%3A%2F%2Flocalhost%3A5001"]
+2019-04-10 21:17:15.299 +01:00 [DBG] No client back-channel iframe urls

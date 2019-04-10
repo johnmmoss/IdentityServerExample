@@ -19,7 +19,9 @@ namespace CityInfo.Identiy
                 new IdentityResource
                 {
                     Name = "office",
-                    UserClaims = { "office_number" }
+                    DisplayName = "Office",
+                    UserClaims = { "office_number" },
+                    Description = "Office Number"
                 }
             };
         }
@@ -39,7 +41,11 @@ namespace CityInfo.Identiy
                    ClientName = "CityInfo Website",
                    AllowedGrantTypes = GrantTypes.Implicit,
                    RedirectUris = {"http://localhost:5000/signin-oidc" },
-                   AllowedScopes = { "openid", "email", "office", "profile" }
+                   PostLogoutRedirectUris ={"http://localhost:5000/signout-callback-oidc" }, // Used to show link on logged out page
+                   AllowedScopes = { "openid", "email", "office", "profile" },
+                   FrontChannelLogoutSessionRequired = true,                        // Needed for single signout
+                   FrontChannelLogoutUri = "http://localhost:5000/signout-oidc",    // Needed for single signout
+                   
                }
             };
         }
